@@ -1,5 +1,3 @@
-# GRS-subcode key recovery experiments
-
 Implementations and experiments for recovering an equivalent support and
 multiplier from a public generator matrix. The public recovery pipeline computes
 polynomial holdout kernels, separates local branches, and continues coherent
