@@ -1,0 +1,13 @@
+{
+  "challenge": "TII-173",
+  "url": "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/public_keyRec/pk_McEliece_173.txt",
+  "retrieved_date": "2026-09-30",
+  "sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+  "parameters": {
+    "m": 7,
+    "t": 8,
+    "n": 96,
+    "k": 40
+  },
+  "content": "public parity-check matrix and public field modulus; no secret key"
+}

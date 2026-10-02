@@ -1,0 +1,1025 @@
+{
+  "public_only": true,
+  "original_parameters": {
+    "m": 7,
+    "n": 96,
+    "t": 8,
+    "k": 40
+  },
+  "input_files": [
+    "public.json",
+    "direct-recovery.json",
+    "data/pk_McEliece_173.txt"
+  ],
+  "field_modulus": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "all_96_support_values_distinct": true,
+  "all_96_support_values_finite": true,
+  "removed_positions": [
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "support_extension": "IKZ-type exhaustive Vandermonde multiplier test",
+  "support_extension_histories": [
+    {
+      "original_position": 56,
+      "candidates_tested": 37,
+      "known_multiplier_matrix_rank": 91,
+      "retained_support_value": 38,
+      "unique_candidate": true,
+      "tests": [
+        {
+          "value": 6,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 24,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 40,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 80,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 34,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 68,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 44,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 51,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 29,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 116,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 82,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 39,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 33,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 69,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 18,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 19,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 38,
+          "kernel_dimension": 1,
+          "has_full_support_vector": true
+        },
+        {
+          "value": 27,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 54,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 53,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 106,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 45,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 55,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 95,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 122,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 109,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 98,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 23,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 59,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 111,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 77,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 100,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 84,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 86,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 113,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 97,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 1,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        }
+      ]
+    },
+    {
+      "original_position": 57,
+      "candidates_tested": 37,
+      "known_multiplier_matrix_rank": 91,
+      "retained_support_value": 19,
+      "unique_candidate": true,
+      "tests": [
+        {
+          "value": 6,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 24,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 40,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 80,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 34,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 68,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 44,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 51,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 29,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 116,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 82,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 39,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 33,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 69,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 18,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 19,
+          "kernel_dimension": 1,
+          "has_full_support_vector": true
+        },
+        {
+          "value": 38,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 27,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 54,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 53,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 106,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 45,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 55,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 95,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 122,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 109,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 98,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 23,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 59,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 111,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 77,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 100,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 84,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 86,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 113,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 97,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 1,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        }
+      ]
+    },
+    {
+      "original_position": 58,
+      "candidates_tested": 37,
+      "known_multiplier_matrix_rank": 91,
+      "retained_support_value": 68,
+      "unique_candidate": true,
+      "tests": [
+        {
+          "value": 6,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 24,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 40,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 80,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 34,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 68,
+          "kernel_dimension": 1,
+          "has_full_support_vector": true
+        },
+        {
+          "value": 44,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 51,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 29,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 116,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 82,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 39,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 33,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 69,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 18,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 19,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 38,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 27,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 54,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 53,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 106,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 45,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 55,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 95,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 122,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 109,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 98,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 23,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 59,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 111,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 77,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 100,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 84,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 86,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 113,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 97,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 1,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        }
+      ]
+    },
+    {
+      "original_position": 59,
+      "candidates_tested": 37,
+      "known_multiplier_matrix_rank": 91,
+      "retained_support_value": 33,
+      "unique_candidate": true,
+      "tests": [
+        {
+          "value": 6,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 24,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 40,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 80,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 34,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 68,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 44,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 51,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 29,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 116,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 82,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 39,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 33,
+          "kernel_dimension": 1,
+          "has_full_support_vector": true
+        },
+        {
+          "value": 69,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 18,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 19,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 38,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 27,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 54,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 53,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 106,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 45,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 55,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 95,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 122,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 109,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 98,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 23,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 59,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 111,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 77,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 100,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 84,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 86,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 113,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 97,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 1,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        }
+      ]
+    },
+    {
+      "original_position": 60,
+      "candidates_tested": 37,
+      "known_multiplier_matrix_rank": 91,
+      "retained_support_value": 122,
+      "unique_candidate": true,
+      "tests": [
+        {
+          "value": 6,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 24,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 40,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 80,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 34,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 68,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 44,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 51,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 29,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 116,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 82,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 39,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 33,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 69,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 18,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 19,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 38,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 27,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 54,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 53,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 106,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 45,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 55,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 95,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 122,
+          "kernel_dimension": 1,
+          "has_full_support_vector": true
+        },
+        {
+          "value": 109,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 98,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 23,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 59,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 111,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 77,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 100,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 84,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 86,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 113,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 97,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        },
+        {
+          "value": 1,
+          "kernel_dimension": 0,
+          "has_full_support_vector": false
+        }
+      ]
+    }
+  ],
+  "full_multiplier_space_dimension": 1,
+  "final_multiplier_system_shape": [
+    640,
+    96
+  ],
+  "recovered_ambient_grs_dimension": 80,
+  "original_code_dimension": 40,
+  "ambient_grs_contains_original_public_code": true,
+  "ambient_binary_subfield_code_equals_original_public_code": true,
+  "reciprocal_multiplier_polynomial_degree": 16,
+  "reciprocal_multiplier_polynomial_is_square": true,
+  "goppa_degree": 8,
+  "goppa_squarefree": true,
+  "goppa_irreducible": true,
+  "goppa_nonzero_on_full_support": true,
+  "goppa_parity_binary_rank": 56,
+  "goppa_public_row_space_exactly_equal": true,
+  "recovered_full_equivalent_goppa_decoding_key": true,
+  "seconds": 1.0210616658441722
+}

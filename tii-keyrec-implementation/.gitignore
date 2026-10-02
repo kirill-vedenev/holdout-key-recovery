@@ -1,0 +1,8 @@
+**/build/
+**/runs/
+**/prepared/
+**/.sage/
+**/__pycache__/
+*.py[cod]
+*.so
+*.dylib

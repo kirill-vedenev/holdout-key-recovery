@@ -1,0 +1,31 @@
+PASS table evaluation and support derivatives against Sage polynomials
+PASS dual-GRS parity formula, systematic multiplier recovery, rejection of corrupted GRS matrices
+PASS field polynomials irreducible; NumPy GF(2^m) arithmetic against Sage
+PASS C++ binary Goppa trial against Sage: binary-g1 [16,8] -> [16,8], minor rank 9 over all 28 pairs
+PASS C++ binary Goppa trial against Sage: binary-g3 [50,32] -> [50,32], minor rank 40 over all 496 pairs
+PASS C++ binary Goppa trial against Sage: binary-g4 [55,37] -> [55,37], minor rank 45 over all 666 pairs
+PASS C++ binary Goppa trial against Sage: binary-g5 [60,30] -> [60,30], minor rank 44 over all 435 pairs
+PASS C++ binary Goppa trial against Sage: binary-g7 [110,54] -> [110,54], minor rank 85 over all 1431 pairs
+PASS C++ binary Goppa trial against Sage: binary-g9 [220,124] -> [220,124], minor rank 183 over all 7626 pairs
+PASS C++ binary Goppa trial against Sage: binary-s1 [128,93] -> [100,65], minor rank 84 over all 2080 pairs
+PASS C++ binary Goppa trial against Sage: binary-s2 [256,192] -> [150,86], minor rank 125 over all 3655 pairs
+PASS NumPy embedding check accepts the recovered multiplier and rejects a changed one
+PASS tangent formula against interpolated curves (GRS, alternant, wild Goppa)
+PASS C++ against Sage explicit all-pairs certificate: grs-A minor rank 9
+PASS C++ against Sage explicit all-pairs certificate: grs-B minor rank 18
+PASS C++ against Sage explicit all-pairs certificate: alternant-a1 minor rank 24
+PASS C++ against Sage explicit all-pairs certificate: alternant-a8 minor rank 44
+PASS C++ against Sage explicit all-pairs certificate: wild-w2 minor rank 55
+PASS C++ against Sage explicit all-pairs certificate: wild-w6 minor rank 45
+PASS C++ against Sage explicit all-pairs certificate: wild-w8 minor rank 45
+PASS native verifier rejects a repeated support element
+PASS mceliece348864 shortened by 2566 positions to n=922, k=154, D=793, D-t=729
+PASS mceliece348864 shortened by 2503 positions to n=985, k=217, D=856, D-t=792
+PASS mceliece460896 shortened by 3165 positions to n=1443, k=195, D=1250, D-t=1154
+PASS mceliece460896 shortened by 3086 positions to n=1522, k=274, D=1329, D-t=1233
+PASS mceliece6688128 shortened by 4800 positions to n=1888, k=224, D=1631, D-t=1503
+PASS mceliece6688128 shortened by 4709 positions to n=1979, k=315, D=1722, D-t=1594
+PASS mceliece6960119 shortened by 5197 positions to n=1763, k=216, D=1524, D-t=1405
+PASS mceliece6960119 shortened by 5109 positions to n=1851, k=304, D=1612, D-t=1493
+PASS mceliece8192128 shortened by 6304 positions to n=1888, k=224, D=1631, D-t=1503
+PASS mceliece8192128 shortened by 6213 positions to n=1979, k=315, D=1722, D-t=1594

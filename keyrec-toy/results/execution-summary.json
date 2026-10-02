@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "notebooks": [
+    {
+      "notebook": "01-grs-char2.ipynb",
+      "status": "passed",
+      "kernel": "sagemath-10.7",
+      "executed_code_cells": 9,
+      "execution_seconds": 3.999425374902785,
+      "notebook_sha256": "5790ca62870775578e6cb8e01472c13b15a8119ad1a3173ac81de7cb52217fe1"
+    },
+    {
+      "notebook": "02-alternant-char2.ipynb",
+      "status": "passed",
+      "kernel": "sagemath-10.7",
+      "executed_code_cells": 9,
+      "execution_seconds": 49.040469333995134,
+      "notebook_sha256": "e334d8b62993fbb37a4ea3a14c9fd370b362cebf4fcb608066348cab04e71187"
+    },
+    {
+      "notebook": "03-grs-odd.ipynb",
+      "status": "passed",
+      "kernel": "sagemath-10.7",
+      "executed_code_cells": 9,
+      "execution_seconds": 3.6609490420669317,
+      "notebook_sha256": "b6345a6f797cc8bd74b78c6b2fc8778178ab1768c8f96b7ef842ff510b059515"
+    },
+    {
+      "notebook": "04-alternant-odd.ipynb",
+      "status": "passed",
+      "kernel": "sagemath-10.7",
+      "executed_code_cells": 9,
+      "execution_seconds": 12.593069250229746,
+      "notebook_sha256": "fcd7a495fe6cc83116f166cfd2d71d685753aa6c82213016ff721353a63a6e89"
+    }
+  ],
+  "reference_sha256": "973e13de449386687800f2d298372682d64bd256702032ba79e5d33d17c31e73",
+  "python_version": "3.13.3",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "logical_cpu_count": 8,
+  "execution_scope": "all"
+}

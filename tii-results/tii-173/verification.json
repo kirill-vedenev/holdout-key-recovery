@@ -1,0 +1,29 @@
+{
+  "schema": "tii173-independent-full-key-verification-v1",
+  "verified": true,
+  "original_public_sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+  "candidate_sha256": "199b86a67e6b08573a680ca5bf80a842b6887563c27362d5743151d0afcc4d94",
+  "support_count": 96,
+  "support_distinct": true,
+  "goppa_degree": 8,
+  "polynomial_monic": true,
+  "polynomial_irreducible": true,
+  "polynomial_nonzero_on_support": true,
+  "field_modulus": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "reconstructed_binary_rank": 56,
+  "original_binary_rank": 56,
+  "original_public_row_space_equal": true,
+  "verified_equivalent_goppa_key": true,
+  "secret_reference_used": false,
+  "recovery_modules_imported": false,
+  "seconds": 0.005995083134621382
+}

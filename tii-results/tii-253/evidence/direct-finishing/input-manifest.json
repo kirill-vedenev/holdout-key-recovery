@@ -1,0 +1,37 @@
+{
+  "instance": "TII-253",
+  "public_only": true,
+  "prefix_depth": 82,
+  "target_depth": 198,
+  "threads": 4,
+  "kernel_recomputed": false,
+  "kernel_sha256": "8cf2d5e11f8de06411201e6af4968fcf1acfb2179a7c624487cf32b06e0de349",
+  "panel_file": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/reconstruction/polynomials/kernel-panel.u64le",
+  "panel_sha256": "2da5c6a6ebd348aed97da01c734ae5821c374fd27ba52d591a8875af9735e4b8",
+  "inputs": {
+    "inputs/pk_McEliece_253.txt": "a66ac1368bd6d311838e3a255c2d12766818731739c53d1ec79a46c8838ee793",
+    "inputs/deep-jets-prefix-0.json": "8fbf55560020dfc919d37afa0d93157bcd16f5c9ed767b02819b532f850c11c4",
+    "results/hasse-1.u64le": "2678484b44b30c165bb3f7ddb1b75f0445ab56906a55617e8e7ed5d28da36aeb",
+    "results/hasse-2.u64le": "05e3694261a9fd546d7f65a9888a6406d5f5db84cd35c5f7d42e2c22911a2339",
+    "results/local-branches.json": "119bc027b866a281d64eec56219eab45385e97249b079802e23a8090fff6240a",
+    "results/public.json": "4e3020ac70cbb43a99102d6829c0ba2d411e9059a81d06cfbcaf45de155a5b2b",
+    "inputs/holdout-verification.json": "56e21231eecf698f78a27f54681b401fea54e556b9fe9dad519f2db949cea6e3"
+  },
+  "forbidden_recovery_inputs": [
+    "minor recovered support",
+    "minor quadrics",
+    "minor code",
+    "minor full key"
+  ],
+  "comparison_only_inputs_used_after_direct_key_is_frozen": true,
+  "hardware": {
+    "platform": "Darwin",
+    "architecture": "arm64",
+    "cpu_model": null,
+    "cpu_model_note": "CPU model and core topology were unavailable to the experiment process; no model is inferred from other hosts.",
+    "sage_version": "SageMath version 10.7, Release Date: 2025-08-09",
+    "standalone_python_version": "3.13.7",
+    "sage_python_version": "3.13.3",
+    "numpy_version": "2.2.4"
+  }
+}

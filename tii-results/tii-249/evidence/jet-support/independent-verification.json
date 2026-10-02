@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "standard_library_only": true,
+  "independent_of_sage_and_recovery_modules": true,
+  "public_sha256": "2ed004f586d370693728c2749204213f69df10eebd55d91a7be45aaeffc6275d",
+  "candidate_sha256": "1b2102a12a82419d9f8ee6b9f02f5523dea043d0e7abc72b4157f375ec220f1e",
+  "public_only": true,
+  "published_secret_key_read": false,
+  "field_modulus_integer": 285,
+  "positions": 178,
+  "distinct_projective_support": true,
+  "all_dual_multipliers_nonzero": true,
+  "quadratic_section_ratios_reproduce_saved_support": true,
+  "shortened_to_original_order_verified": true,
+  "all_public_alternant_equations_zero": true,
+  "binary_parity_rank": 128,
+  "public_generator_rank": 50,
+  "recovered_binary_subfield_code_equals_public": true,
+  "seconds": 0.08351737493649125,
+  "original_public_key_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+  "shortened_generator_equals_original_public_code_shortened_at_saved_positions": true,
+  "original_public_parity_check_restriction_rank": 128
+}

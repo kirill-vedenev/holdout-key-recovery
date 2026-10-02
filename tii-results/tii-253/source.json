@@ -1,0 +1,18 @@
+{
+  "url": "https://raw.githubusercontent.com/ElenaKirshanova/tii_decoding_challenge/main/public_keyRec/pk_McEliece_253.txt",
+  "sha256": "a66ac1368bd6d311838e3a255c2d12766818731739c53d1ec79a46c8838ee793",
+  "matrix_rows": 72,
+  "columns": 214,
+  "field_modulus": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "scope": "public-input-only readiness assessment; no production solve started"
+}

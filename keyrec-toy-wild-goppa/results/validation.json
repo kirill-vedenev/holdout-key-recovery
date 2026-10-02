@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "instances": {
+    "a": "both finishing methods and independent verification passed",
+    "b": "both finishing methods and independent verification passed",
+    "c": "both finishing methods and independent verification passed"
+  },
+  "original_secret_audits": "all six recovered keys passed",
+  "single_holdout_per_recovery": true,
+  "general_stationary_continuation": true,
+  "individual_mode_check": "minor-only and direct-only on A match combined-mode keys",
+  "negative_controls": {
+    "corrupted_kernel": "rejected by Hasse verification",
+    "corrupted_key": "rejected by independent verification",
+    "large_serial_run": "rejected before matrix allocation"
+  },
+  "parallel_configuration": {
+    "openmp_enabled": true,
+    "requested_threads": 96,
+    "kernel_matches_serial_reference": true
+  },
+  "arithmetic_checks": [
+    "GF(4) embedding",
+    "GF(64)/GF(4) components",
+    "packed GF(4) by GF(64) multiplication",
+    "kernel and fixed linear solves",
+    "interpolation",
+    "incremental lookahead",
+    "fresh formal products"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "date": "2026-10-02",
+  "finishing": "direct",
+  "public_inputs_only": true,
+  "holdout_recomputed": false,
+  "prefix_depth": 82,
+  "jet_depth": 198,
+  "prefix_preserved_exactly": true,
+  "retained_support_count": 118,
+  "full_support_count": 214,
+  "goppa_degree": 9,
+  "final_key_verified_against_original_public_key": true,
+  "quadratic_contact_shape": [
+    199,
+    1081
+  ],
+  "quadratic_contact_rank": 190,
+  "odd_contact_rank": 90,
+  "full_multiplier_shape": [
+    2556,
+    214
+  ],
+  "full_multiplier_rank": 213,
+  "coordinate_extension_candidates": 13344,
+  "direct_key_sha256": "45f26576cf3a34946cc234ae0f25e8e62d736f64c5a7a7c4f61426900d454f98",
+  "panel_sha256": "2da5c6a6ebd348aed97da01c734ae5821c374fd27ba52d591a8875af9735e4b8",
+  "jet_internal_seconds": 83.25992295797914,
+  "direct_support_internal_seconds": 2.6630342500284314,
+  "full_key_internal_seconds": 13.75418495759368,
+  "direct_key": "../../direct-recovered-sk.json",
+  "verification": "../../direct-verification.json"
+}

@@ -1,0 +1,5 @@
+/build/
+/runs/
+/deps/
+__pycache__/
+.DS_Store

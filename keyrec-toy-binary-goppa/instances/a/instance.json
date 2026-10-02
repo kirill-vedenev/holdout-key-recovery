@@ -1,0 +1,14 @@
+{
+  "id": "a",
+  "parameters": {
+    "m": 6,
+    "t": 6,
+    "n": 64,
+    "k": 28,
+    "degree": 5,
+    "multiplicity": 4
+  },
+  "field_modulus": 67,
+  "public_sha256": "6407bc2e6553e8525fa75efb82845f2bda359bbab8c081ab69f9e21e34d16237",
+  "secret_sha256": "ff6a8fbed7e58f535b58398d00c05e581811e5f5d634476d09ccee406f11fcf4"
+}

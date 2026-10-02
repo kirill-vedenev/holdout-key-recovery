@@ -1,0 +1,14 @@
+{
+  "upstream": "https://gitlab.inria.fr/cado-nfs/cado-nfs",
+  "commit": "2d98fe176c11342cfa5d6c0d795a992cbe433c11",
+  "patch_sha256": "185a3918d2fc78ec279ad40de8b669013e1406b7873c27b3fa7a46072aee6b46",
+  "changes": [
+    "Parallelize independent polynomial coefficient updates and permutations",
+    "Suppress inner thread teams when called by an outer parallel region",
+    "Print term-count progress every five seconds"
+  ],
+  "source_files": [
+    "linalg/bwc/lingen_qcode_binary.cpp",
+    "linalg/bblas/bpack.cpp"
+  ]
+}

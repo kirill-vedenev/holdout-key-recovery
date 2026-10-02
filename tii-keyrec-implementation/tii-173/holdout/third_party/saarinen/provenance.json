@@ -1,0 +1,13 @@
+{
+  "author": "Markku-Juhani O. Saarinen",
+  "repository": "https://github.com/mjosaarinen/tii254-artifact",
+  "source_path": "cuda/holdout_cuda_worker.cu",
+  "upstream_file_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+  "copied_functions": [
+    "HostChoose",
+    "colex_rank_host",
+    "colex_unrank_host"
+  ],
+  "changes": "Standalone header; namespace, bounds checks, maximum k=63 and degree=8. GPU uses the same combinadic ordering with separate implementation.",
+  "license": "MIT; LICENSE.txt"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "self_tests": [
+    "GF(64) arithmetic",
+    "matrix kernel and solve",
+    "polynomial interpolation",
+    "irreducibility",
+    "incremental vs fresh products",
+    "independent product multiplication",
+    "literal Hasse maps"
+  ],
+  "both_routes": {
+    "a": "passed",
+    "b": "passed"
+  },
+  "individual_route_modes": "same recovered keys as combined mode",
+  "independent_python_verification": "both keys in both instances passed",
+  "original_secret_audits": "both keys in both instances passed",
+  "negative_controls": {
+    "mutated_kernel": "rejected by literal Hasse verification",
+    "mutated_multiplier": "rejected by independent public verification"
+  },
+  "cpp_generation_reproducible": true,
+  "standalone_copy_build": "passed",
+  "standalone_copy_self_tests": "passed",
+  "standalone_copy_public_verifiers": "passed"
+}

@@ -1,0 +1,594 @@
+{
+  "spec": {
+    "backend": "cpp",
+    "explicit_all_pairs": false,
+    "master_seed": "minor-code-fullness",
+    "parameters": [
+      {
+        "D": 9,
+        "family": "grs",
+        "id": "A",
+        "k": 5,
+        "label": "grs-A",
+        "n": 20,
+        "q": 32
+      },
+      {
+        "D": 18,
+        "family": "grs",
+        "id": "B",
+        "k": 7,
+        "label": "grs-B",
+        "n": 30,
+        "q": 32
+      },
+      {
+        "D": 24,
+        "family": "grs",
+        "id": "C",
+        "k": 8,
+        "label": "grs-C",
+        "n": 40,
+        "q": 64
+      },
+      {
+        "D": 23,
+        "family": "grs",
+        "id": "D",
+        "k": 9,
+        "label": "grs-D",
+        "n": 55,
+        "q": 64
+      },
+      {
+        "D": 45,
+        "family": "grs",
+        "id": "E",
+        "k": 11,
+        "label": "grs-E",
+        "n": 100,
+        "q": 128
+      },
+      {
+        "D": 120,
+        "family": "grs",
+        "id": "F",
+        "k": 19,
+        "label": "grs-F",
+        "n": 200,
+        "q": 256
+      },
+      {
+        "D": 200,
+        "family": "grs",
+        "id": "G",
+        "k": 23,
+        "label": "grs-G",
+        "n": 300,
+        "q": 512
+      },
+      {
+        "family": "alternant",
+        "id": "a1",
+        "label": "alternant-a1",
+        "m": 5,
+        "n": 28,
+        "q": 2,
+        "r": 3
+      },
+      {
+        "family": "alternant",
+        "id": "a2",
+        "label": "alternant-a2",
+        "m": 6,
+        "n": 50,
+        "q": 2,
+        "r": 3
+      },
+      {
+        "family": "alternant",
+        "id": "a3",
+        "label": "alternant-a3",
+        "m": 6,
+        "n": 60,
+        "q": 2,
+        "r": 8
+      },
+      {
+        "family": "alternant",
+        "id": "a4",
+        "label": "alternant-a4",
+        "m": 7,
+        "n": 100,
+        "q": 2,
+        "r": 5
+      },
+      {
+        "family": "alternant",
+        "id": "a5",
+        "label": "alternant-a5",
+        "m": 8,
+        "n": 200,
+        "q": 2,
+        "r": 8
+      },
+      {
+        "family": "alternant",
+        "id": "a6",
+        "label": "alternant-a6",
+        "m": 8,
+        "n": 220,
+        "q": 2,
+        "r": 12
+      },
+      {
+        "family": "alternant",
+        "id": "a7",
+        "label": "alternant-a7",
+        "m": 2,
+        "n": 14,
+        "q": 4,
+        "r": 3
+      },
+      {
+        "family": "alternant",
+        "id": "a8",
+        "label": "alternant-a8",
+        "m": 3,
+        "n": 50,
+        "q": 4,
+        "r": 5
+      },
+      {
+        "family": "alternant",
+        "id": "a9",
+        "label": "alternant-a9",
+        "m": 4,
+        "n": 180,
+        "q": 4,
+        "r": 6
+      },
+      {
+        "family": "alternant",
+        "id": "b1",
+        "label": "alternant-b1",
+        "m": 2,
+        "n": 55,
+        "q": 8,
+        "r": 5
+      },
+      {
+        "family": "alternant",
+        "id": "b2",
+        "label": "alternant-b2",
+        "m": 2,
+        "n": 200,
+        "q": 16,
+        "r": 6
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w1",
+        "label": "wild-w1",
+        "m": 3,
+        "n": 63,
+        "q": 4,
+        "t": 1
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w2",
+        "label": "wild-w2",
+        "m": 3,
+        "n": 64,
+        "q": 4,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "split",
+        "id": "w3",
+        "label": "wild-w3",
+        "m": 3,
+        "n": 62,
+        "q": 4,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w4",
+        "label": "wild-w4",
+        "m": 3,
+        "n": 64,
+        "q": 4,
+        "t": 3
+      },
+      {
+        "family": "wild",
+        "g": "split",
+        "id": "w5",
+        "label": "wild-w5",
+        "m": 3,
+        "n": 61,
+        "q": 4,
+        "t": 3
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w6",
+        "label": "wild-w6",
+        "m": 2,
+        "n": 64,
+        "q": 8,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w7",
+        "label": "wild-w7",
+        "m": 2,
+        "n": 55,
+        "q": 8,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "split",
+        "id": "w8",
+        "label": "wild-w8",
+        "m": 2,
+        "n": 62,
+        "q": 8,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w9",
+        "label": "wild-w9",
+        "m": 2,
+        "n": 64,
+        "q": 8,
+        "t": 3
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w10",
+        "label": "wild-w10",
+        "m": 3,
+        "n": 120,
+        "q": 8,
+        "t": 1
+      },
+      {
+        "family": "wild",
+        "g": "split",
+        "id": "w11",
+        "label": "wild-w11",
+        "m": 3,
+        "n": 150,
+        "q": 8,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w12",
+        "label": "wild-w12",
+        "m": 2,
+        "n": 256,
+        "q": 16,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w13",
+        "label": "wild-w13",
+        "m": 2,
+        "n": 200,
+        "q": 16,
+        "t": 2
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w14",
+        "label": "wild-w14",
+        "m": 3,
+        "n": 120,
+        "q": 16,
+        "t": 1
+      },
+      {
+        "family": "wild",
+        "g": "irred",
+        "id": "w15",
+        "label": "wild-w15",
+        "m": 3,
+        "n": 200,
+        "q": 16,
+        "t": 2
+      },
+      {
+        "G": "irred",
+        "family": "binary",
+        "id": "g1",
+        "label": "binary-g1",
+        "m": 4,
+        "n0": 16,
+        "t": 2
+      },
+      {
+        "G": "irred",
+        "family": "binary",
+        "id": "g2",
+        "label": "binary-g2",
+        "m": 5,
+        "n0": 28,
+        "t": 2
+      },
+      {
+        "G": "irred",
+        "family": "binary",
+        "id": "g3",
+        "label": "binary-g3",
+        "m": 6,
+        "n0": 50,
+        "t": 3
+      },
+      {
+        "G": "split",
+        "family": "binary",
+        "id": "g4",
+        "label": "binary-g4",
+        "m": 6,
+        "n0": 55,
+        "t": 3
+      },
+      {
+        "G": "separable",
+        "family": "binary",
+        "id": "g5",
+        "label": "binary-g5",
+        "m": 6,
+        "n0": 60,
+        "t": 5
+      },
+      {
+        "G": "irred",
+        "family": "binary",
+        "id": "g6",
+        "label": "binary-g6",
+        "m": 7,
+        "n0": 100,
+        "t": 5
+      },
+      {
+        "G": "split",
+        "family": "binary",
+        "id": "g7",
+        "label": "binary-g7",
+        "m": 7,
+        "n0": 110,
+        "t": 8
+      },
+      {
+        "G": "irred",
+        "family": "binary",
+        "id": "g8",
+        "label": "binary-g8",
+        "m": 8,
+        "n0": 200,
+        "t": 8
+      },
+      {
+        "G": "separable",
+        "family": "binary",
+        "id": "g9",
+        "label": "binary-g9",
+        "m": 8,
+        "n0": 220,
+        "t": 12
+      },
+      {
+        "G": "irred",
+        "ell": 28,
+        "family": "binary",
+        "id": "s1",
+        "label": "binary-s1",
+        "m": 7,
+        "n0": 128,
+        "t": 5
+      },
+      {
+        "G": "irred",
+        "ell": 106,
+        "family": "binary",
+        "id": "s2",
+        "label": "binary-s2",
+        "m": 8,
+        "n0": 256,
+        "t": 8
+      },
+      {
+        "G": "irred",
+        "ell": 2566,
+        "family": "binary",
+        "id": "mceliece348864-k154",
+        "label": "mceliece348864-k154",
+        "m": 12,
+        "n0": 3488,
+        "t": 64
+      },
+      {
+        "G": "irred",
+        "ell": 2503,
+        "family": "binary",
+        "id": "mceliece348864-k217",
+        "label": "mceliece348864-k217",
+        "m": 12,
+        "n0": 3488,
+        "t": 64
+      },
+      {
+        "G": "irred",
+        "ell": 3165,
+        "family": "binary",
+        "id": "mceliece460896-k195",
+        "label": "mceliece460896-k195",
+        "m": 13,
+        "n0": 4608,
+        "t": 96
+      },
+      {
+        "G": "irred",
+        "ell": 3086,
+        "family": "binary",
+        "id": "mceliece460896-k274",
+        "label": "mceliece460896-k274",
+        "m": 13,
+        "n0": 4608,
+        "t": 96
+      },
+      {
+        "G": "irred",
+        "ell": 4800,
+        "family": "binary",
+        "id": "mceliece6688128-k224",
+        "label": "mceliece6688128-k224",
+        "m": 13,
+        "n0": 6688,
+        "t": 128
+      },
+      {
+        "G": "irred",
+        "ell": 4709,
+        "family": "binary",
+        "id": "mceliece6688128-k315",
+        "label": "mceliece6688128-k315",
+        "m": 13,
+        "n0": 6688,
+        "t": 128
+      },
+      {
+        "G": "irred",
+        "ell": 5197,
+        "family": "binary",
+        "id": "mceliece6960119-k216",
+        "label": "mceliece6960119-k216",
+        "m": 13,
+        "n0": 6960,
+        "t": 119
+      },
+      {
+        "G": "irred",
+        "ell": 5109,
+        "family": "binary",
+        "id": "mceliece6960119-k304",
+        "label": "mceliece6960119-k304",
+        "m": 13,
+        "n0": 6960,
+        "t": 119
+      },
+      {
+        "G": "irred",
+        "ell": 6304,
+        "family": "binary",
+        "id": "mceliece8192128-k224",
+        "label": "mceliece8192128-k224",
+        "m": 13,
+        "n0": 8192,
+        "t": 128
+      },
+      {
+        "G": "irred",
+        "ell": 6213,
+        "family": "binary",
+        "id": "mceliece8192128-k315",
+        "label": "mceliece8192128-k315",
+        "m": 13,
+        "n0": 8192,
+        "t": 128
+      }
+    ],
+    "recovery": true,
+    "sage_version": "10.7",
+    "sources": {
+      "src/engine.py": "1a617e7923cf8f3002e63f3639d095a72477153dfa5daa285642766978b900d6",
+      "src/families.py": "59090467af90d15124945178c2f110567992618ba5b1d8fc147378ec7df16acf",
+      "src/gf2m.py": "6541f16d87d34588d848b473ef25d4b41f38796aca9f02feed6a6ddfce65301d",
+      "src/minor.py": "35cd13d4d3f0d509f3c3c9da070904095a7091a962c337fae1f1ff76303bc9da",
+      "src/native.cpp": "1d599d376407610cc0a334fcdccce422832392f65901b57460c65fddb4f5bd53",
+      "src/native.py": "fe71e3cc2c460e106dd256df6e01469ebd07d57eb70ac5c68c2bb5391dcd53b2",
+      "src/run.py": "6b971e4167b488c7a1e0df5cd3ca6e96a8cbc913e317ae7ab519cc9b08864931",
+      "src/summarize.py": "95da8571a422d482db226f98cf856a59fe4f1e9a22a45d8ad9952618fe75bfab",
+      "src/validate.py": "54ba357f14bcfb2cffd8c80a9f193427accbbc8c33c9481b41c95ab0ac390735",
+      "src/verify_results.py": "9abcb1d78f834bdaf0ae32a06f6338e7506dea08beb25051e8e8a9ea7e47c2a4"
+    },
+    "trial_start": 0,
+    "trials": {
+      "alternant-a1": 100,
+      "alternant-a2": 100,
+      "alternant-a3": 100,
+      "alternant-a4": 100,
+      "alternant-a5": 100,
+      "alternant-a6": 100,
+      "alternant-a7": 100,
+      "alternant-a8": 100,
+      "alternant-a9": 100,
+      "alternant-b1": 100,
+      "alternant-b2": 100,
+      "binary-g1": 100,
+      "binary-g2": 100,
+      "binary-g3": 100,
+      "binary-g4": 100,
+      "binary-g5": 100,
+      "binary-g6": 100,
+      "binary-g7": 100,
+      "binary-g8": 100,
+      "binary-g9": 100,
+      "binary-s1": 100,
+      "binary-s2": 100,
+      "grs-A": 100,
+      "grs-B": 100,
+      "grs-C": 100,
+      "grs-D": 100,
+      "grs-E": 100,
+      "grs-F": 100,
+      "grs-G": 100,
+      "mceliece348864-k154": 20,
+      "mceliece348864-k217": 20,
+      "mceliece460896-k195": 20,
+      "mceliece460896-k274": 20,
+      "mceliece6688128-k224": 20,
+      "mceliece6688128-k315": 20,
+      "mceliece6960119-k216": 20,
+      "mceliece6960119-k304": 20,
+      "mceliece8192128-k224": 20,
+      "mceliece8192128-k315": 20,
+      "wild-w1": 100,
+      "wild-w10": 100,
+      "wild-w11": 100,
+      "wild-w12": 100,
+      "wild-w13": 100,
+      "wild-w14": 100,
+      "wild-w15": 100,
+      "wild-w2": 100,
+      "wild-w3": 100,
+      "wild-w4": 100,
+      "wild-w5": 100,
+      "wild-w6": 100,
+      "wild-w7": 100,
+      "wild-w8": 100,
+      "wild-w9": 100
+    }
+  },
+  "spec_sha256": "95c68944acdf9f09a20b041c02d83aeed4859a376326c0d687eea64d6bb704e9"
+}

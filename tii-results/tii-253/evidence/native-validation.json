@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_sage_polynomial_multiplication": true,
+  "k": 8,
+  "degree": 6,
+  "polynomials": 11,
+  "depth": 18,
+  "checked_coefficient_vectors": 51,
+  "checked_field_equalities": 561,
+  "arbitrary_non_normalized_odd_and_even_corrections": true
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+type: software
+title: "Supplement to: Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes"
+authors:
+  - family-names: Vedenev
+    given-names: Kirill
+    affiliation: CryptoPro
+license: MIT
+preferred-citation:
+  type: report
+  title: "Extending Distinguishing to Key Recovery for Subfield Subcodes of GRS codes"
+  authors:
+    - family-names: Vedenev
+      given-names: Kirill
+      affiliation: CryptoPro
+  collection-title: "Cryptology ePrint Archive"
+  institution:
+    name: "International Association for Cryptologic Research"
+  number: "2026/1747"
+  year: 2026
+  url: "https://eprint.iacr.org/2026/1747"

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "verified_thk1_equals_input_panel": true,
+  "every_coefficient_checked": true,
+  "unused_panel_columns_zero": true,
+  "k": 50,
+  "degree": 5,
+  "monomials": 2118760,
+  "polynomials": 280,
+  "exact_binary_coefficients_checked": 593252800,
+  "kernel_sha256": "4084644d4d079d8708aad0cf041296f5ddcd6003aa42e68c07ccccb63be74630",
+  "panel_sha256": "16847b27e4faa6de906bea187bcdd0b280f6297648344ca43df52095530f72cf",
+  "seconds": 2.0707697910256684
+}

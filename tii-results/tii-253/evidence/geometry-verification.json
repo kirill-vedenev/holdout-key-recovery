@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "public_only": true,
+  "global_quadric_identities_checked": 891,
+  "quadratic_identity_coefficient_orders": 199,
+  "full_quadratic_ideal_certified": true,
+  "quadratic_product_rank": 190,
+  "aligned_tangent_planes_verified": 118,
+  "public_infinity": {
+    "unique_projective_preimage": true,
+    "projective_candidates_checked": 257,
+    "parameter": 191,
+    "public_point_mask": 1897043500789,
+    "method": "exact projective evaluation of the reconstructed degree-99 curve"
+  },
+  "coherent_seed_jet_depth": 82,
+  "holdout_curve_identity_certificate": {
+    "certified": true,
+    "composition_degree_bound": 594,
+    "preexisting_forced_zeros": 590,
+    "heldout_multiplicity_from_verified_coherent_jet": 83,
+    "total_zeros_counted_with_multiplicity": 673,
+    "polynomials_certified": 280,
+    "justification": "Full jet substitution and one coherent invertible local parametrization add held-out multiplicity to the already verified public Hasse constraints."
+  },
+  "seconds": 15.007012374699116
+}

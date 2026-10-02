@@ -1,0 +1,35 @@
+{
+  "schema": "tii-kernel-storage-v1",
+  "instance": "tii-173",
+  "format": "WHK1",
+  "variables": 35,
+  "degree": 5,
+  "monomials": 324632,
+  "polynomials": 256,
+  "coefficient_field": "GF(2)",
+  "monomial_order": "lexicographic tuples",
+  "bytes": 10388244,
+  "sha256": "8eb72336771ffc13fc91f9846c0a93e57029b69fc56a9973eb26c0a0aad18f18",
+  "chunks": [
+    {
+      "file": "kernel.whk1",
+      "offset": 0,
+      "bytes": 10388244,
+      "sha256": "8eb72336771ffc13fc91f9846c0a93e57029b69fc56a9973eb26c0a0aad18f18"
+    }
+  ],
+  "public_sha256": "480b8af369bf803d6b6b2530dd81a17311220821539285359e38178de0ea6f7a",
+  "public_key_sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+  "heldout_original": 0,
+  "recovered_sample_not_full_kernel_basis": true,
+  "alternate_encodings": [
+    {
+      "file": "kernel.thk1",
+      "format": "THK1",
+      "monomial_order": "colex",
+      "bytes": 10388244,
+      "sha256": "a1572050cf858742af5c496f0416b7bb56b8f44c52b817848904a30fa144d6e6",
+      "purpose": "Original accepted sample for the standalone all-order Hasse verifier; same polynomial rows as kernel.whk1, with monomial columns permuted."
+    }
+  ]
+}

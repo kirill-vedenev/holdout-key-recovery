@@ -1,0 +1,8 @@
+{
+  "expected": 4600,
+  "recorded": 4600,
+  "missing": 0,
+  "verified_fixtures": 4600,
+  "execution_errors": [],
+  "manifest_sha256": "95c68944acdf9f09a20b041c02d83aeed4859a376326c0d687eea64d6bb704e9"
+}

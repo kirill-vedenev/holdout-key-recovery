@@ -1,0 +1,7 @@
+{
+  "author": "Markku-Juhani O. Saarinen",
+  "repository": "https://github.com/mjosaarinen/tii254-artifact",
+  "source_path": "cuda/holdout_cuda_worker.cu",
+  "upstream_file_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+  "license": "MIT; LICENSE.txt"
+}

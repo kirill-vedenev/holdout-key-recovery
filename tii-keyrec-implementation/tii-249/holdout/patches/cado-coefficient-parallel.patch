@@ -1,0 +1,98 @@
+diff --git a/linalg/bblas/bpack.cpp b/linalg/bblas/bpack.cpp
+index eea1727..ad90c1f 100644
+--- a/linalg/bblas/bpack.cpp
++++ b/linalg/bblas/bpack.cpp
+@@ -285,7 +285,7 @@ void bpack_ops<T>::mul_lt_ge(bpack_const_view<T> A, bpack_view<T> X)
+      */
+     constexpr const unsigned int B = bitmat<T>::width;
+ #ifdef HAVE_OPENMP
+-#pragma omp parallel num_threads(X.ncols() / B)
++#pragma omp parallel if(!omp_in_parallel()) num_threads(omp_in_parallel() ? 1 : X.ncols() / B)
+ #endif
+     {
+         /* Use a temp variable */
+diff --git a/linalg/bwc/lingen_qcode_binary.cpp b/linalg/bwc/lingen_qcode_binary.cpp
+index 05f2b9d..8281e81 100644
+--- a/linalg/bwc/lingen_qcode_binary.cpp
++++ b/linalg/bwc/lingen_qcode_binary.cpp
+@@ -1,6 +1,7 @@
+ #include "cado.h" // IWYU pragma: keep
+ 
+ #include <climits>
++#include <chrono>
+ #include <cstdio>
+ #include <cstdlib>
+ #include <cstring>
+@@ -742,8 +743,20 @@ static matpoly<true> bw_lingen_basecase_raw_fast(bmstatus<true> & bm, matpoly<tr
+     unsigned int pi_len = 1;
+ 
+     unsigned int t = 0;
++    const auto progress_started = std::chrono::steady_clock::now();
++    double progress_last = -10.0;
+ 
+     for( ; t < L ; t++, bm.t++) {
++        const double progress_seconds = std::chrono::duration<double>(
++            std::chrono::steady_clock::now() - progress_started).count();
++        if (progress_seconds - progress_last >= 5.0) {
++            std::fprintf(stdout,
++                "{\"schema\":\"tii-cado-progress-v1\",\"processed_terms\":%u,"
++                "\"total_terms\":%u,\"pi_length\":%u,\"seconds\":%.3f}\n",
++                t, L, pi_len, progress_seconds);
++            std::fflush(stdout);
++            progress_last = progress_seconds;
++        }
+         /* invariant: pi * E_orig = X^t * E */
+ 
+         bpack_view<uint64_t> E_t = E_coeff(t);
+@@ -752,10 +765,21 @@ static matpoly<true> bw_lingen_basecase_raw_fast(bmstatus<true> & bm, matpoly<tr
+             break;
+ 
+         std::vector<unsigned int> p = E_t.ple(delta);
+-        for(unsigned int k = 0 ; k < pi_len ; k++)
+-            pi_coeff(k).propagate_row_permutations(p);
+-        for(unsigned int k = t + 1 ; k < L ; k++)
+-            E_coeff(k).propagate_row_permutations(p);
++#ifdef HAVE_OPENMP
++#pragma omp parallel
++#endif
++        {
++#ifdef HAVE_OPENMP
++#pragma omp for schedule(static)
++#endif
++            for(unsigned int k = 0 ; k < pi_len ; k++)
++                pi_coeff(k).propagate_row_permutations(p);
++#ifdef HAVE_OPENMP
++#pragma omp for schedule(static)
++#endif
++            for(unsigned int k = t + 1 ; k < L ; k++)
++                E_coeff(k).propagate_row_permutations(p);
++        }
+         for(unsigned int ii = 0 ; ii < p.size() ; ii++) {
+             std::swap(delta[ii], delta[p[ii]]);
+             std::swap(lucky[ii], lucky[p[ii]]);
+@@ -766,10 +790,21 @@ static matpoly<true> bw_lingen_basecase_raw_fast(bmstatus<true> & bm, matpoly<tr
+         LL.invert_lower_triangular();
+ 
+         /* This is really the expensive part */
+-        for(unsigned int k = 0 ; k < pi_len ; k++)
+-            bpack<uint64_t>::mul_lt_ge(LL.const_view(), pi_coeff(k));
+-        for(unsigned int k = t + 1 ; k < L ; k++)
+-            bpack<uint64_t>::mul_lt_ge(LL.const_view(), E_coeff(k));
++#ifdef HAVE_OPENMP
++#pragma omp parallel
++#endif
++        {
++#ifdef HAVE_OPENMP
++#pragma omp for schedule(static)
++#endif
++            for(unsigned int k = 0 ; k < pi_len ; k++)
++                bpack<uint64_t>::mul_lt_ge(LL.const_view(), pi_coeff(k));
++#ifdef HAVE_OPENMP
++#pragma omp for schedule(static)
++#endif
++            for(unsigned int k = t + 1 ; k < L ; k++)
++                bpack<uint64_t>::mul_lt_ge(LL.const_view(), E_coeff(k));
++        }
+         
+         /* multiply the first p.size() rows by X */
+         unsigned int const bi0 = p.size() / 64;

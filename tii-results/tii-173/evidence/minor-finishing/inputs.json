@@ -1,0 +1,14 @@
+{
+  "instance": "tii-173",
+  "public_file": "../../../../tii-kernels/tii-173/public.json",
+  "public_sha256": "480b8af369bf803d6b6b2530dd81a17311220821539285359e38178de0ea6f7a",
+  "saved_jet_file": "../deep-jets-0.json",
+  "saved_jet_sha256": "8f967893f7ce61732fb9b4847c2a0852acc6dce87605660e9e114c67cdcec932",
+  "reused_direct_finishing_jet": true,
+  "bootstrap_depth": 58,
+  "full_key_extension_rerun": false,
+  "comparison_key": "../../recovered-sk.json",
+  "comparison_scope": "Retained coordinates only, after the minor recovery; the saved full key is not an input to bootstrap.py.",
+  "archived_cross_check_entry": "tii-173",
+  "recovery_rerun_during_packaging": false
+}

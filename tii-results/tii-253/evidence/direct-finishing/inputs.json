@@ -1,0 +1,20 @@
+{
+  "public_file": "../../../../tii-kernels/tii-253/public.json",
+  "public_sha256": "4e3020ac70cbb43a99102d6829c0ba2d411e9059a81d06cfbcaf45de155a5b2b",
+  "original_public_key": "../../pk_McEliece_253.txt",
+  "prefix_jet": "../deep-jets-0.json",
+  "prefix_sha256": "8fbf55560020dfc919d37afa0d93157bcd16f5c9ed767b02819b532f850c11c4",
+  "kernel_storage": "../../../../tii-kernels/tii-253/storage.json",
+  "kernel_sha256": "8cf2d5e11f8de06411201e6af4968fcf1acfb2179a7c624487cf32b06e0de349",
+  "panel_sha256": "2da5c6a6ebd348aed97da01c734ae5821c374fd27ba52d591a8875af9735e4b8",
+  "local_branches": "local-branches.json",
+  "hasse_tensors": [
+    "hasse-1.u64le",
+    "hasse-2.u64le"
+  ],
+  "direct_key": "../../direct-recovered-sk.json",
+  "direct_key_verification": "../../direct-verification.json",
+  "reference_minor_support": "../bootstrap-public-data.json",
+  "reference_minor_full_key": "../../recovered-sk.json",
+  "reference_minor_files_used_only_after_independent_direct_key_verification": true
+}

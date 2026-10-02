@@ -1,0 +1,1 @@
+{"rows":115640,"full_rows":128905,"columns":98280,"rank":97866,"kernel_dimension":414,"nnz":9163536,"packed_matrix_bytes":1420984320,"full_hasse_verified":true,"build_seconds":1.06352,"elimination_seconds":183.803,"extraction_seconds":0.446433,"verification_seconds":9.23556,"total_seconds":194.765}

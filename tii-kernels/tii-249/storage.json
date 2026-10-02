@@ -1,0 +1,48 @@
+{
+  "schema": "tii-kernel-storage-v1",
+  "instance": "tii-249",
+  "format": "THK1",
+  "variables": 50,
+  "degree": 5,
+  "monomials": 2118760,
+  "polynomials": 280,
+  "coefficient_field": "GF(2)",
+  "monomial_order": "colex",
+  "bytes": 74156620,
+  "sha256": "4084644d4d079d8708aad0cf041296f5ddcd6003aa42e68c07ccccb63be74630",
+  "chunks": [
+    {
+      "file": "kernel.thk1.part000",
+      "offset": 0,
+      "bytes": 33554432,
+      "sha256": "211a2fc316fa33880b49299eba0c8de61758412cd84078cdb137eded23a664e0"
+    },
+    {
+      "file": "kernel.thk1.part001",
+      "offset": 33554432,
+      "bytes": 33554432,
+      "sha256": "6c6f8cf73a95a87288b625eec49378efd3845c8f1cfc2854b75636484bc0eacf"
+    },
+    {
+      "file": "kernel.thk1.part002",
+      "offset": 67108864,
+      "bytes": 7047756,
+      "sha256": "b4b86faf952b7417ddda7eb4626f949416086c4bad85094ad5c65ce78c05eb8f"
+    }
+  ],
+  "public_sha256": "2ed004f586d370693728c2749204213f69df10eebd55d91a7be45aaeffc6275d",
+  "public_key_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+  "heldout_original": 0,
+  "recovered_sample_not_full_kernel_basis": true,
+  "derived_files": {
+    "kernel-panel.u64le": {
+      "bytes": 135600640,
+      "sha256": "16847b27e4faa6de906bea187bcdd0b280f6297648344ca43df52095530f72cf"
+    },
+    "monomials-colex.u64": {
+      "bytes": 16950080,
+      "sha256": "0875da3ca1e49b84082d60c540acb007a32f903b87dcfe8c777e532d36dfe6da"
+    }
+  },
+  "panel_words": 8
+}

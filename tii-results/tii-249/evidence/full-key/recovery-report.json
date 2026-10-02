@@ -1,0 +1,579 @@
+{
+  "status": "success",
+  "public_only": true,
+  "local_only": true,
+  "published_secret_key_read": false,
+  "original_parameters": {
+    "m": 8,
+    "n": 235,
+    "t": 16,
+    "k": 107
+  },
+  "retained_support_count": 178,
+  "removed_positions": [
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184
+  ],
+  "restored_support_count": 57,
+  "full_support_count": 235,
+  "full_support_distinct": true,
+  "full_support_finite": true,
+  "support_extension": "IKZ-type exhaustive projective Vandermonde multiplier test",
+  "common_block_factorizations": 1,
+  "per_position_histories": [
+    {
+      "original_position": 128,
+      "support_value": 141,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-128.json"
+    },
+    {
+      "original_position": 129,
+      "support_value": 219,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-129.json"
+    },
+    {
+      "original_position": 130,
+      "support_value": 28,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-130.json"
+    },
+    {
+      "original_position": 131,
+      "support_value": 129,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-131.json"
+    },
+    {
+      "original_position": 132,
+      "support_value": 144,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-132.json"
+    },
+    {
+      "original_position": 133,
+      "support_value": 223,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-133.json"
+    },
+    {
+      "original_position": 134,
+      "support_value": 200,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-134.json"
+    },
+    {
+      "original_position": 135,
+      "support_value": 130,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-135.json"
+    },
+    {
+      "original_position": 136,
+      "support_value": 236,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-136.json"
+    },
+    {
+      "original_position": 137,
+      "support_value": 243,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-137.json"
+    },
+    {
+      "original_position": 138,
+      "support_value": 30,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-138.json"
+    },
+    {
+      "original_position": 139,
+      "support_value": 197,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-139.json"
+    },
+    {
+      "original_position": 140,
+      "support_value": 42,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-140.json"
+    },
+    {
+      "original_position": 141,
+      "support_value": 170,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-141.json"
+    },
+    {
+      "original_position": 142,
+      "support_value": 35,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-142.json"
+    },
+    {
+      "original_position": 143,
+      "support_value": 2,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-143.json"
+    },
+    {
+      "original_position": 144,
+      "support_value": 176,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-144.json"
+    },
+    {
+      "original_position": 145,
+      "support_value": 169,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-145.json"
+    },
+    {
+      "original_position": 146,
+      "support_value": 225,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-146.json"
+    },
+    {
+      "original_position": 147,
+      "support_value": 13,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-147.json"
+    },
+    {
+      "original_position": 148,
+      "support_value": 196,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-148.json"
+    },
+    {
+      "original_position": 149,
+      "support_value": 108,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-149.json"
+    },
+    {
+      "original_position": 150,
+      "support_value": 22,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-150.json"
+    },
+    {
+      "original_position": 151,
+      "support_value": 51,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-151.json"
+    },
+    {
+      "original_position": 152,
+      "support_value": 16,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-152.json"
+    },
+    {
+      "original_position": 153,
+      "support_value": 206,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-153.json"
+    },
+    {
+      "original_position": 154,
+      "support_value": 148,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-154.json"
+    },
+    {
+      "original_position": 155,
+      "support_value": 11,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-155.json"
+    },
+    {
+      "original_position": 156,
+      "support_value": 250,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-156.json"
+    },
+    {
+      "original_position": 157,
+      "support_value": 31,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-157.json"
+    },
+    {
+      "original_position": 158,
+      "support_value": 132,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-158.json"
+    },
+    {
+      "original_position": 159,
+      "support_value": 173,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-159.json"
+    },
+    {
+      "original_position": 160,
+      "support_value": 25,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-160.json"
+    },
+    {
+      "original_position": 161,
+      "support_value": 37,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-161.json"
+    },
+    {
+      "original_position": 162,
+      "support_value": 220,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-162.json"
+    },
+    {
+      "original_position": 163,
+      "support_value": 44,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-163.json"
+    },
+    {
+      "original_position": 164,
+      "support_value": 246,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-164.json"
+    },
+    {
+      "original_position": 165,
+      "support_value": 91,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-165.json"
+    },
+    {
+      "original_position": 166,
+      "support_value": 23,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-166.json"
+    },
+    {
+      "original_position": 167,
+      "support_value": 240,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-167.json"
+    },
+    {
+      "original_position": 168,
+      "support_value": 77,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-168.json"
+    },
+    {
+      "original_position": 169,
+      "support_value": 212,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-169.json"
+    },
+    {
+      "original_position": 170,
+      "support_value": 145,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-170.json"
+    },
+    {
+      "original_position": 171,
+      "support_value": 10,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-171.json"
+    },
+    {
+      "original_position": 172,
+      "support_value": 137,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-172.json"
+    },
+    {
+      "original_position": 173,
+      "support_value": 178,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-173.json"
+    },
+    {
+      "original_position": 174,
+      "support_value": 179,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-174.json"
+    },
+    {
+      "original_position": 175,
+      "support_value": 19,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-175.json"
+    },
+    {
+      "original_position": 176,
+      "support_value": 149,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-176.json"
+    },
+    {
+      "original_position": 177,
+      "support_value": 0,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-177.json"
+    },
+    {
+      "original_position": 178,
+      "support_value": 95,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-178.json"
+    },
+    {
+      "original_position": 179,
+      "support_value": 156,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-179.json"
+    },
+    {
+      "original_position": 180,
+      "support_value": 52,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-180.json"
+    },
+    {
+      "original_position": 181,
+      "support_value": 119,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-181.json"
+    },
+    {
+      "original_position": 182,
+      "support_value": 139,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-182.json"
+    },
+    {
+      "original_position": 183,
+      "support_value": 227,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-183.json"
+    },
+    {
+      "original_position": 184,
+      "support_value": 201,
+      "unique_candidate": true,
+      "candidate_count": 79,
+      "infinity_rejected": true,
+      "evidence": "positions/position-184.json"
+    }
+  ],
+  "total_candidates_tested": 4503,
+  "all_57_candidates_unique": true,
+  "all_projective_infinity_candidates_rejected": true,
+  "original_public_key_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+  "input_retained_support_sha256": "1b2102a12a82419d9f8ee6b9f02f5523dea043d0e7abc72b4157f375ec220f1e",
+  "multiplier_report": {
+    "full_multiplier_system_shape": [
+      3424,
+      235
+    ],
+    "rank": 234,
+    "nullity": 1,
+    "all_multipliers_nonzero": true,
+    "normalization": "dual_grs_multipliers[0]=1",
+    "dual_convention": "H32[a,j]=nu[j]*alpha[j]^a for a=0..31",
+    "primal_convention": "C203[a,j]=lambda[j]*alpha[j]^a for a=0..202",
+    "dual_primal_relation": "lambda[j]=1/(nu[j]*prod_{l!=j}(alpha[j]+alpha[l]))",
+    "unavoidable_common_scalar": true,
+    "ambient_grs_dimension": 203,
+    "binary_parity_rank": 128,
+    "exact_original_public_row_space_equality": true,
+    "seconds": 0.9464336251839995
+  },
+  "goppa_report": {
+    "reciprocal_multiplier_polynomial_degree": 32,
+    "reciprocal_multiplier_polynomial_is_square": true,
+    "goppa_degree": 16,
+    "goppa_monic": true,
+    "goppa_squarefree": true,
+    "goppa_irreducible": true,
+    "goppa_nonzero_on_full_support": true,
+    "goppa_binary_parity_rank": 128,
+    "goppa_public_row_space_exactly_equal": true,
+    "reciprocal_multiplier_scale": 174,
+    "reciprocal_multiplier_identity": "1/nu[j]=reciprocal_multiplier_scale*g(alpha[j])^2",
+    "seconds": 0.40633179200813174
+  },
+  "phase_seconds": {
+    "support_extensions": 11.6299828751944,
+    "full_multipliers": 0.9464336251839995,
+    "goppa": 0.40633179200813174
+  },
+  "seconds": 13.591016749851406
+}

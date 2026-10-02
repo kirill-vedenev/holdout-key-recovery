@@ -1,0 +1,75 @@
+{
+  "notebook": "04-alternant-odd.ipynb",
+  "status": "passed",
+  "sage_version": "10.7",
+  "family": "alternant",
+  "q": 11,
+  "m": 2,
+  "n": 45,
+  "k": 15,
+  "D": 29,
+  "seed": 0,
+  "heldout_position": 15,
+  "field_modulus": "x^2 + x + 1",
+  "recovery_inputs": "public generator and public parameters only",
+  "supplied_secret_jets": false,
+  "supplied_secret_tangents": false,
+  "holdout": {
+    "matrix_rows": 464,
+    "monomials": 455,
+    "kernel_dimension": 21,
+    "heldout_values_zero": true,
+    "seconds": 0.7466845838353038,
+    "polynomials_used": 21,
+    "ordinary_zero_count": 88,
+    "composition_degree_bound": 87
+  },
+  "branches": {
+    "gradient_rank": 12,
+    "gradient_nullity": 3,
+    "quadratic_rank": 1,
+    "quotient_dimension": 2,
+    "quadratic_family": "stationary forms",
+    "branches": 2
+  },
+  "jet": {
+    "continuation_rank": 13,
+    "ambiguity_dimension": 2,
+    "requested_depth": 57,
+    "recovered_depth": 57,
+    "first_full_span_order": 14,
+    "full_substitution": true,
+    "binary_normalization": false,
+    "seconds": 5.389708291739225
+  },
+  "direct": {
+    "multiplier_nullity": 1,
+    "public_grs_containment": true,
+    "form_degree": 2,
+    "jet_order": 57,
+    "numerator_space": 62,
+    "denominator_space": 63,
+    "square_root": false,
+    "recovered_positions": 45,
+    "distinct_support": true
+  },
+  "direct_public_check": {
+    "distinct_support": true,
+    "public_grs_containment": true,
+    "exact_public_subfield_code_equality": true
+  },
+  "direct_secret_check": {
+    "frobenius_power": 0,
+    "mobius_equivalence": true
+  },
+  "geometry_audit": {
+    "exact_holdout_curve_identities": true,
+    "audited_polynomials": 21,
+    "coherent_jet": true,
+    "coherent_coordinate_coefficients": 870,
+    "audited_frobenius_branch": 0,
+    "all_branches_match_secret_audit": true
+  },
+  "tampered_multiplier_rejected": true,
+  "total_seconds": 9.36001795809716
+}

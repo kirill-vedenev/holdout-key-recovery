@@ -1,0 +1,19 @@
+{
+  "status": "computed",
+  "heldout_positions": 1,
+  "gf4_rows": 12320,
+  "gf4_columns": 17550,
+  "gf2_rows": 24640,
+  "gf2_columns": 35100,
+  "rank_gf4": 11683,
+  "kernel_dimension_gf4": 5867,
+  "exported_polynomials": 256,
+  "packed_matrix_bytes": 108218880,
+  "openmp_enabled": true,
+  "requested_threads": 96,
+  "assembly_seconds": 0.148307,
+  "elimination_seconds": 1.89806,
+  "extraction_seconds": 0.0761142,
+  "total_seconds": 2.12248,
+  "kernel_byte_identical_to_instance_a": true
+}

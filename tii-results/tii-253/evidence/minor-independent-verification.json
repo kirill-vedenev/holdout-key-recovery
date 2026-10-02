@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "standard_library_only": true,
+  "sage_imported": false,
+  "all_square_root_minors_recomputed": true,
+  "all_pairs": 1035,
+  "minor_entries_compared": 122130,
+  "minor_rank": 90,
+  "length": 118,
+  "saved_basis_rank": 90,
+  "distinct_support": 118,
+  "all_grs_multipliers_nonzero": true,
+  "exact_minor_code_equals_recovered_grs": true,
+  "parity_inner_products_checked": 31500,
+  "minor_matrix_sha256": "8dd531a358d3e7e489a79eab0e9d10296e60ccc9c1467c6a0f94d2b98cc49ab4",
+  "seconds": 0.24360845796763897
+}

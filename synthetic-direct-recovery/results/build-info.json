@@ -1,0 +1,19 @@
+{
+  "implementation": "C++17, standard library only; Python 3 for summaries; SageMath only for the cross-check",
+  "source_sha256": {
+    "src/synthetic_direct.cpp": "882fef04ca43fdbcc985c4e64a7ccd521be19d9e1279b9857bea3a05355e139e"
+  },
+  "batch": {
+    "platform": "Linux x86_64, 96-core AMD EPYC",
+    "compiler": "g++ 15.2.0",
+    "flags": "-O3 -march=native -std=c++17 -Wall -Wextra",
+    "produced": "results/*.jsonl.gz"
+  },
+  "cross_check": {
+    "platform": "Darwin arm64",
+    "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+    "flags": "Makefile default",
+    "sage": "SageMath version 10.7, Release Date: 2025-08-09"
+  },
+  "reproducibility": "JSON lines are identical across both platforms apart from timings"
+}

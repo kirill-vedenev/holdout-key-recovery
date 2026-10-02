@@ -1,0 +1,36 @@
+{
+  "implementation": "C++17 with M4RI",
+  "recovery_requires_sage": false,
+  "recorded_execution_platform": "Linux x86_64",
+  "compiler": "g++ 15.2.0",
+  "parallel_m4ri_revision": "35f06e132363d12592cdd94c98473d36e736cef9",
+  "parallel_m4ri_archive_sha256": "14f4ce194f98c220ac28acc3d04805d94f366ebcad8f0ceaa3ef4112e7432040",
+  "recorded_profiles": {
+    "a": {
+      "openmp_enabled": false
+    },
+    "b": {
+      "openmp_enabled": true,
+      "thread_limit": 16
+    },
+    "c": {
+      "openmp_enabled": false
+    }
+  },
+  "parallel_configuration_check": {
+    "thread_limit": 96,
+    "kernel_byte_identity": true
+  },
+  "package_source_sha256": {
+    "Makefile": "6890360ec77f4ed4a3dbafcc299845b77bd73679d18b9fbbf38d85fa30c2ab5d",
+    "run.sh": "69aea7427ee5cf8bb8943f6b2a24cee8efbe94b21a1e9a2f245898cc0f063a63",
+    "build-openmp.sh": "e58a106db9d1e2200c2ea2e81f01846c22aef1f36881f89b4a2cb2fdb8b65910",
+    "verify.py": "cfcb7a0267e49a9730a89963dbfc4452cacc5ebf938036c5a394a40fd01453e0",
+    "src/holdout.cpp": "26fa543c5798c47d36a36da9facaa196280595186c23207eaa22403fce3c71e8",
+    "src/series.cpp": "a9b581dd3458e3e99628234718ab9d2fa633a5b1b36136bac90fdc6f179c0242",
+    "src/wild_goppa.cpp": "293423b40a464940503747f03768f7c80bae20391d262198e91963d5fa16708e",
+    "include/algebra.hpp": "4d91ff03ec0938487f700cc433eacdd3c180c40ec365998472a21631555c51af",
+    "include/public.hpp": "4424227ff5eecc57368c548f45595823ab7bd772f7193c65eec650e650730806",
+    "include/series_api.hpp": "ed809eba0810c33da4ff2212a7d436d7bb855e8310ec65616ad60b42a214a726"
+  }
+}

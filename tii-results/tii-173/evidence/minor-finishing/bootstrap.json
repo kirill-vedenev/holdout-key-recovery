@@ -1,0 +1,288 @@
+{
+  "public_only": true,
+  "input_files": [
+    "public.json",
+    "deep-jets-0.json"
+  ],
+  "parameters": {
+    "m": 7,
+    "n": 91,
+    "t": 8,
+    "k": 35,
+    "D": 74
+  },
+  "seed_position": 0,
+  "seed_depth_used": 58,
+  "seed_depth_available": 296,
+  "ordinary_interpolation_bound_satisfied": true,
+  "coefficient_field_order": 128,
+  "square_monomials_included": true,
+  "quadratic_unknowns": 630,
+  "constraint_rows": 149,
+  "constraint_rank": 141,
+  "quadratic_ideal_dimension": 489,
+  "all_saved_jet_contacts_satisfied": true,
+  "prefix_rank_profile": [
+    {
+      "depth": 0,
+      "rank": 91
+    },
+    {
+      "depth": 1,
+      "rank": 92
+    },
+    {
+      "depth": 2,
+      "rank": 93
+    },
+    {
+      "depth": 3,
+      "rank": 94
+    },
+    {
+      "depth": 4,
+      "rank": 95
+    },
+    {
+      "depth": 5,
+      "rank": 96
+    },
+    {
+      "depth": 6,
+      "rank": 97
+    },
+    {
+      "depth": 7,
+      "rank": 98
+    },
+    {
+      "depth": 8,
+      "rank": 99
+    },
+    {
+      "depth": 9,
+      "rank": 100
+    },
+    {
+      "depth": 10,
+      "rank": 101
+    },
+    {
+      "depth": 11,
+      "rank": 102
+    },
+    {
+      "depth": 12,
+      "rank": 103
+    },
+    {
+      "depth": 13,
+      "rank": 104
+    },
+    {
+      "depth": 14,
+      "rank": 105
+    },
+    {
+      "depth": 15,
+      "rank": 106
+    },
+    {
+      "depth": 16,
+      "rank": 107
+    },
+    {
+      "depth": 17,
+      "rank": 108
+    },
+    {
+      "depth": 18,
+      "rank": 109
+    },
+    {
+      "depth": 19,
+      "rank": 110
+    },
+    {
+      "depth": 20,
+      "rank": 111
+    },
+    {
+      "depth": 21,
+      "rank": 112
+    },
+    {
+      "depth": 22,
+      "rank": 113
+    },
+    {
+      "depth": 23,
+      "rank": 114
+    },
+    {
+      "depth": 24,
+      "rank": 115
+    },
+    {
+      "depth": 25,
+      "rank": 116
+    },
+    {
+      "depth": 26,
+      "rank": 117
+    },
+    {
+      "depth": 27,
+      "rank": 118
+    },
+    {
+      "depth": 28,
+      "rank": 119
+    },
+    {
+      "depth": 29,
+      "rank": 120
+    },
+    {
+      "depth": 30,
+      "rank": 121
+    },
+    {
+      "depth": 31,
+      "rank": 122
+    },
+    {
+      "depth": 32,
+      "rank": 123
+    },
+    {
+      "depth": 33,
+      "rank": 124
+    },
+    {
+      "depth": 34,
+      "rank": 125
+    },
+    {
+      "depth": 35,
+      "rank": 126
+    },
+    {
+      "depth": 36,
+      "rank": 127
+    },
+    {
+      "depth": 37,
+      "rank": 128
+    },
+    {
+      "depth": 38,
+      "rank": 129
+    },
+    {
+      "depth": 39,
+      "rank": 130
+    },
+    {
+      "depth": 40,
+      "rank": 131
+    },
+    {
+      "depth": 41,
+      "rank": 132
+    },
+    {
+      "depth": 42,
+      "rank": 133
+    },
+    {
+      "depth": 43,
+      "rank": 134
+    },
+    {
+      "depth": 44,
+      "rank": 135
+    },
+    {
+      "depth": 45,
+      "rank": 136
+    },
+    {
+      "depth": 46,
+      "rank": 137
+    },
+    {
+      "depth": 47,
+      "rank": 138
+    },
+    {
+      "depth": 48,
+      "rank": 139
+    },
+    {
+      "depth": 49,
+      "rank": 140
+    },
+    {
+      "depth": 50,
+      "rank": 141
+    },
+    {
+      "depth": 51,
+      "rank": 141
+    },
+    {
+      "depth": 52,
+      "rank": 141
+    },
+    {
+      "depth": 53,
+      "rank": 141
+    },
+    {
+      "depth": 54,
+      "rank": 141
+    },
+    {
+      "depth": 55,
+      "rank": 141
+    },
+    {
+      "depth": 56,
+      "rank": 141
+    },
+    {
+      "depth": 57,
+      "rank": 141
+    },
+    {
+      "depth": 58,
+      "rank": 141
+    }
+  ],
+  "first_depth_attaining_final_rank": 50,
+  "gradient_rank_counts": {
+    "33": 91
+  },
+  "tangent_dimension_counts": {
+    "2": 91
+  },
+  "bootstrap_seconds": 2.0851859590038657,
+  "minor": {
+    "rows": 595,
+    "length": 91,
+    "rank": 66,
+    "predicted_binary_goppa_dimension": 66,
+    "all_pairs_used": true,
+    "construction_seconds": 0.06545791681855917
+  },
+  "recovered_subfield_code_dimension": 35,
+  "recovered_subfield_code_equals_public_code": true,
+  "public_grs_recovery": {
+    "support_recovered": true,
+    "exact_grs_row_space_verified": true,
+    "ambient_public_embedding_verified": true,
+    "seconds": 0.2085281671024859
+  },
+  "total_seconds": 2.4120057499967515
+}

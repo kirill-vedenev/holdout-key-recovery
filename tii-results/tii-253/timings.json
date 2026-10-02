@@ -1,0 +1,224 @@
+{
+  "schema": "tii-hardware-and-timings-v1",
+  "compiled_date": "2026-10-02",
+  "recovery_rerun_for_documentation": false,
+  "units": "seconds unless stated otherwise",
+  "scope": "Successful recorded computations; measured enclosing intervals and their component timers must not be added together.",
+  "instance": "TII-253",
+  "hardware": {
+    "holdout_gpu_model": "NVIDIA H200 NVL",
+    "holdout_gpus_per_stage": 1,
+    "cuda_toolkit": "13.3",
+    "cado_cpu_model": "AMD EPYC-Genoa Processor",
+    "cado_cpu_logical_cpus": 96,
+    "cado_cpu_reported_cores": 48,
+    "cado_cpu_threads_per_reported_core": 2,
+    "cado_cpu_hypervisor": "KVM",
+    "cpu_topology_note": "Guest-reported topology, not a measurement of physical host allocation; do not describe this as 96 physical Ryzen cores.",
+    "cado_threads_used": 48,
+    "cado_cpu_thread_grid": "48x1",
+    "numa_interleave": true,
+    "local_recovery_platform": "local macOS ARM64 (archived native helper is Mach-O arm64)",
+    "sage_version": "10.7",
+    "local_native_series_threads": 4,
+    "local_cpu_model": null
+  },
+  "holdout": {
+    "completed_date": "2026-10-01",
+    "verified_polynomials": 280,
+    "gpu_sequence_seconds": 24326.5877458,
+    "cpu_generator_successful_stage_seconds": 14132.623340080001,
+    "gpu_reconstruction_and_acceptance_seconds": 11580.988981470931,
+    "gpu_numerical_worker_seconds": 11558.8857213,
+    "cpu_all_order_verification_seconds": 19.3935297159,
+    "gpu_worker_and_cpu_verification_are_included_in_reconstruction_stage": true,
+    "successful_stage_sum_seconds": 50040.20006735093,
+    "sum_is_contiguous_wall_time": false,
+    "excluded_from_sum": [
+      "alternative seed sequence",
+      "interrupted CPU attempts",
+      "transfers",
+      "scheduling gaps",
+      "validation experiments",
+      "local key recovery"
+    ]
+  },
+  "local_recovery": {
+    "successful_frontend_phase_wall_seconds": {
+      "compile": 1.4217257923446596,
+      "native-degree-six-validation": 9.990892709232867,
+      "jet": 15.382743834052235,
+      "bootstrap": 6.012225207872689
+    },
+    "successful_finish_phase_wall_seconds": {
+      "retained-support": 3.7350018341094255,
+      "full-substitution": 11.103417084086686,
+      "coherence": 7.4214515830390155,
+      "geometry": 17.815586207900196,
+      "full-support": 12.843926666304469,
+      "independent-verification": 0.41222020937129855
+    },
+    "successful_frontend_finish_sum_seconds": 86.13919112831354,
+    "timing_boundary": "Sum of successful frontend/finish commands including Sage startup, helper compilation and native validation. Starts from already prepared first-jet tensors and branches. Excludes their preparation, separately run minor verification, failed geometry attempt, and gaps between commands.",
+    "separate_initial_panel_encoding_check_internal_seconds": 12.364616124890745,
+    "separate_first_jet_criterion_internal_seconds": 1.7999631250277162,
+    "separate_independent_minor_check_internal_seconds": 0.24360845796763897,
+    "complete_contiguous_wall_time_seconds": null,
+    "direct_finishing_2026_10_02": {
+      "hardware": {
+        "platform": "Darwin",
+        "architecture": "arm64",
+        "cpu_model": null,
+        "cpu_model_note": "CPU model and core topology were unavailable to the experiment process; no model is inferred from other hosts.",
+        "sage_version": "SageMath version 10.7, Release Date: 2025-08-09",
+        "standalone_python_version": "3.13.7",
+        "sage_python_version": "3.13.3",
+        "numpy_version": "2.2.4"
+      },
+      "reused_initial_jet_depth": 82,
+      "target_jet_depth": 198,
+      "jet_internal_seconds_including_prefix_verification": 83.25992295797914,
+      "prefix_verification_included_seconds": 22.050651332829148,
+      "direct_support_internal_seconds": 2.6630342500284314,
+      "full_key_internal_seconds": 13.75418495759368,
+      "independent_full_key_internal_seconds": 0.2958374577574432,
+      "phase_wall_seconds_excluding_jet": {
+        "direct-support": 7.470272957812995,
+        "direct-full-key": 18.110095041804016,
+        "independent-full-key": 0.37352270912379026
+      },
+      "timing_boundary": "Jet timer includes cache setup, prefix verification and continuation but excludes Sage startup; later phase wall timers include process/Sage startup. No combined full-pipeline wall time is claimed.",
+      "holdout_recomputed": false
+    }
+  },
+  "sources": [
+    {
+      "archive_path": "tii-experimants/tii-253/server-backup-20261001/tii-253/runs/tii-253-pos0-k46/gpu-sequence-0000-36846/result.json",
+      "sha256": "ad3bf355d6dc039df529044834c321bccac33cae9517449208da78ce4f3adbac",
+      "recorded_fields": {
+        "wall_seconds": 24326.5877458,
+        "term_count": 36846,
+        "seed_y": 25320260930
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/cpu-part2-20261001/production-seed0/result.json",
+      "sha256": "6c42d5387b6450cbe549deebea44f21ad5d596b044ce214ce9efb4524f4f0d84",
+      "recorded_fields": {
+        "elapsed_seconds": 14132.623340080001,
+        "coefficient_count": 17900
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/result.json",
+      "sha256": "55c740fd74329d8f0cafd17c9a44dcc7f94aa9363ad3649df1d64d2f8d26dc6a",
+      "recorded_fields": {
+        "elapsed_seconds": 11580.988981470931,
+        "independent_polynomials": 280
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/reconstruction/recovery-result.json",
+      "sha256": "083437019f783e5034f289767cdb1e585277e81a1c08883a0f146b598f05a6be",
+      "recorded_fields": {
+        "wall_seconds": 11558.8857213
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/cpu-verification.json",
+      "sha256": "56e21231eecf698f78a27f54681b401fea54e556b9fe9dad519f2db949cea6e3",
+      "recorded_fields": {
+        "seconds": 19.3935297159
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/cpu-part2-20261001/machine.json",
+      "sha256": "c353a79099b5df580a37afb182425f91630be507e278cd3e9b9f895ca1773fde",
+      "selected_cpu_fields": {
+        "Model name:": "AMD EPYC-Genoa Processor",
+        "CPU(s):": "96",
+        "Thread(s) per core:": "2",
+        "Core(s) per socket:": "24",
+        "Socket(s):": "2",
+        "Hypervisor vendor:": "KVM",
+        "NUMA node(s):": "2"
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/gpu-part3-20261001/machine.json",
+      "sha256": "989f143b09ddfd58eaf81e47ea3fd8ffb0daf26ff11fce999fa3a8931d40eba7",
+      "note": "GPU identifies NVIDIA H200 NVL; CUDA compiler identifies toolkit 13.3. Host identifiers and GPU UUID omitted."
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/cpu-part2-20261001/run-config.json",
+      "sha256": "dd62fafe6093ecbd8a2e189f5579d1fa2bee73d1afa8d0246c6f076f7c407a10",
+      "recorded_fields": {
+        "threads": 48,
+        "numa_interleave": true
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/frontend-timings.json",
+      "sha256": "ea4cd85d57649cfd72bc84799d258f4d7677bdd163026ba27477eeaeb7cbf0be",
+      "recorded_fields": {
+        "compile": 1.4217257923446596,
+        "native-degree-six-validation": 9.990892709232867,
+        "jet": 15.382743834052235,
+        "bootstrap": 6.012225207872689
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/finish-timings.json",
+      "sha256": "bdd7e81728b02ddaa85df82d965a0221d4a01c4a8939c25f738d1ca1834f366f",
+      "recorded_fields": {
+        "retained-support": 3.7350018341094255,
+        "full-substitution": 11.103417084086686,
+        "coherence": 7.4214515830390155,
+        "geometry": 17.815586207900196,
+        "full-support": 12.843926666304469,
+        "independent-verification": 0.41222020937129855
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/jet-criterion-20261001/results/input-encoding-verification.json",
+      "sha256": "78474b0c1b536b760e78123e61d1ddd11debcf23e8a9236775883fab5f6492ce",
+      "recorded_fields": {
+        "seconds": 12.364616124890745
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/jet-criterion-20261001/results/criterion.json",
+      "sha256": "1b8a112f482b1400273d6c5c0ed5326e4021d3489448b60577b8e9c1b3e037f6",
+      "recorded_fields": {
+        "seconds": 1.7999631250277162
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/minor-independent-verification.json",
+      "sha256": "dad40d87c1f0a8e0927c71cf1c55488d9d642b983eba8c351ae0123eed3e6be7",
+      "recorded_fields": {
+        "seconds": 0.24360845796763897
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-253/recovery/direct-20261002/SUCCESS.json",
+      "sha256": "50181a014c55933e239639ca889f355c384f735e1650016265d0a7d941c29b67",
+      "recorded_fields": {
+        "status": "success",
+        "jet_internal_seconds": 83.25992295797914,
+        "direct_support_internal_seconds": 2.6630342500284314,
+        "full_key_internal_seconds": 13.75418495759368,
+        "phase_wall_seconds_excluding_jet": {
+          "direct-support": 7.470272957812995,
+          "independent-retained-support": 0.10186379170045257,
+          "direct-full-key": 18.110095041804016,
+          "independent-full-key": 0.37352270912379026,
+          "full-jet-substitution": 63.31180587504059,
+          "coherence": 17.95205608289689,
+          "direct-geometry": 8.284456791821867,
+          "finishing-comparison": 4.445999166928232
+        }
+      }
+    }
+  ]
+}

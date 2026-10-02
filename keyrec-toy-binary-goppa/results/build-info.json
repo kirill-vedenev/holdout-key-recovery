@@ -1,0 +1,26 @@
+{
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "sage_interpreter_used": false,
+  "m4ri_library_sha256": "637d1a64b00834059bfd4764fa81f58569feb394bc8f42a774e34384055d7a82",
+  "source_sha256": {
+    "Makefile": "4b19c76e00a246e5b22fdac85f915d6f56b2b526cc48761d90d0bf4962134d8d",
+    "run.sh": "fda56678914d70ff449282f6ee225fa15a8f87ebf08a08e16688c37425f7aceb",
+    "verify.py": "0519b165f945c1508a237d70d9282b74b47992433a4e81f82d7cf7e765f00edf",
+    "src/holdout.cpp": "354ed46b01a514a7ceb7136ba0fcb1a4e555abb5df71d05e482be728b1960034",
+    "src/toy_goppa.cpp": "6f848548de94a7ef008526e7debc341e51d4ad675821bba90992b6f396bcc1a2",
+    "include/algebra.hpp": "4d91ff03ec0938487f700cc433eacdd3c180c40ec365998472a21631555c51af",
+    "include/series_api.hpp": "ed809eba0810c33da4ff2212a7d436d7bb855e8310ec65616ad60b42a214a726"
+  },
+  "binary_sha256": {
+    "holdout": "f14c3dcd5ff3f82bab44d84df3c4cc5e88607af8164e737aaee516b99c64d57a",
+    "toy-goppa": "16b7c0f9a219ca3eb2fff5367f873987c5e68b5733441bfe7bd3ace615bdd9e9"
+  },
+  "build_configuration": {
+    "standard": "C++17",
+    "optimization": "-O3",
+    "dependency": "M4RI",
+    "installation_prefix": "supplied through M4RI_PREFIX or pkg-config"
+  }
+}

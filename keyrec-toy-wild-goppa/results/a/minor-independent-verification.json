@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "public_only": true,
+  "independent_of_recovery": true,
+  "support_count": 63,
+  "distinct_finite_support": true,
+  "radical_degree": 4,
+  "radical_irreducible": true,
+  "alternant_rank": 36,
+  "goppa_cube_rank": 36,
+  "goppa_fourth_power_rank": 36,
+  "exact_public_code_equality": true,
+  "multiplier_fourth_power_identity": true,
+  "public_sha256": "cb014c873e17ce3e08b67ae33b1dcefbab84bc82a231e036ff605e2e1235f80f",
+  "recovered_key_sha256": "5f51e5b650b96d01b23afed6925800424fc8f84f58f391ec53aeeaf419011b04",
+  "seconds": 0.019595582969486713
+}

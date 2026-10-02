@@ -1,0 +1,160 @@
+{
+  "schema": "tii-packaging-checks-v1",
+  "date": "2026-10-02",
+  "instances": [
+    {
+      "instance": "tii-173",
+      "public_key_sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+      "recovered_key_sha256": "199b86a67e6b08573a680ca5bf80a842b6887563c27362d5743151d0afcc4d94",
+      "extension_field_matches_public_key": true,
+      "saved_key_independent_verifier_passed": true,
+      "kernel_concatenation_matches_original_sha256": true,
+      "restored_panel_and_monomial_map_match_original_sha256": null,
+      "support_count": 96,
+      "goppa_degree": 8
+    },
+    {
+      "instance": "tii-249",
+      "public_key_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+      "recovered_key_sha256": "af36239199dce026fd0e5a369a8cca63cff0e1ba8acddf43c0648383a300f6c5",
+      "extension_field_matches_public_key": true,
+      "saved_key_independent_verifier_passed": true,
+      "kernel_concatenation_matches_original_sha256": true,
+      "restored_panel_and_monomial_map_match_original_sha256": true,
+      "support_count": 235,
+      "goppa_degree": 16
+    },
+    {
+      "instance": "tii-253",
+      "public_key_sha256": "a66ac1368bd6d311838e3a255c2d12766818731739c53d1ec79a46c8838ee793",
+      "recovered_key_sha256": "64519299a81859bc5779c1bedb3fe53ec5b28af36f9ddcf3a5577b606cef2c5d",
+      "extension_field_matches_public_key": true,
+      "saved_key_independent_verifier_passed": true,
+      "kernel_concatenation_matches_original_sha256": true,
+      "restored_panel_and_monomial_map_match_original_sha256": true,
+      "support_count": 214,
+      "goppa_degree": 9
+    }
+  ],
+  "holdout_rerun": false,
+  "python_syntax_files_checked": 46,
+  "json_files_parsed": 220,
+  "local_documentation_links_checked": 67,
+  "shell_instruction_blocks_syntax_checked": 35,
+  "copied_file_provenance_hashes_verified": true,
+  "historical_source_hashes_verified": true,
+  "holdout_make_recipes_dry_run_passed": true,
+  "maximum_distributed_file_bytes": 33554432,
+  "no_server_orchestration_or_downloading_scripts": true,
+  "limitations": [
+    "GPU holdout computations were not repeated.",
+    "Original archived finishing runs were preserved; an additional TII-253 direct finishing was executed from the saved public prefix on 2026-10-02.",
+    "The relocated reproduction commands were checked for paths and syntax; the packaged direct sources are identical to those executed in the completed experiment."
+  ],
+  "post_review_verification": {
+    "date": "2026-10-02",
+    "status": "passed",
+    "execution_scope": "Verification against saved artifacts; no holdout generation, jet continuation, bootstrap recovery, or full-key recovery entry point was executed.",
+    "recovery_rerun": false,
+    "holdout_rerun": false,
+    "checksum_manifests_exclude_finder_metadata_and_generated_files": true,
+    "results": {
+      "tii-173": {
+        "full_key_verified": true,
+        "independent_hasse_rank": 256,
+        "all_original_hasse_orders_verified": true,
+        "reports": {
+          "tii173-key.json": "c534eac97e9137553f3dc2dff41d48902bda172744d6127ed586b8464ab6abb7",
+          "tii173-hasse.json": "aa4a8bf2ff35f376fa314d8c4a3ce181cf6e2bfed99cca4f735ee5e6e366c8c9"
+        },
+        "thk1_to_whk1_roundtrip_exact": true,
+        "archived_thk1_sha256": "a1572050cf858742af5c496f0416b7bb56b8f44c52b817848904a30fa144d6e6",
+        "curve_identity_forms": 256,
+        "coherent_jet_coefficients": 10395,
+        "chain_report_sha256": "9caa3885c918adfaa0907b1a76054779d64e2bee790c3ef98f82279bc09851f1"
+      },
+      "tii-249": {
+        "full_key_verified": true,
+        "independent_hasse_rank": 280,
+        "all_original_hasse_orders_verified": true,
+        "reports": {
+          "tii249-key.json": "ea3f432dd5d47240fdce78f8b97bc1d01c07a83cf510c81840885bfc4e6c84d9",
+          "tii249-hasse.json": "350320fce8948485d38c889d0bdf6bbb659d05476b648814a7fd8067b5525c69"
+        },
+        "extension_candidates_verified": 4503,
+        "retained_public_code_equality_verified": true,
+        "coherent_jet_coefficients": 14550,
+        "coherence_report_sha256": "4ee4571f08fcf174c393e5ac313a782a1fff2cce153eb6fc4508f301d7afb2b0"
+      },
+      "tii-253": {
+        "full_key_verified": true,
+        "independent_hasse_rank": 280,
+        "all_original_hasse_orders_verified": true,
+        "reports": {
+          "tii253-key.json": "7c81e3a69295fc5fc118cdcaf3cbb40b4c970f6e7d3a9ed8658c9183fce7b734",
+          "tii253-hasse.json": "6ee0d8b7cc67844ac92bb660b186fb7929bd4e62cf1375c265bb922685edc081"
+        },
+        "extension_candidates_verified": 13344,
+        "minor_entries_checked": 122130,
+        "minor_code_rank": 90,
+        "full_substitution_equalities": 23240,
+        "coherent_jet_coefficients": 3818,
+        "global_quadrics": 891,
+        "holdout_curve_identity_certified": true,
+        "geometry_report_sha256": "5c13037d57e20f7692398782801fe34167748a2de2d0b9922a65d6fee9babcf8"
+      }
+    },
+    "original_documentation_run": {
+      "document_sha256": "fc371bef63cd1b0b127c1a41ff91b7da456ed3ce539e8e1777fcc530c58fa49b",
+      "all_eight_shell_blocks_executed": true
+    },
+    "instructions": [
+      "tii-173/README.md#optional-audits-of-saved-results",
+      "tii-249/README.md#optional-audits-of-saved-results",
+      "tii-253/README.md#optional-audits-of-saved-results"
+    ],
+    "documentation_reorganization": {
+      "date": "2026-10-02",
+      "separate_verification_document_removed": true,
+      "computational_source_unchanged": true,
+      "audit_commands_preserved_by_instance": true,
+      "setup_paths_and_shell_syntax_checked": true,
+      "recovery_rerun": false
+    }
+  },
+  "archived_minor_finishing_addition": {
+    "date": "2026-10-02",
+    "instances": [
+      "tii-173",
+      "tii-249"
+    ],
+    "public_and_jet_inputs_match_direct_runs": true,
+    "archived_outputs_copied_without_recomputation": true,
+    "helper_function_definitions_match_original_source": true,
+    "saved_support_comparisons_rechecked": true,
+    "moebius_equivalent": true,
+    "frobenius_powers_matching": [
+      0
+    ],
+    "finishing_rerun": false,
+    "full_key_extension_rerun": false,
+    "tii_253_direct_finishing": "Added successfully on 2026-10-02; see new_finishing_experiments."
+  },
+  "original_recovery_runs_repeated": false,
+  "new_finishing_experiments": [
+    {
+      "instance": "TII-253",
+      "route": "direct",
+      "date": "2026-10-02",
+      "status": "success",
+      "holdout_recomputed": false,
+      "prefix_depth": 82,
+      "jet_depth": 198,
+      "full_support_count": 214,
+      "goppa_degree": 9,
+      "final_public_key_verification_passed": true,
+      "distribution_key_matches_verified_experiment_bytes": true,
+      "result_summary": "../tii-results/tii-253/evidence/direct-finishing/result-summary.json"
+    }
+  ]
+}

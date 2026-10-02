@@ -1,0 +1,114 @@
+{
+  "schema": "tii-hardware-and-timings-v1",
+  "compiled_date": "2026-10-02",
+  "recovery_rerun_for_documentation": false,
+  "units": "seconds unless stated otherwise",
+  "scope": "Successful recorded computations; measured enclosing intervals and their component timers must not be added together.",
+  "instance": "TII-173",
+  "hardware": {
+    "holdout_gpu_model": "NVIDIA H200 NVL",
+    "holdout_gpu_count": 2,
+    "cuda_toolkit": "13.3",
+    "cuda_arch": 90,
+    "gpu_reported_memory_mib_each": 143771,
+    "holdout_cpu_verifier_threads": 16,
+    "local_recovery_platform": "local macOS ARM64",
+    "sage_version": "10.7",
+    "local_cpu_model": null,
+    "local_cpu_model_note": "Exact CPU model was not recorded in the archived recovery summary."
+  },
+  "holdout": {
+    "completed_date": "2026-09-30",
+    "verified_polynomials": 256,
+    "full_run_including_verification_and_export_seconds": 175.71286463737488,
+    "gpu_elimination_including_checkpoints_seconds": 172.539936171,
+    "cpu_all_order_verification_seconds": 0.553158188995,
+    "component_timers_are_included_in_full_run": true
+  },
+  "local_recovery": {
+    "record_type": "first successful run; internal stage timers",
+    "normalized_jet_including_substitution_seconds": 67.40532491682097,
+    "direct_curve_core_seconds": 2.012229333166033,
+    "deshortening_and_key_checks_seconds": 1.0210616658441722,
+    "chain_audit_seconds": 63.682777625042945,
+    "independent_key_verification_seconds": 0.005995083134621382,
+    "complete_wall_time_seconds": null,
+    "timing_boundary": "Stage timers exclude Sage startup and compilation; the direct-curve core timer also excludes surrounding public-column validation. No complete local wall time is recorded.",
+    "archived_minor_finishing": {
+      "date": "2026-10-01",
+      "total_internal_seconds": 2.4120057499967515,
+      "bootstrap_seconds": 2.0851859590038657,
+      "minor_construction_seconds": 0.06545791681855917,
+      "grs_support_recovery_seconds": 0.2085281671024859,
+      "bootstrap_depth": 58,
+      "saved_jet_depth": 296,
+      "minor_length": 91,
+      "minor_rank": 66,
+      "excludes": [
+        "Sage startup",
+        "shared holdout and jet acquisition",
+        "full-key extension"
+      ],
+      "full_key_extension_rerun": false
+    }
+  },
+  "sources": [
+    {
+      "archive_path": "tii-experimants/validation/deployment.json",
+      "sha256": "6f9725597c548b90dba9a6ff4826f15c97f61f727bc65166946c76007833895d",
+      "recorded_fields": {
+        "elapsed_wall_seconds": 175.71286463737488,
+        "observed_rank": 312551,
+        "observed_nullity": 12081,
+        "verified_independent_elements": 256
+      }
+    },
+    {
+      "archive_path": "tii-experimants/runs/tii-173-pos0/native/solver.json",
+      "sha256": "764d211546221f18aaf35a8da96c0246a1b5d0c10fa06d0f8106911e835b6d77",
+      "recorded_fields": {
+        "elimination_seconds_this_invocation": 172.539936171
+      }
+    },
+    {
+      "archive_path": "tii-experimants/runs/tii-173-pos0/verification.json",
+      "sha256": "d11cb488b7803597dec20f6300700158d13ee2e5ab93c42f9a6e60a20710e30e",
+      "recorded_fields": {
+        "seconds": 0.553158188995
+      }
+    },
+    {
+      "archive_path": "tii-experimants/validation/server-preflight.json",
+      "sha256": "af77bec4e0cf365304d0be03f3c175003daa4452e3e7566d919cfea2ea519c64",
+      "recorded_fields": {
+        "nvidia_smi": "0, NVIDIA H200 NVL, 143771 MiB, 615.71.09\n1, NVIDIA H200 NVL, 143771 MiB, 615.71.09\n",
+        "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Tue_Jun_09_02:43:40_PM_PDT_2026\nCuda compilation tools, release 13.3, V13.3.73\nBuild cuda_13.3.r13.3/compiler.38244171_0\n"
+      }
+    },
+    {
+      "archive_path": "tii-experimants/recovery/SUCCESS.json",
+      "sha256": "1f384a3ac9477e806521e0d20b3f3df41d2956962ba9ec35e8bf57c370684556",
+      "recorded_fields": {
+        "runtime": {
+          "host": "local macOS ARM64",
+          "sage": "10.7",
+          "gpu_used_for_recovery": false,
+          "normalized_jet_including_substitution_seconds": 67.40532491682097,
+          "direct_curve_core_seconds": 2.012229333166033,
+          "deshortening_and_key_checks_seconds": 1.0210616658441722,
+          "chain_audit_seconds": 63.682777625042945,
+          "independent_key_verification_seconds": 0.005995083134621382
+        }
+      }
+    },
+    {
+      "archive_path": "tii-experimants/route2-bootstrap/tii-173/bootstrap.json",
+      "sha256": "7fad7e98f2920b798b6bdbd1a060cf8a7d24ca2f24f9e6ae7e07e4ebe9818050",
+      "recorded_fields": {
+        "seed_depth_used": 58,
+        "seed_depth_available": 296,
+        "total_seconds": 2.4120057499967515
+      }
+    }
+  ]
+}

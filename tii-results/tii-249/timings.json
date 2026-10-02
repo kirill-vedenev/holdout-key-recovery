@@ -1,0 +1,171 @@
+{
+  "schema": "tii-hardware-and-timings-v1",
+  "compiled_date": "2026-10-02",
+  "recovery_rerun_for_documentation": false,
+  "units": "seconds unless stated otherwise",
+  "scope": "Successful recorded computations; measured enclosing intervals and their component timers must not be added together.",
+  "instance": "TII-249",
+  "hardware": {
+    "holdout_gpu_model": "NVIDIA H200",
+    "holdout_gpus_per_stage": 1,
+    "cado_cpu_thread_grid": "4x8",
+    "cado_cpu_grid_product": 32,
+    "cado_cpu_model": null,
+    "cado_cpu_model_note": "The accepted manifest records the thread grid but no CPU model; the separate TII-253 CPU machine record is not assigned to this stage.",
+    "independent_hasse_verifier_threads": 32,
+    "local_recovery_platform": "local macOS ARM64 (archived native helper is Mach-O arm64)",
+    "sage_version": "10.7",
+    "local_native_series_threads": 4,
+    "local_cpu_model": null
+  },
+  "holdout": {
+    "completed_date": "2026-09-30",
+    "verified_polynomials": 280,
+    "gpu_sequence_approximate_seconds": 1620,
+    "gpu_sequence_precision": "Approximately 27 minutes in the contemporaneous README; a precise full-size sequence timer was not located in the retained records.",
+    "accepted_solve_reconstruction_verification_pipeline_seconds": 2143.418105863966,
+    "gpu_reconstruction_seconds": 680.471957522,
+    "cpu_all_order_verification_seconds": 3.97974949202,
+    "gpu_reconstruction_and_cpu_verification_are_included_in_pipeline": true,
+    "standalone_cado_seconds": null,
+    "standalone_cado_note": "Not separately timed in the retained accepted record; do not label pipeline-minus-reconstruction as pure CADO time.",
+    "approximate_successful_stage_sum_seconds": 3763.418105863966,
+    "sum_is_approximate": true,
+    "excluded_from_sum": [
+      "superseded attempts",
+      "validation experiments",
+      "transfers",
+      "scheduling gaps",
+      "local key recovery"
+    ]
+  },
+  "local_recovery": {
+    "first_run_jet_support_internal_stage_seconds": {
+      "local_branches": 2.6130721657536924,
+      "deep_jet": 33.271253916900605,
+      "direct_support": 4.310791624709964,
+      "coherence_audit": 28.918366375379264,
+      "independent_verification": 0.08351737493649125
+    },
+    "first_full_recovery_seconds": 13.591016749851406,
+    "first_full_key_independent_verification_seconds": 0.42261216696351767,
+    "archived_reproduction_jet_support_module_seconds": 89.2732041659765,
+    "archived_reproduction_jet_support_phase_wall_seconds": {
+      "exact-hasse-tensors": 0.8521668752655387,
+      "native-validation": 8.361095916014165,
+      "local-branches": 5.4595919591374695,
+      "deep-jet": 36.59372479096055,
+      "direct-support": 7.103579374961555,
+      "independent-verification": 0.1392479999922216,
+      "coherence-audit": 30.647506000008434
+    },
+    "archived_reproduction_full_key_module_seconds": 18.506090374663472,
+    "archived_reproduction_full_key_phase_wall_seconds": {
+      "ikz-recovery": 18.021670749876648,
+      "independent-verification": 0.48356354190036654
+    },
+    "archived_reproduction_module_sum_seconds": 107.77929454063997,
+    "timing_boundary": "The two already archived reproduction-module wall times include Sage startup and their recorded checks. They exclude the holdout and native-helper compilation. No new reproduction was performed.",
+    "archived_minor_finishing": {
+      "date": "2026-10-01",
+      "total_internal_seconds": 7.087328624911606,
+      "bootstrap_seconds": 5.849155208095908,
+      "minor_construction_seconds": 0.26962237479165196,
+      "grs_support_recovery_seconds": 0.759973166976124,
+      "bootstrap_depth": 113,
+      "saved_jet_depth": 290,
+      "minor_length": 178,
+      "minor_rank": 129,
+      "excludes": [
+        "Sage startup",
+        "shared holdout and jet acquisition",
+        "full-key extension"
+      ],
+      "full_key_extension_rerun": false
+    }
+  },
+  "sources": [
+    {
+      "archive_path": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/result-summary.json",
+      "sha256": "18452e59dc324c4bc60df7f8a55369968fe307b72a5bc56c519f1cefa8523042",
+      "recorded_fields": {
+        "optimized_pipeline_seconds": 2143.418105863966,
+        "gpu_reconstruction_seconds": 680.471957522
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/cpu-verification.json",
+      "sha256": "577b9e6ab78c17d539026dfe9b8bd868419e6fa4fe5e4712e2b830d7f654c388",
+      "recorded_fields": {
+        "seconds": 3.97974949202
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/README.md",
+      "sha256": "83c800b8d0ebe8247114af9d0c206340fedd58368ef7d2ba08d54ee4e8c4fe01",
+      "note": "Reports earlier approximately 27-minute GPU sequence generation, excluded from the optimized pipeline timer."
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/manifest.json",
+      "sha256": "b9ba8673009f50f0eea2868e8e7253bd6f880e1832c87a38c686077e00cdeea7",
+      "note": "Accepted CADO command: thr=4x8; numerical source and input identities retained."
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/recovery/jet-support/SUCCESS.json",
+      "sha256": "2c221387eb4cde356ba2781583dbbb78178f588bd01286e2776ac2a1d5d92807",
+      "recorded_fields": {
+        "first_run_stage_seconds": {
+          "local_branches": 2.6130721657536924,
+          "deep_jet": 33.271253916900605,
+          "direct_support": 4.310791624709964,
+          "coherence_audit": 28.918366375379264,
+          "independent_verification": 0.08351737493649125
+        }
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/recovery/ikz-full/SUCCESS.json",
+      "sha256": "10adb77053760c3323199557585b70fdc61bd7049e8aeb7cf267aa5da8055b4f",
+      "recorded_fields": {
+        "first_recovery_seconds": 13.591016749851406,
+        "independent_verification_seconds": 0.42261216696351767
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/recovery/jet-support/reproduction-check/SUCCESS.json",
+      "sha256": "653e347a7254eac8bcdfde9447ae802c7a157607d90f71cf2c07574ec4e4a5fa",
+      "recorded_fields": {
+        "phase_wall_seconds": {
+          "exact-hasse-tensors": 0.8521668752655387,
+          "native-validation": 8.361095916014165,
+          "local-branches": 5.4595919591374695,
+          "deep-jet": 36.59372479096055,
+          "direct-support": 7.103579374961555,
+          "independent-verification": 0.1392479999922216,
+          "coherence-audit": 30.647506000008434
+        },
+        "total_seconds": 89.2732041659765
+      }
+    },
+    {
+      "archive_path": "tii-experimants/tii-249/recovery/ikz-full/reproduction-check/SUCCESS.json",
+      "sha256": "0081aaed5b6100f09a41430c8dbefd7b448f0f67ae7f8d919ab88ccd0bf2553b",
+      "recorded_fields": {
+        "phase_wall_seconds": {
+          "ikz-recovery": 18.021670749876648,
+          "independent-verification": 0.48356354190036654
+        },
+        "total_seconds": 18.506090374663472
+      }
+    },
+    {
+      "archive_path": "tii-experimants/route2-bootstrap/tii-249/bootstrap.json",
+      "sha256": "3e021b65c81e09b8ab75c3147d02b907681a91d30bbbe777b3a37a84fcdeaf8c",
+      "recorded_fields": {
+        "seed_depth_used": 113,
+        "seed_depth_available": 290,
+        "total_seconds": 7.087328624911606
+      }
+    }
+  ]
+}

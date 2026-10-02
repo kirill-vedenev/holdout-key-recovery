@@ -1,0 +1,3044 @@
+{
+  "schema": "tii-publication-provenance-v1",
+  "packaged_date": "2026-10-02",
+  "recovery_rerun_during_packaging": false,
+  "entries": [
+    {
+      "source": "tii-experimants/data/pk_McEliece_173.txt",
+      "destination": "tii-results/tii-173/pk_McEliece_173.txt",
+      "source_sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+      "packaged_sha256": "8f40c2e315e7f7dbd41cfdb3ee3e5aafe9abf0b06693d5225d0953916cbe79bb",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/data/source.json",
+      "destination": "tii-results/tii-173/source.json",
+      "source_sha256": "63309422d6a2c6b59059469f89e019a6fe51576547d5c284c2efdd5dad9bf5c6",
+      "packaged_sha256": "63309422d6a2c6b59059469f89e019a6fe51576547d5c284c2efdd5dad9bf5c6",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/equivalent-key.json",
+      "destination": "tii-results/tii-173/recovered-sk.json",
+      "source_sha256": "199b86a67e6b08573a680ca5bf80a842b6887563c27362d5743151d0afcc4d94",
+      "packaged_sha256": "199b86a67e6b08573a680ca5bf80a842b6887563c27362d5743151d0afcc4d94",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/independent-full-key-verification.json",
+      "destination": "tii-results/tii-173/verification.json",
+      "source_sha256": "ce0343e13849c09f4d14af68db870a7e068fda2f0434494712e085aa5cf1269d",
+      "packaged_sha256": "ce0343e13849c09f4d14af68db870a7e068fda2f0434494712e085aa5cf1269d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/artifacts/tii-173-pos0/public.json",
+      "destination": "tii-kernels/tii-173/public.json",
+      "source_sha256": "480b8af369bf803d6b6b2530dd81a17311220821539285359e38178de0ea6f7a",
+      "packaged_sha256": "480b8af369bf803d6b6b2530dd81a17311220821539285359e38178de0ea6f7a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/artifacts/tii-173-pos0/operator.txt",
+      "destination": "tii-kernels/tii-173/operator.txt",
+      "source_sha256": "445fe30cdfdd8b335833347948fb9e0aa4520c8b24d259414fcef5a0ec030b07",
+      "packaged_sha256": "445fe30cdfdd8b335833347948fb9e0aa4520c8b24d259414fcef5a0ec030b07",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/runs/tii-173-pos0/verification.json",
+      "destination": "tii-kernels/tii-173/verification.json",
+      "source_sha256": "d11cb488b7803597dec20f6300700158d13ee2e5ab93c42f9a6e60a20710e30e",
+      "packaged_sha256": "d11cb488b7803597dec20f6300700158d13ee2e5ab93c42f9a6e60a20710e30e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/kernel.bin",
+      "destination": "tii-kernels/tii-173/kernel.whk1",
+      "source_sha256": "8eb72336771ffc13fc91f9846c0a93e57029b69fc56a9973eb26c0a0aad18f18",
+      "packaged_sha256": "8eb72336771ffc13fc91f9846c0a93e57029b69fc56a9973eb26c0a0aad18f18",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/src/common.hpp",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/src/common.hpp",
+      "source_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "packaged_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/src/cpu.cpp",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/src/cpu.cpp",
+      "source_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "packaged_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/src/cuda.cu",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/src/cuda.cu",
+      "source_sha256": "623e02b6cd3651ec2289399a49ac60c89d6a836e018c8cb8bbd503e6bee67435",
+      "packaged_sha256": "623e02b6cd3651ec2289399a49ac60c89d6a836e018c8cb8bbd503e6bee67435",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/src/engine.hpp",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/src/engine.hpp",
+      "source_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "packaged_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/third_party/saarinen/colex.hpp",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/third_party/saarinen/colex.hpp",
+      "source_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "packaged_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/third_party/saarinen/LICENSE.txt",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/third_party/saarinen/LICENSE.txt",
+      "source_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "packaged_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/third_party/saarinen/provenance.json",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/third_party/saarinen/provenance.json",
+      "source_sha256": "2bf3ccd087ffe37776e17aaf4745bf8a237918510cf17f11e295e3eb1d18a96e",
+      "packaged_sha256": "2bf3ccd087ffe37776e17aaf4745bf8a237918510cf17f11e295e3eb1d18a96e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/scripts/prepare.py",
+      "destination": "tii-keyrec-implementation/tii-173/holdout/scripts/prepare.py",
+      "source_sha256": "6adfef938a5ef1e6599dcf9b410a99fbf59c237b12e339d1b0f96b9c1655016a",
+      "packaged_sha256": "ff84247ef5ade8267843ad6bfc35e3a90d5064547bc5685c46852974adbd19e7",
+      "change": "Only public input and default output paths relocated."
+    },
+    {
+      "source": "tii-experimants/recovery/src/Makefile",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/Makefile",
+      "source_sha256": "fbdcbf9a8efe3b751edc93329ae29ae8fafb0f405fc303f77a03b40af43eab28",
+      "packaged_sha256": "fbdcbf9a8efe3b751edc93329ae29ae8fafb0f405fc303f77a03b40af43eab28",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/core.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/core.py",
+      "source_sha256": "c870305394ff3e6e98ee7ce85829b6e7aaafb6992e4ddcfd33a3eaab6ba82fa7",
+      "packaged_sha256": "c2280b41b51542e05034092c30b9a6e31a698cbb894312efef3ae1b1378831fe",
+      "change": "Removed stale sibling-module search path; packed_gf2.py is bundled alongside core.py.",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/deshorten.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/deshorten.py",
+      "source_sha256": "546d22b526f36b6681091e709f1e603379707fc659f39cc27227b2491f900e9e",
+      "packaged_sha256": "546d22b526f36b6681091e709f1e603379707fc659f39cc27227b2491f900e9e",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/direct_jet_recovery.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/direct_jet_recovery.py",
+      "source_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "packaged_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/extend_normalized.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/extend_normalized.py",
+      "source_sha256": "6747fbab27e99ff4aab695f17397b22afdd63f51cd21b6eb4493ad914cdcf60a",
+      "packaged_sha256": "6747fbab27e99ff4aab695f17397b22afdd63f51cd21b6eb4493ad914cdcf60a",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/incremental.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/incremental.py",
+      "source_sha256": "cc5eb4b944a608dc26948cce73a129a2f18850a9abfa014cb83dc3e39ff9694f",
+      "packaged_sha256": "cc5eb4b944a608dc26948cce73a129a2f18850a9abfa014cb83dc3e39ff9694f",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/native.cpp",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/native.cpp",
+      "source_sha256": "d98a533bc9ae3a2e08c1534054f9a019ed46d1f1d5c999252a160612d3016da7",
+      "packaged_sha256": "d98a533bc9ae3a2e08c1534054f9a019ed46d1f1d5c999252a160612d3016da7",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/packed_gf2.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/packed_gf2.py",
+      "source_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "packaged_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/public_local.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/public_local.py",
+      "source_sha256": "2c7919ed9739aa80f3ed477c2bf95694b9f52fc55851660af830236aa5b58677",
+      "packaged_sha256": "2c7919ed9739aa80f3ed477c2bf95694b9f52fc55851660af830236aa5b58677",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/src/verify_chain.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/verify_chain.py",
+      "source_sha256": "026eff8da86ded340e99dc42ddf55258f7ca8f5234aa4f7c5b4f8d42fdae2bec",
+      "packaged_sha256": "026eff8da86ded340e99dc42ddf55258f7ca8f5234aa4f7c5b4f8d42fdae2bec",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/independent_verify_key.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/src/independent_verify_key.py",
+      "source_sha256": "5395cd9197c908ec91cb3cdc247da0e29d887ceb6dc528ae77547cf9ac62436b",
+      "packaged_sha256": "9410f2ddd0b6a1b90752c732ad3c170305ef54be62405a8212e7e84755fbb368",
+      "change": "Only the default public-key path relocated; explicit --public remains supported.",
+      "historical_source_hash_record": "tii-experimants/recovery/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/recovery/public/affine-chart.json",
+      "destination": "tii-results/tii-173/evidence/affine-chart.json",
+      "source_sha256": "2a511847721cdee5e02667d4cffa7261d9412c4a115724b3b6ae6328bfdf5369",
+      "packaged_sha256": "2a511847721cdee5e02667d4cffa7261d9412c4a115724b3b6ae6328bfdf5369",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/chain-verification.json",
+      "destination": "tii-results/tii-173/evidence/chain-verification.json",
+      "source_sha256": "a43f0bcb5923b7110e26473a33912e9531d56a4440b18624389130936b33cc2f",
+      "packaged_sha256": "a43f0bcb5923b7110e26473a33912e9531d56a4440b18624389130936b33cc2f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/deep-jets-0.json",
+      "destination": "tii-results/tii-173/evidence/deep-jets-0.json",
+      "source_sha256": "8f967893f7ce61732fb9b4847c2a0852acc6dce87605660e9e114c67cdcec932",
+      "packaged_sha256": "8f967893f7ce61732fb9b4847c2a0852acc6dce87605660e9e114c67cdcec932",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/deshortening-report.json",
+      "destination": "tii-results/tii-173/evidence/deshortening-report.json",
+      "source_sha256": "b436a1a4d9d398169715746f203a12bd91f3ac8f61e2947492f9d444cb903867",
+      "packaged_sha256": "b436a1a4d9d398169715746f203a12bd91f3ac8f61e2947492f9d444cb903867",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/recovery/public/direct-recovery.json",
+      "destination": "tii-results/tii-173/evidence/direct-recovery.json",
+      "source_sha256": "f3a28acfc4b222f7bd3a986bd2c8d77a18a3ae77de522aeff4532818a48523a3",
+      "packaged_sha256": "f3a28acfc4b222f7bd3a986bd2c8d77a18a3ae77de522aeff4532818a48523a3",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/data/pk_McEliece_249.txt",
+      "destination": "tii-results/tii-249/pk_McEliece_249.txt",
+      "source_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+      "packaged_sha256": "63ef408ba6f954272e43a0563dff373064a70c24601a84611a00d977d558b598",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/data/source.json",
+      "destination": "tii-results/tii-249/source.json",
+      "source_sha256": "ee8d9b3afe32bb1f5c3ed5105651c27e74a5f5b908296e2a75eab41b63b08e77",
+      "packaged_sha256": "ee8d9b3afe32bb1f5c3ed5105651c27e74a5f5b908296e2a75eab41b63b08e77",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/equivalent-key.json",
+      "destination": "tii-results/tii-249/recovered-sk.json",
+      "source_sha256": "af36239199dce026fd0e5a369a8cca63cff0e1ba8acddf43c0648383a300f6c5",
+      "packaged_sha256": "af36239199dce026fd0e5a369a8cca63cff0e1ba8acddf43c0648383a300f6c5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/independent-verification.json",
+      "destination": "tii-results/tii-249/verification.json",
+      "source_sha256": "74d9981b6a64e169cd2cd0c25367c6532ca63b61e1d0eddfe53ccafc7c3a060a",
+      "packaged_sha256": "74d9981b6a64e169cd2cd0c25367c6532ca63b61e1d0eddfe53ccafc7c3a060a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/public.json",
+      "destination": "tii-kernels/tii-249/public.json",
+      "source_sha256": "2ed004f586d370693728c2749204213f69df10eebd55d91a7be45aaeffc6275d",
+      "packaged_sha256": "2ed004f586d370693728c2749204213f69df10eebd55d91a7be45aaeffc6275d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/operator.txt",
+      "destination": "tii-kernels/tii-249/operator.txt",
+      "source_sha256": "ca9fe3e57ff6857e3e0344ef1e167750ac3ee922cc33c0d02248964764c6babe",
+      "packaged_sha256": "ca9fe3e57ff6857e3e0344ef1e167750ac3ee922cc33c0d02248964764c6babe",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/saarinen-holdout-request.txt",
+      "destination": "tii-kernels/tii-249/request.txt",
+      "source_sha256": "1c918031a3447e972b84c817668b668f2180abd96945cd2a14fde9a1fc8a19c3",
+      "packaged_sha256": "1c918031a3447e972b84c817668b668f2180abd96945cd2a14fde9a1fc8a19c3",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/cpu-verification.json",
+      "destination": "tii-kernels/tii-249/verification.json",
+      "source_sha256": "577b9e6ab78c17d539026dfe9b8bd868419e6fa4fe5e4712e2b830d7f654c388",
+      "packaged_sha256": "577b9e6ab78c17d539026dfe9b8bd868419e6fa4fe5e4712e2b830d7f654c388",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/recovery/kernel.thk1",
+      "destination": "tii-kernels/tii-249/kernel.thk1.part*",
+      "source_sha256": "4084644d4d079d8708aad0cf041296f5ddcd6003aa42e68c07ccccb63be74630",
+      "packaged_sha256": "4084644d4d079d8708aad0cf041296f5ddcd6003aa42e68c07ccccb63be74630",
+      "change": "Consecutive raw 32 MiB chunks; concatenation is byte-for-byte identical."
+    },
+    {
+      "source": "tii-experimants/tii-249/artifacts/tii-249-pos0-k50/recovered-20260930/recovery/polynomials/index.json",
+      "destination": "tii-kernels/tii-249/polynomial-index.json",
+      "source_sha256": "8ba0da52ec86546219d0cba33499316edba96fb42fc0cac6be1273181f9b1308",
+      "packaged_sha256": "8ba0da52ec86546219d0cba33499316edba96fb42fc0cac6be1273181f9b1308",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/common.hpp",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/src/common.hpp",
+      "source_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "packaged_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/cpu.cpp",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/src/cpu.cpp",
+      "source_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "packaged_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/engine.hpp",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/src/engine.hpp",
+      "source_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "packaged_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/square_cufft_worker.cu",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/src/square_cufft_worker.cu",
+      "source_sha256": "9b17db24cc19985dd2fc4a935bc732ad2de968bfb51d11e95956638d21826307",
+      "packaged_sha256": "9b17db24cc19985dd2fc4a935bc732ad2de968bfb51d11e95956638d21826307",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/colex.hpp",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/third_party/saarinen/colex.hpp",
+      "source_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "packaged_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/LICENSE.txt",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/third_party/saarinen/LICENSE.txt",
+      "source_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "packaged_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/holdout_cuda_worker.cu",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/third_party/saarinen/holdout_cuda_worker.cu",
+      "source_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+      "packaged_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/patches/cado-coefficient-parallel.patch",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/patches/cado-coefficient-parallel.patch",
+      "source_sha256": "185a3918d2fc78ec279ad40de8b669013e1406b7873c27b3fa7a46072aee6b46",
+      "packaged_sha256": "185a3918d2fc78ec279ad40de8b669013e1406b7873c27b3fa7a46072aee6b46",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/server-backup-20261001/tii-249/dependencies/cado-nfs-outer/COPYING",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/patches/CADO-COPYING",
+      "source_sha256": "d878b79d5ff41186e865c5147907a543b2eae6d6e98fbc43bcd151a5d4b8390d",
+      "packaged_sha256": "d878b79d5ff41186e865c5147907a543b2eae6d6e98fbc43bcd151a5d4b8390d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/scripts/prepare.py",
+      "destination": "tii-keyrec-implementation/tii-249/holdout/scripts/prepare.py",
+      "source_sha256": "4617e431db9d82d157a6f63f3f3f1f1fbefd86f5b82d6be70a81c91f1f2574aa",
+      "packaged_sha256": "9d87ed788a04155984bb5415ef9ba5689c72edd30fe45eec169272e96715abb5",
+      "change": "Only public input and default output paths relocated."
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/analyze_local.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/analyze_local.py",
+      "source_sha256": "040a75f4868f084041a4c54ed869b060866ac785c3e778008e3d7e79bcab4fcb",
+      "packaged_sha256": "040a75f4868f084041a4c54ed869b060866ac785c3e778008e3d7e79bcab4fcb",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/audit_coherence.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/audit_coherence.py",
+      "source_sha256": "03d1088da0731c9b627b8c41ee5ab8737098fcb148936518d3db5340cf0b84f2",
+      "packaged_sha256": "03d1088da0731c9b627b8c41ee5ab8737098fcb148936518d3db5340cf0b84f2",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/direct_jet_recovery.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/direct_jet_recovery.py",
+      "source_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "packaged_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/extend_jet.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/extend_jet.py",
+      "source_sha256": "268fe43c293e87b27bc179a0267303264e8aa04b747891e58cf5bc4ebe758193",
+      "packaged_sha256": "268fe43c293e87b27bc179a0267303264e8aa04b747891e58cf5bc4ebe758193",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/extract_jets.cpp",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/extract_jets.cpp",
+      "source_sha256": "ae697910b36a711234a5b27f5c5b85a09ee8ad52df3a2cf9105e46a665844dae",
+      "packaged_sha256": "ae697910b36a711234a5b27f5c5b85a09ee8ad52df3a2cf9105e46a665844dae",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/extract_support.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/extract_support.py",
+      "source_sha256": "28cde07a39e6c6c7f7a45c7d1e3d3e0d48fcca9a41847c7b224db920ad54de73",
+      "packaged_sha256": "28cde07a39e6c6c7f7a45c7d1e3d3e0d48fcca9a41847c7b224db920ad54de73",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/gf2_io.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/gf2_io.py",
+      "source_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "packaged_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/independent_verify_support.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/independent_verify_support.py",
+      "source_sha256": "2d21458368c3a911695615366abcb3b014ef5ab2eaf4d254fe6de819c24c5daa",
+      "packaged_sha256": "2d21458368c3a911695615366abcb3b014ef5ab2eaf4d254fe6de819c24c5daa",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/packed_gf2.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/packed_gf2.py",
+      "source_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "packaged_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/public_local.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/public_local.py",
+      "source_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "packaged_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/series.cpp",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/series.cpp",
+      "source_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "packaged_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/validate_native.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/validate_native.py",
+      "source_sha256": "861d3560623b2c233e3b6380ef0c43c4101d93a4e6c2232eccd0f2a5d272c94e",
+      "packaged_sha256": "861d3560623b2c233e3b6380ef0c43c4101d93a4e6c2232eccd0f2a5d272c94e",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/src/verify_input_encoding.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/jet-support/verify_input_encoding.py",
+      "source_sha256": "dbc039c57d5178ff809506100b7383071165e49d64945a8fce3c6afa638f2104",
+      "packaged_sha256": "dbc039c57d5178ff809506100b7383071165e49d64945a8fce3c6afa638f2104",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/src/independent_verify.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/full-key/independent_verify.py",
+      "source_sha256": "59cb71a6d1dedec2f93b2f11402f771402d94ee9ab7eff3eb58176d999842627",
+      "packaged_sha256": "59cb71a6d1dedec2f93b2f11402f771402d94ee9ab7eff3eb58176d999842627",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/ikz-full/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/src/recover_full.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/full-key/recover_full.py",
+      "source_sha256": "151c1f57d467ad58d9e4c5fe7849154237ceb1a7e20cb0adf1f8f46795964be0",
+      "packaged_sha256": "151c1f57d467ad58d9e4c5fe7849154237ceb1a7e20cb0adf1f8f46795964be0",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-249/recovery/ikz-full/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/coherence-audit.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/coherence-audit.json",
+      "source_sha256": "902f3c5be968bdb39fca5afb67fb7c8f2886dd703ad52e3599af9f286db12c57",
+      "packaged_sha256": "902f3c5be968bdb39fca5afb67fb7c8f2886dd703ad52e3599af9f286db12c57",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/deep-jets-0.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/deep-jets-0.json",
+      "source_sha256": "a9223946a60ad774b2a1c1d8b0c4434896df5f31ffbade76dcf4629c8db7b871",
+      "packaged_sha256": "a9223946a60ad774b2a1c1d8b0c4434896df5f31ffbade76dcf4629c8db7b871",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/direct-support.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/direct-support.json",
+      "source_sha256": "1b2102a12a82419d9f8ee6b9f02f5523dea043d0e7abc72b4157f375ec220f1e",
+      "packaged_sha256": "1b2102a12a82419d9f8ee6b9f02f5523dea043d0e7abc72b4157f375ec220f1e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/independent-verification.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/independent-verification.json",
+      "source_sha256": "f3a39b9a12979fc3d609c0154ca234d7ac558e7e808158cd18b888ee940e7017",
+      "packaged_sha256": "f3a39b9a12979fc3d609c0154ca234d7ac558e7e808158cd18b888ee940e7017",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/input-encoding-verification.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/input-encoding-verification.json",
+      "source_sha256": "dbe7ca709101e0c1b6b939d2fcb0a689ce4e6bcaf4144d18a03d76f454e67b6d",
+      "packaged_sha256": "dbe7ca709101e0c1b6b939d2fcb0a689ce4e6bcaf4144d18a03d76f454e67b6d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/local-branches.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/local-branches.json",
+      "source_sha256": "b7898fa66e5e571109b68c3dd343b671b471d7852332f4f49b6030957b145953",
+      "packaged_sha256": "b7898fa66e5e571109b68c3dd343b671b471d7852332f4f49b6030957b145953",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/local-ranks.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/local-ranks.json",
+      "source_sha256": "eb155c42efb5b494c1900f7a6b1db220d90436a1521f52c27e082ceaf7d5a86c",
+      "packaged_sha256": "eb155c42efb5b494c1900f7a6b1db220d90436a1521f52c27e082ceaf7d5a86c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/jet-support/results/native-validation.json",
+      "destination": "tii-results/tii-249/evidence/jet-support/native-validation.json",
+      "source_sha256": "85bd730a1239b4d827fe42d271a8d59fdf5d581b7168e2c57d2be428e30b3e2c",
+      "packaged_sha256": "85bd730a1239b4d827fe42d271a8d59fdf5d581b7168e2c57d2be428e30b3e2c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/affine-chart.json",
+      "destination": "tii-results/tii-249/evidence/full-key/affine-chart.json",
+      "source_sha256": "b57e991277bca3a1f5f6d0d54402fd6d676fa8cb5743c583eb98e53dd1aeb50a",
+      "packaged_sha256": "b57e991277bca3a1f5f6d0d54402fd6d676fa8cb5743c583eb98e53dd1aeb50a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/full-multipliers.json",
+      "destination": "tii-results/tii-249/evidence/full-key/full-multipliers.json",
+      "source_sha256": "0a6a5d34d83e1b35054940dfe5bbad778b6dbc686622e2f5c72ca4b8ca902e97",
+      "packaged_sha256": "0a6a5d34d83e1b35054940dfe5bbad778b6dbc686622e2f5c72ca4b8ca902e97",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/independent-verification.json",
+      "destination": "tii-results/tii-249/evidence/full-key/independent-verification.json",
+      "source_sha256": "74d9981b6a64e169cd2cd0c25367c6532ca63b61e1d0eddfe53ccafc7c3a060a",
+      "packaged_sha256": "74d9981b6a64e169cd2cd0c25367c6532ca63b61e1d0eddfe53ccafc7c3a060a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/recovery-report.json",
+      "destination": "tii-results/tii-249/evidence/full-key/recovery-report.json",
+      "source_sha256": "ef7d22764067c1e0a3a9d156f01a8ffb196bed3cd8150789de8af0c83e67762b",
+      "packaged_sha256": "ef7d22764067c1e0a3a9d156f01a8ffb196bed3cd8150789de8af0c83e67762b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-128.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-128.json",
+      "source_sha256": "71635c5f482d942c632788cc466e1dc6b7c0751b943d9f80e51f44d5041d8bc5",
+      "packaged_sha256": "71635c5f482d942c632788cc466e1dc6b7c0751b943d9f80e51f44d5041d8bc5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-129.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-129.json",
+      "source_sha256": "b016ddc4de83e08f721d2aa65c6b5863ee07004ea9a233ee8edbeacaadd87e51",
+      "packaged_sha256": "b016ddc4de83e08f721d2aa65c6b5863ee07004ea9a233ee8edbeacaadd87e51",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-130.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-130.json",
+      "source_sha256": "26d4b6421bed944c222c31c8c665766f0c4092b73e47fad2f54092487c419756",
+      "packaged_sha256": "26d4b6421bed944c222c31c8c665766f0c4092b73e47fad2f54092487c419756",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-131.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-131.json",
+      "source_sha256": "d0d5942fff00f24245459f495c8c5b11e7690e31c2e2d3556cde3f9715feb395",
+      "packaged_sha256": "d0d5942fff00f24245459f495c8c5b11e7690e31c2e2d3556cde3f9715feb395",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-132.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-132.json",
+      "source_sha256": "fee09452c4afe809cfa603056532ef3ce51e0171e34ec107a4bb6f8d8c6dd53e",
+      "packaged_sha256": "fee09452c4afe809cfa603056532ef3ce51e0171e34ec107a4bb6f8d8c6dd53e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-133.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-133.json",
+      "source_sha256": "e4ef5d4e6c883e312c439322c1204f68f0d5a13624a36d2d5a46840250c22b92",
+      "packaged_sha256": "e4ef5d4e6c883e312c439322c1204f68f0d5a13624a36d2d5a46840250c22b92",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-134.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-134.json",
+      "source_sha256": "f40d263c8156daff95fee4c50d068d2e7ddf04ea4ed62176151581b7295456b0",
+      "packaged_sha256": "f40d263c8156daff95fee4c50d068d2e7ddf04ea4ed62176151581b7295456b0",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-135.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-135.json",
+      "source_sha256": "31593dee841a4c85494d9d2b5e2257e54fa74f3cd253a214c3913b86e82b127e",
+      "packaged_sha256": "31593dee841a4c85494d9d2b5e2257e54fa74f3cd253a214c3913b86e82b127e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-136.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-136.json",
+      "source_sha256": "10578780b878b3fe2dbe759b94e2b27efad61b2d584ad262d5cbff0971392947",
+      "packaged_sha256": "10578780b878b3fe2dbe759b94e2b27efad61b2d584ad262d5cbff0971392947",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-137.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-137.json",
+      "source_sha256": "b0aef9ba7c908c03ec9a0727ff8cc655c2d6a4b29be42deca9c91a07d07b8195",
+      "packaged_sha256": "b0aef9ba7c908c03ec9a0727ff8cc655c2d6a4b29be42deca9c91a07d07b8195",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-138.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-138.json",
+      "source_sha256": "b76551dea95f6ff57d1ed8e2d2e3e38e4a97a4d88c9e52f56540a65582ce34b7",
+      "packaged_sha256": "b76551dea95f6ff57d1ed8e2d2e3e38e4a97a4d88c9e52f56540a65582ce34b7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-139.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-139.json",
+      "source_sha256": "38fef083b9ebc1ede9523cd75afc5f2e476677a9e9faeddcc5958d028a95acba",
+      "packaged_sha256": "38fef083b9ebc1ede9523cd75afc5f2e476677a9e9faeddcc5958d028a95acba",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-140.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-140.json",
+      "source_sha256": "9ab184ce155d2a9cc4c190b38aaf1f2710818f29210a9a628a839a08cc8635fc",
+      "packaged_sha256": "9ab184ce155d2a9cc4c190b38aaf1f2710818f29210a9a628a839a08cc8635fc",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-141.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-141.json",
+      "source_sha256": "5fb742349b2fe1de83faec63d836b721ca068fe4e595c294c80bd899ff413e0c",
+      "packaged_sha256": "5fb742349b2fe1de83faec63d836b721ca068fe4e595c294c80bd899ff413e0c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-142.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-142.json",
+      "source_sha256": "fa50bb48b7b5a1d11b6a49bb582a53bd0fbeadf7e8be35a2709ad2cb90e9e170",
+      "packaged_sha256": "fa50bb48b7b5a1d11b6a49bb582a53bd0fbeadf7e8be35a2709ad2cb90e9e170",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-143.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-143.json",
+      "source_sha256": "4e4eac5ac0335c2bdf1641f5dd91784307f4ea02ae10cae7678c0813cf25c061",
+      "packaged_sha256": "4e4eac5ac0335c2bdf1641f5dd91784307f4ea02ae10cae7678c0813cf25c061",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-144.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-144.json",
+      "source_sha256": "899146c6788abf9ebc0de3b9a55efe2f9e546c1c151e0d0d8392cb2151501a0c",
+      "packaged_sha256": "899146c6788abf9ebc0de3b9a55efe2f9e546c1c151e0d0d8392cb2151501a0c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-145.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-145.json",
+      "source_sha256": "6a988d230d5b60aaa497a428f149539bdcee8511cf1890d44be92bb0405b52b3",
+      "packaged_sha256": "6a988d230d5b60aaa497a428f149539bdcee8511cf1890d44be92bb0405b52b3",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-146.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-146.json",
+      "source_sha256": "345118ebc1853795e4aa02dfb49e054d8ac02207a351534ade867bb8cfddeb0f",
+      "packaged_sha256": "345118ebc1853795e4aa02dfb49e054d8ac02207a351534ade867bb8cfddeb0f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-147.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-147.json",
+      "source_sha256": "164808b994c50300b97d8d4492bceed29fac6d9e668a10cbafb90155a3ee3107",
+      "packaged_sha256": "164808b994c50300b97d8d4492bceed29fac6d9e668a10cbafb90155a3ee3107",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-148.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-148.json",
+      "source_sha256": "a59e465aa4d0d3d24e3f1e8daeaa67d8c28aa005c4ec49056f1772314c1aa21e",
+      "packaged_sha256": "a59e465aa4d0d3d24e3f1e8daeaa67d8c28aa005c4ec49056f1772314c1aa21e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-149.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-149.json",
+      "source_sha256": "39741b88fbd62d9a954e43e3c6756f4d50dbe6193d4e87becd1dc75689d4334c",
+      "packaged_sha256": "39741b88fbd62d9a954e43e3c6756f4d50dbe6193d4e87becd1dc75689d4334c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-150.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-150.json",
+      "source_sha256": "b60f8afd38691eb6b7ed2814978a5337263f022620233e0d9d5ef9e2fd723e03",
+      "packaged_sha256": "b60f8afd38691eb6b7ed2814978a5337263f022620233e0d9d5ef9e2fd723e03",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-151.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-151.json",
+      "source_sha256": "bcc7ecc299a09d558865776a37fbc84674499dcc65e8ee14962fd065d4f0c46d",
+      "packaged_sha256": "bcc7ecc299a09d558865776a37fbc84674499dcc65e8ee14962fd065d4f0c46d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-152.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-152.json",
+      "source_sha256": "4de73e521adb6772cb5ede9c1955f01885ff8a0c21b59ca2a48ba58402bd5c00",
+      "packaged_sha256": "4de73e521adb6772cb5ede9c1955f01885ff8a0c21b59ca2a48ba58402bd5c00",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-153.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-153.json",
+      "source_sha256": "4505b7247f7f2d8148880dcd474c012ab3836c43c8894be407f9c63edf98ac36",
+      "packaged_sha256": "4505b7247f7f2d8148880dcd474c012ab3836c43c8894be407f9c63edf98ac36",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-154.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-154.json",
+      "source_sha256": "2f4e9a11deefef1a57c023d97a77faf6b85fe35f20e9e996eca99957f6d90b2e",
+      "packaged_sha256": "2f4e9a11deefef1a57c023d97a77faf6b85fe35f20e9e996eca99957f6d90b2e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-155.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-155.json",
+      "source_sha256": "cf2457a5968c4bbba590e28d1f7f8960a2adc07c9e114ca93996e62ecdc6b5c8",
+      "packaged_sha256": "cf2457a5968c4bbba590e28d1f7f8960a2adc07c9e114ca93996e62ecdc6b5c8",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-156.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-156.json",
+      "source_sha256": "5056dbbff26f07d0a96d0be2424f483df8715bf0a6a70a11a1c82c3a5c40b808",
+      "packaged_sha256": "5056dbbff26f07d0a96d0be2424f483df8715bf0a6a70a11a1c82c3a5c40b808",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-157.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-157.json",
+      "source_sha256": "68a84cd02073d877fedaccd18926653f84a6a613a87b394ab854cdae024beebf",
+      "packaged_sha256": "68a84cd02073d877fedaccd18926653f84a6a613a87b394ab854cdae024beebf",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-158.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-158.json",
+      "source_sha256": "0dbc040683ab45f030a1376e9acde5e0acf5f3cca1e72030c2524787c94cbc97",
+      "packaged_sha256": "0dbc040683ab45f030a1376e9acde5e0acf5f3cca1e72030c2524787c94cbc97",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-159.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-159.json",
+      "source_sha256": "5a20aa80a7ef7e4ef0648517a8d232b4987abe9624c46bcbe452fe50b7244158",
+      "packaged_sha256": "5a20aa80a7ef7e4ef0648517a8d232b4987abe9624c46bcbe452fe50b7244158",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-160.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-160.json",
+      "source_sha256": "559c05a0c014a6319103bf48d99200cb6a9152e03116c0e0b1de90302abbb21d",
+      "packaged_sha256": "559c05a0c014a6319103bf48d99200cb6a9152e03116c0e0b1de90302abbb21d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-161.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-161.json",
+      "source_sha256": "730485c7fbceb3bf65deec9417e732386b0673bd22ae1cd2d6f2885e24d30deb",
+      "packaged_sha256": "730485c7fbceb3bf65deec9417e732386b0673bd22ae1cd2d6f2885e24d30deb",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-162.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-162.json",
+      "source_sha256": "32c35610637db9d35139cf7d73c31b526cc2491f9a6b8e503d9ebe45633cb104",
+      "packaged_sha256": "32c35610637db9d35139cf7d73c31b526cc2491f9a6b8e503d9ebe45633cb104",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-163.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-163.json",
+      "source_sha256": "9ab3330d83a755e431df97f9276a53acb60e2ebe78e8d9d12d94644d4d791f42",
+      "packaged_sha256": "9ab3330d83a755e431df97f9276a53acb60e2ebe78e8d9d12d94644d4d791f42",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-164.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-164.json",
+      "source_sha256": "97516b1d58607ca6b8c669c1bc5dd5f0ffd6c0476758e09f3d78a95dd7cf3b3e",
+      "packaged_sha256": "97516b1d58607ca6b8c669c1bc5dd5f0ffd6c0476758e09f3d78a95dd7cf3b3e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-165.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-165.json",
+      "source_sha256": "2a1c023e2e11a03944419e81f4666c27093affa91c5bf55893ed98ec7ddd0be2",
+      "packaged_sha256": "2a1c023e2e11a03944419e81f4666c27093affa91c5bf55893ed98ec7ddd0be2",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-166.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-166.json",
+      "source_sha256": "19129e2a72e71acd0d172b4282e6d349dd363c940d2be986752597e58cc38232",
+      "packaged_sha256": "19129e2a72e71acd0d172b4282e6d349dd363c940d2be986752597e58cc38232",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-167.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-167.json",
+      "source_sha256": "3c3ba2286b70e2c0531d4f64c85d7e18988b5b51cb53bafcbbd0a6c6b18812e8",
+      "packaged_sha256": "3c3ba2286b70e2c0531d4f64c85d7e18988b5b51cb53bafcbbd0a6c6b18812e8",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-168.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-168.json",
+      "source_sha256": "ab8e70aece6b2e6b49585155fae36c3dc9b90bb23aa18e4b65bb835a74d9bd79",
+      "packaged_sha256": "ab8e70aece6b2e6b49585155fae36c3dc9b90bb23aa18e4b65bb835a74d9bd79",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-169.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-169.json",
+      "source_sha256": "3971cbd3b9cff5071c542fa9e66913d757da65ee8acbd01683761a061951d614",
+      "packaged_sha256": "3971cbd3b9cff5071c542fa9e66913d757da65ee8acbd01683761a061951d614",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-170.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-170.json",
+      "source_sha256": "78e85e5bda0f90392223e3394a1a88ef6fe9b59d5cba756845b44f41f80b35da",
+      "packaged_sha256": "78e85e5bda0f90392223e3394a1a88ef6fe9b59d5cba756845b44f41f80b35da",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-171.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-171.json",
+      "source_sha256": "205393974be783a20e7fa7f6213896ada43c664a12e125a74adc6947f58d18fa",
+      "packaged_sha256": "205393974be783a20e7fa7f6213896ada43c664a12e125a74adc6947f58d18fa",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-172.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-172.json",
+      "source_sha256": "703fb605649feab862a36eb486867b9a8641b6ddeb6ca553a31d35e9f054c2a7",
+      "packaged_sha256": "703fb605649feab862a36eb486867b9a8641b6ddeb6ca553a31d35e9f054c2a7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-173.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-173.json",
+      "source_sha256": "04ffd238ba2bdcd3588e491e8bcd7b1338c4c3398bc202e1f70d17f47f1a3172",
+      "packaged_sha256": "04ffd238ba2bdcd3588e491e8bcd7b1338c4c3398bc202e1f70d17f47f1a3172",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-174.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-174.json",
+      "source_sha256": "ec3ede868d00160600f4e32befec8fe3bd32fd8714940b80d8f5538bf35b76d6",
+      "packaged_sha256": "ec3ede868d00160600f4e32befec8fe3bd32fd8714940b80d8f5538bf35b76d6",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-175.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-175.json",
+      "source_sha256": "7f8fcf397335462757112c9cc88366adfc33f5d3407ccd0ea79138f285c9a914",
+      "packaged_sha256": "7f8fcf397335462757112c9cc88366adfc33f5d3407ccd0ea79138f285c9a914",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-176.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-176.json",
+      "source_sha256": "4649bbb5b1add7a487afbecdc6241222b7fb03566d420bca48b9a765ef380aa5",
+      "packaged_sha256": "4649bbb5b1add7a487afbecdc6241222b7fb03566d420bca48b9a765ef380aa5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-177.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-177.json",
+      "source_sha256": "7e6cced0c09b0dbb48863997dc2219a726e4394b345264a2ce33acbdc3d95d62",
+      "packaged_sha256": "7e6cced0c09b0dbb48863997dc2219a726e4394b345264a2ce33acbdc3d95d62",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-178.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-178.json",
+      "source_sha256": "74f78f7bbb97b7e9f47a41d5d556f05a6113635fc0a85c3730cb31c3828e7b88",
+      "packaged_sha256": "74f78f7bbb97b7e9f47a41d5d556f05a6113635fc0a85c3730cb31c3828e7b88",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-179.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-179.json",
+      "source_sha256": "c2cdb06ff39551a4d15a60f2eaabc2b2694e7b54adb478f18caed1b93174205b",
+      "packaged_sha256": "c2cdb06ff39551a4d15a60f2eaabc2b2694e7b54adb478f18caed1b93174205b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-180.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-180.json",
+      "source_sha256": "b28391530a1c61086f6a6627848ca5d2168ca032fe5cdd8b1b8da386769588cc",
+      "packaged_sha256": "b28391530a1c61086f6a6627848ca5d2168ca032fe5cdd8b1b8da386769588cc",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-181.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-181.json",
+      "source_sha256": "934c25fcf53dea30e480af428d4ba4a05c1b504cf1c31e534cfa2408fe3074d3",
+      "packaged_sha256": "934c25fcf53dea30e480af428d4ba4a05c1b504cf1c31e534cfa2408fe3074d3",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-182.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-182.json",
+      "source_sha256": "8ce77337945269e9a218f5a0d7e79935c253fa1975624f10737f7c89c077db44",
+      "packaged_sha256": "8ce77337945269e9a218f5a0d7e79935c253fa1975624f10737f7c89c077db44",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-183.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-183.json",
+      "source_sha256": "eb78a5da454d1d23fecbc71070bbf0143419b2069fdb329abc36076d3db1b589",
+      "packaged_sha256": "eb78a5da454d1d23fecbc71070bbf0143419b2069fdb329abc36076d3db1b589",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/recovery/ikz-full/results/positions/position-184.json",
+      "destination": "tii-results/tii-249/evidence/full-key/positions/position-184.json",
+      "source_sha256": "232d209fb57011000dc69ed6334e361021e8450054fb32c540477ac10e46bd1a",
+      "packaged_sha256": "232d209fb57011000dc69ed6334e361021e8450054fb32c540477ac10e46bd1a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/pk_McEliece_253.txt",
+      "destination": "tii-results/tii-253/pk_McEliece_253.txt",
+      "source_sha256": "a66ac1368bd6d311838e3a255c2d12766818731739c53d1ec79a46c8838ee793",
+      "packaged_sha256": "a66ac1368bd6d311838e3a255c2d12766818731739c53d1ec79a46c8838ee793",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/source.json",
+      "destination": "tii-results/tii-253/source.json",
+      "source_sha256": "2ea5b39bae762aa9c296573a995f082787db1215e21a513d3c0d07ea78d7ed11",
+      "packaged_sha256": "2ea5b39bae762aa9c296573a995f082787db1215e21a513d3c0d07ea78d7ed11",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/equivalent-key.json",
+      "destination": "tii-results/tii-253/recovered-sk.json",
+      "source_sha256": "64519299a81859bc5779c1bedb3fe53ec5b28af36f9ddcf3a5577b606cef2c5d",
+      "packaged_sha256": "64519299a81859bc5779c1bedb3fe53ec5b28af36f9ddcf3a5577b606cef2c5d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/independent-verification.json",
+      "destination": "tii-results/tii-253/verification.json",
+      "source_sha256": "c4933b568afad231f4e01b421703a9a8afe347f4dd160e73512b0c47ba0f391b",
+      "packaged_sha256": "c4933b568afad231f4e01b421703a9a8afe347f4dd160e73512b0c47ba0f391b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/public.json",
+      "destination": "tii-kernels/tii-253/public.json",
+      "source_sha256": "4e3020ac70cbb43a99102d6829c0ba2d411e9059a81d06cfbcaf45de155a5b2b",
+      "packaged_sha256": "4e3020ac70cbb43a99102d6829c0ba2d411e9059a81d06cfbcaf45de155a5b2b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/operator.txt",
+      "destination": "tii-kernels/tii-253/operator.txt",
+      "source_sha256": "49a658998c857fd3b4e3bb3d35591ad58b60dc34d2a7c088c3cdb26098019fdf",
+      "packaged_sha256": "49a658998c857fd3b4e3bb3d35591ad58b60dc34d2a7c088c3cdb26098019fdf",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/request.txt",
+      "destination": "tii-kernels/tii-253/request.txt",
+      "source_sha256": "a596dde68062835d8b91ec004463c6ccf2553aba85f62f8e4a6c60974fbe1324",
+      "packaged_sha256": "a596dde68062835d8b91ec004463c6ccf2553aba85f62f8e4a6c60974fbe1324",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/cpu-verification.json",
+      "destination": "tii-kernels/tii-253/verification.json",
+      "source_sha256": "56e21231eecf698f78a27f54681b401fea54e556b9fe9dad519f2db949cea6e3",
+      "packaged_sha256": "56e21231eecf698f78a27f54681b401fea54e556b9fe9dad519f2db949cea6e3",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/reconstruction/kernel.thk1",
+      "destination": "tii-kernels/tii-253/kernel.thk1.part*",
+      "source_sha256": "8cf2d5e11f8de06411201e6af4968fcf1acfb2179a7c624487cf32b06e0de349",
+      "packaged_sha256": "8cf2d5e11f8de06411201e6af4968fcf1acfb2179a7c624487cf32b06e0de349",
+      "change": "Consecutive raw 32 MiB chunks; concatenation is byte-for-byte identical."
+    },
+    {
+      "source": "tii-experimants/tii-253/gpu-part3-20261001/production-seed0/reconstruction/polynomials/index.json",
+      "destination": "tii-kernels/tii-253/polynomial-index.json",
+      "source_sha256": "370931768cde0c68121101add4fc5166f2b70d744a2792580e6abb568bbbeebf",
+      "packaged_sha256": "370931768cde0c68121101add4fc5166f2b70d744a2792580e6abb568bbbeebf",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/common.hpp",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/src/common.hpp",
+      "source_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "packaged_sha256": "cb318cb13168dc9aec11ed11d431d76285cc9fd9f96ef0b4965349857185ae84",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/cpu.cpp",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/src/cpu.cpp",
+      "source_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "packaged_sha256": "3e9ba7bb4c553b150aa5077906f8efa4aea9427dce664a2748f64ac38d3bd818",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/engine.hpp",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/src/engine.hpp",
+      "source_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "packaged_sha256": "4cc7474a5d3a94932d96229992df6fee08da1e902f26089d8a345d9a26def8ec",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/src/square_cufft_worker.cu",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/src/square_cufft_worker.cu",
+      "source_sha256": "9b17db24cc19985dd2fc4a935bc732ad2de968bfb51d11e95956638d21826307",
+      "packaged_sha256": "9b17db24cc19985dd2fc4a935bc732ad2de968bfb51d11e95956638d21826307",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/colex.hpp",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/third_party/saarinen/colex.hpp",
+      "source_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "packaged_sha256": "07eaf82b40568ef7f4de82583686fe4eb7837f9e5d1dc3f136ef8ec4801cad6b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/LICENSE.txt",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/third_party/saarinen/LICENSE.txt",
+      "source_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "packaged_sha256": "769329f150f5f8e413166ed33e1203ce357957db7c5c82442d369a9071adfd34",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/third_party/saarinen/holdout_cuda_worker.cu",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/third_party/saarinen/holdout_cuda_worker.cu",
+      "source_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+      "packaged_sha256": "4b9f8672c82598c85f469835ae19932d10d789d863577a53f89473b8608f5f16",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/patches/cado-coefficient-parallel.patch",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/patches/cado-coefficient-parallel.patch",
+      "source_sha256": "185a3918d2fc78ec279ad40de8b669013e1406b7873c27b3fa7a46072aee6b46",
+      "packaged_sha256": "185a3918d2fc78ec279ad40de8b669013e1406b7873c27b3fa7a46072aee6b46",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/server-backup-20261001/tii-249/dependencies/cado-nfs-outer/COPYING",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/patches/CADO-COPYING",
+      "source_sha256": "d878b79d5ff41186e865c5147907a543b2eae6d6e98fbc43bcd151a5d4b8390d",
+      "packaged_sha256": "d878b79d5ff41186e865c5147907a543b2eae6d6e98fbc43bcd151a5d4b8390d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-249/scripts/prepare.py",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/scripts/prepare_reference.py",
+      "source_sha256": "4617e431db9d82d157a6f63f3f3f1f1fbefd86f5b82d6be70a81c91f1f2574aa",
+      "packaged_sha256": "009f49b3978e6c05c580dc02d6db80cae969276a5ebe82f73f2be1054a2f97b1",
+      "change": "Extracted six unchanged functions used by TII-253; removed unused TII-249 command-line preparation and paths."
+    },
+    {
+      "source": "tii-experimants/tii-253/preflight/inspect_instance.py",
+      "destination": "tii-keyrec-implementation/tii-253/holdout/scripts/prepare.py",
+      "source_sha256": "fbf75aa61256da8f00b32b2938ab3b01d29d3a2ef7f7f311ce64cb78506f22fd",
+      "packaged_sha256": "d6e09c34128258de4549956a8765e3dc161dc8b47e97845cd179c72bcf77bc9f",
+      "change": "Input/helper paths relocated; explicit fresh --output directory replaces in-place output. Mathematics unchanged."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/audit_coherence.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/audit_coherence.py",
+      "source_sha256": "0aab1fb7cc27c6a30db354f3bd2e49729b2a0225a161eee34706d96653297298",
+      "packaged_sha256": "0aab1fb7cc27c6a30db354f3bd2e49729b2a0225a161eee34706d96653297298",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/audit_geometry.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/audit_geometry.py",
+      "source_sha256": "605294bd5fece5e2485020e50e00852e7def2f4b3e0d7eb2868e57cfc3b966da",
+      "packaged_sha256": "605294bd5fece5e2485020e50e00852e7def2f4b3e0d7eb2868e57cfc3b966da",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/bootstrap.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/bootstrap.py",
+      "source_sha256": "a74e7d7f5b56fdf0524c3e79d3508333868d393539e947cee4bb8c57f3ede4d9",
+      "packaged_sha256": "a74e7d7f5b56fdf0524c3e79d3508333868d393539e947cee4bb8c57f3ede4d9",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/extend_jet.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/extend_jet.py",
+      "source_sha256": "f0b11a8f6b70056ab0e7c8077362b9880864909eb1863ec7999d26b2f5215d00",
+      "packaged_sha256": "f0b11a8f6b70056ab0e7c8077362b9880864909eb1863ec7999d26b2f5215d00",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/gf2_io.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/gf2_io.py",
+      "source_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "packaged_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/grs_helpers.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/grs_helpers.py",
+      "source_sha256": "4724a88a015ed752fcf741be2740fce0556f232d5ebb30954d4628ee793dd61a",
+      "packaged_sha256": "4724a88a015ed752fcf741be2740fce0556f232d5ebb30954d4628ee793dd61a",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/independent_verify.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/independent_verify.py",
+      "source_sha256": "a29cd1cd3d6ab4e6eb76ee730d6a4e5e384f0324443cac99ccba43a600cda75a",
+      "packaged_sha256": "a29cd1cd3d6ab4e6eb76ee730d6a4e5e384f0324443cac99ccba43a600cda75a",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/packed_gf2.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/packed_gf2.py",
+      "source_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "packaged_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/prepare_retained.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/prepare_retained.py",
+      "source_sha256": "6025c72450c6da735fbb82ffd8303d1d3cbd0def4e30565eacd64d5f9a8cc453",
+      "packaged_sha256": "6025c72450c6da735fbb82ffd8303d1d3cbd0def4e30565eacd64d5f9a8cc453",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/public_local.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/public_local.py",
+      "source_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "packaged_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/recover_full.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/recover_full.py",
+      "source_sha256": "a949f1f065f65866c897be1d3e28062d36d1c6d6c5a64f1a813f53cc5a75b4a0",
+      "packaged_sha256": "a949f1f065f65866c897be1d3e28062d36d1c6d6c5a64f1a813f53cc5a75b4a0",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/series.cpp",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/series.cpp",
+      "source_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "packaged_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/validate_native.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/validate_native.py",
+      "source_sha256": "403231352681db342f8b7f30f687eb6c185c82e51075e2af242563bed4d3e3c3",
+      "packaged_sha256": "403231352681db342f8b7f30f687eb6c185c82e51075e2af242563bed4d3e3c3",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/verify_jet_substitution.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/verify_jet_substitution.py",
+      "source_sha256": "299d5c3f3c4259aa67281044262d114026227646079aaa4dded4d72fc0b1b056",
+      "packaged_sha256": "299d5c3f3c4259aa67281044262d114026227646079aaa4dded4d72fc0b1b056",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/src/verify_minor.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/src/verify_minor.py",
+      "source_sha256": "2cfffb672192e8295b2c85f023fecdef3b6b8091cb36a550cadb8b9f5c409d75",
+      "packaged_sha256": "2cfffb672192e8295b2c85f023fecdef3b6b8091cb36a550cadb8b9f5c409d75",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/check_criterion.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/check_criterion.py",
+      "source_sha256": "ca3466fce77b99f3e49b0a6004c862f3c4f135bb923cbf75211150f80ccd64a6",
+      "packaged_sha256": "ca3466fce77b99f3e49b0a6004c862f3c4f135bb923cbf75211150f80ccd64a6",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/extract_jets.cpp",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/extract_jets.cpp",
+      "source_sha256": "ae697910b36a711234a5b27f5c5b85a09ee8ad52df3a2cf9105e46a665844dae",
+      "packaged_sha256": "ae697910b36a711234a5b27f5c5b85a09ee8ad52df3a2cf9105e46a665844dae",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/gf2_io.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/gf2_io.py",
+      "source_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "packaged_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/packed_gf2.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/packed_gf2.py",
+      "source_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "packaged_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/public_local.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/public_local.py",
+      "source_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "packaged_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/src/verify_input_encoding.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/first-jet/verify_input_encoding.py",
+      "source_sha256": "dbc039c57d5178ff809506100b7383071165e49d64945a8fce3c6afa638f2104",
+      "packaged_sha256": "dbc039c57d5178ff809506100b7383071165e49d64945a8fce3c6afa638f2104",
+      "change": "byte-for-byte copy",
+      "historical_source_hash_record": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/bootstrap-public-data.json",
+      "destination": "tii-results/tii-253/evidence/bootstrap-public-data.json",
+      "source_sha256": "c2710c822ec20a096377a2dcc86e6f2236e4bd155cea4e3da791082745166c4c",
+      "packaged_sha256": "c2710c822ec20a096377a2dcc86e6f2236e4bd155cea4e3da791082745166c4c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/bootstrap.json",
+      "destination": "tii-results/tii-253/evidence/bootstrap.json",
+      "source_sha256": "e29f59c698bedf65d0d818a4768779d05fc0ded212a8d68e480d831c9b7d0ed7",
+      "packaged_sha256": "e29f59c698bedf65d0d818a4768779d05fc0ded212a8d68e480d831c9b7d0ed7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/coherence-audit.json",
+      "destination": "tii-results/tii-253/evidence/coherence-audit.json",
+      "source_sha256": "19ae7ecb7ee50df695e54722dfeca1b01b8b2bbefe2365e46f14c55c48a026e7",
+      "packaged_sha256": "19ae7ecb7ee50df695e54722dfeca1b01b8b2bbefe2365e46f14c55c48a026e7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/deep-jets-0.json",
+      "destination": "tii-results/tii-253/evidence/deep-jets-0.json",
+      "source_sha256": "8fbf55560020dfc919d37afa0d93157bcd16f5c9ed767b02819b532f850c11c4",
+      "packaged_sha256": "8fbf55560020dfc919d37afa0d93157bcd16f5c9ed767b02819b532f850c11c4",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-jet-substitution-verification.json",
+      "destination": "tii-results/tii-253/evidence/full-jet-substitution-verification.json",
+      "source_sha256": "93c91808ac23bd3192681f466d93389d78574bcca5955a0721775a39a8b50937",
+      "packaged_sha256": "93c91808ac23bd3192681f466d93389d78574bcca5955a0721775a39a8b50937",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/affine-chart.json",
+      "destination": "tii-results/tii-253/evidence/full-support/affine-chart.json",
+      "source_sha256": "ddb8ab27561be590649877f7df6e23f6b30cb9d5b0fd78591dcae2201a461590",
+      "packaged_sha256": "ddb8ab27561be590649877f7df6e23f6b30cb9d5b0fd78591dcae2201a461590",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/full-multipliers.json",
+      "destination": "tii-results/tii-253/evidence/full-support/full-multipliers.json",
+      "source_sha256": "3fcc96f35f69b82af3e29c2dbec01dd1160b30dd1a4faac71a054878bbc7f82d",
+      "packaged_sha256": "3fcc96f35f69b82af3e29c2dbec01dd1160b30dd1a4faac71a054878bbc7f82d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/independent-verification.json",
+      "destination": "tii-results/tii-253/evidence/full-support/independent-verification.json",
+      "source_sha256": "c4933b568afad231f4e01b421703a9a8afe347f4dd160e73512b0c47ba0f391b",
+      "packaged_sha256": "c4933b568afad231f4e01b421703a9a8afe347f4dd160e73512b0c47ba0f391b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-100.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-100.json",
+      "source_sha256": "2b048d6c2f301f73a918a861462a4bc51409f4e0fb4a3feadde989756154ee56",
+      "packaged_sha256": "2b048d6c2f301f73a918a861462a4bc51409f4e0fb4a3feadde989756154ee56",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-101.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-101.json",
+      "source_sha256": "fb25dc9eaafd238c7a5dc68da1a7cac7809a49f5e8b08e5a233e0aeb0c8c57db",
+      "packaged_sha256": "fb25dc9eaafd238c7a5dc68da1a7cac7809a49f5e8b08e5a233e0aeb0c8c57db",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-102.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-102.json",
+      "source_sha256": "d599d78772319f1241063e88b60b07f63a859888468f1c304965895b57c8e89b",
+      "packaged_sha256": "d599d78772319f1241063e88b60b07f63a859888468f1c304965895b57c8e89b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-103.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-103.json",
+      "source_sha256": "0f529ce08932df3db42e29f21f38caf2454771f15d434850b2442baf652fdf37",
+      "packaged_sha256": "0f529ce08932df3db42e29f21f38caf2454771f15d434850b2442baf652fdf37",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-104.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-104.json",
+      "source_sha256": "324de985ebcc83b50c12f2d637e2c895ee676710e086fedc44e8ba1fa8838351",
+      "packaged_sha256": "324de985ebcc83b50c12f2d637e2c895ee676710e086fedc44e8ba1fa8838351",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-105.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-105.json",
+      "source_sha256": "6bbd6252ef6bc28c0446c72d344443033af7c6b9d130274c8624747a794a7ac0",
+      "packaged_sha256": "6bbd6252ef6bc28c0446c72d344443033af7c6b9d130274c8624747a794a7ac0",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-106.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-106.json",
+      "source_sha256": "0da658506ebe55500fe9f237404df0dd774fbdc3e76fcb38c7acf68b69122819",
+      "packaged_sha256": "0da658506ebe55500fe9f237404df0dd774fbdc3e76fcb38c7acf68b69122819",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-107.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-107.json",
+      "source_sha256": "e740905f57becbc7568e687fc8bbc1a4ad8e8366d36550661710ff8a483be084",
+      "packaged_sha256": "e740905f57becbc7568e687fc8bbc1a4ad8e8366d36550661710ff8a483be084",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-108.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-108.json",
+      "source_sha256": "cbae2caf4f6eb7adad76b39a22d37d1b79d7b163cde958947a23fc38905da82c",
+      "packaged_sha256": "cbae2caf4f6eb7adad76b39a22d37d1b79d7b163cde958947a23fc38905da82c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-109.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-109.json",
+      "source_sha256": "0822fb6934a8022528b8c1e862dbb6c5cc3946a5ce933deb4e5dbe7d24b889c2",
+      "packaged_sha256": "0822fb6934a8022528b8c1e862dbb6c5cc3946a5ce933deb4e5dbe7d24b889c2",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-110.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-110.json",
+      "source_sha256": "eb522b30f187a356ca14c3a950ac9261aa145444078699c3e6169f932c6a6815",
+      "packaged_sha256": "eb522b30f187a356ca14c3a950ac9261aa145444078699c3e6169f932c6a6815",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-111.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-111.json",
+      "source_sha256": "e18e690a958e166e6a6241987bfdb5b36272b86b9b1ca85f17de011b44bacb2b",
+      "packaged_sha256": "e18e690a958e166e6a6241987bfdb5b36272b86b9b1ca85f17de011b44bacb2b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-112.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-112.json",
+      "source_sha256": "666bd1d3a037cf5824cef9b95f04dc00d3dcfbd5c3932d848d6e034658cfe971",
+      "packaged_sha256": "666bd1d3a037cf5824cef9b95f04dc00d3dcfbd5c3932d848d6e034658cfe971",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-113.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-113.json",
+      "source_sha256": "c2d62120b4a51fe218f5067eead63534f3f5fb04eba8bbda9ef440f3f2587778",
+      "packaged_sha256": "c2d62120b4a51fe218f5067eead63534f3f5fb04eba8bbda9ef440f3f2587778",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-114.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-114.json",
+      "source_sha256": "2bbf346d705415d9f128f41866662e31c938d9f9c45210867839e893d2a16a40",
+      "packaged_sha256": "2bbf346d705415d9f128f41866662e31c938d9f9c45210867839e893d2a16a40",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-115.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-115.json",
+      "source_sha256": "1f095044f6878b64a7934b8a5a8144fad49f8ce43ea70eb160f800715b0ccf65",
+      "packaged_sha256": "1f095044f6878b64a7934b8a5a8144fad49f8ce43ea70eb160f800715b0ccf65",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-116.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-116.json",
+      "source_sha256": "2bfb1bbd0bb284e0777b4b0ef281cdf2768aefb32d11a340969a6a38ed6b0e0d",
+      "packaged_sha256": "2bfb1bbd0bb284e0777b4b0ef281cdf2768aefb32d11a340969a6a38ed6b0e0d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-117.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-117.json",
+      "source_sha256": "3ff7d65291c6cf07142ea10e0766ca96f0b21e3d67238ab664be9703c0dc0bf2",
+      "packaged_sha256": "3ff7d65291c6cf07142ea10e0766ca96f0b21e3d67238ab664be9703c0dc0bf2",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-118.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-118.json",
+      "source_sha256": "9c6d527ebc33229b01314430f9a1ecd8a7337e60e98702dd42937c6306cc0a35",
+      "packaged_sha256": "9c6d527ebc33229b01314430f9a1ecd8a7337e60e98702dd42937c6306cc0a35",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-119.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-119.json",
+      "source_sha256": "a842beb335bf9f8099c92b8528f8cdb1c8906bf4c81095de37c1ec0e1e1f18c2",
+      "packaged_sha256": "a842beb335bf9f8099c92b8528f8cdb1c8906bf4c81095de37c1ec0e1e1f18c2",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-120.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-120.json",
+      "source_sha256": "f735b0a86bee2308305a47277938d9f39250427b2aa24b06a12e01caa7eb11df",
+      "packaged_sha256": "f735b0a86bee2308305a47277938d9f39250427b2aa24b06a12e01caa7eb11df",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-121.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-121.json",
+      "source_sha256": "8534565d637cebe5ee77c5a4b711e9ca9263b8d83e01f69956083858b16cc775",
+      "packaged_sha256": "8534565d637cebe5ee77c5a4b711e9ca9263b8d83e01f69956083858b16cc775",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-122.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-122.json",
+      "source_sha256": "4b7a7c26033bd20411580574562428b1d8bb75018cd6fdea76f41315ed2ad86d",
+      "packaged_sha256": "4b7a7c26033bd20411580574562428b1d8bb75018cd6fdea76f41315ed2ad86d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-123.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-123.json",
+      "source_sha256": "943d845b1ffad8e80ffdb5646959256694cd527782daceff432848b58837e73c",
+      "packaged_sha256": "943d845b1ffad8e80ffdb5646959256694cd527782daceff432848b58837e73c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-124.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-124.json",
+      "source_sha256": "61a727620485465ca027b568d118d8cfeb7d056703226894a5765fcd2e75ec01",
+      "packaged_sha256": "61a727620485465ca027b568d118d8cfeb7d056703226894a5765fcd2e75ec01",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-125.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-125.json",
+      "source_sha256": "e28d61aa0103c6367b8a715eae4ffc88bd103da2b557a824708397ea463e686e",
+      "packaged_sha256": "e28d61aa0103c6367b8a715eae4ffc88bd103da2b557a824708397ea463e686e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-126.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-126.json",
+      "source_sha256": "cdacb2f0dddddbba49ea3bf13a8aa9c4f4d2390d8d2cc5e58805dcd4042ba9fa",
+      "packaged_sha256": "cdacb2f0dddddbba49ea3bf13a8aa9c4f4d2390d8d2cc5e58805dcd4042ba9fa",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-127.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-127.json",
+      "source_sha256": "0b87137a0b8c907dea1ba405258bfc8d0217df7cd4a475c7413000c4378d632a",
+      "packaged_sha256": "0b87137a0b8c907dea1ba405258bfc8d0217df7cd4a475c7413000c4378d632a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-128.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-128.json",
+      "source_sha256": "778d5ee127f835db5ca3fb22e6fc0dc3f434f427b8d728435c1c8525c906ab4e",
+      "packaged_sha256": "778d5ee127f835db5ca3fb22e6fc0dc3f434f427b8d728435c1c8525c906ab4e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-129.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-129.json",
+      "source_sha256": "96319f5fbddd909bec71f315aaec47ae181602f4318eca2086b6c51dfe3a59d8",
+      "packaged_sha256": "96319f5fbddd909bec71f315aaec47ae181602f4318eca2086b6c51dfe3a59d8",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-130.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-130.json",
+      "source_sha256": "cbdf7bea11b0e657226485785fd55549afe2960629f089be9548b226336707e0",
+      "packaged_sha256": "cbdf7bea11b0e657226485785fd55549afe2960629f089be9548b226336707e0",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-131.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-131.json",
+      "source_sha256": "d5b90c8032fd0203a0482b26f52dff51e0bdd1faddbdef900e41ed1d98d38156",
+      "packaged_sha256": "d5b90c8032fd0203a0482b26f52dff51e0bdd1faddbdef900e41ed1d98d38156",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-132.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-132.json",
+      "source_sha256": "3c9f931c50ae552b7031bb837ac8e96e9d2c22577a3a5dc87958324f2d980a24",
+      "packaged_sha256": "3c9f931c50ae552b7031bb837ac8e96e9d2c22577a3a5dc87958324f2d980a24",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-133.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-133.json",
+      "source_sha256": "d342350579e4cdd649afac7ada35a012ff2df9c3cbda8c7282b8b6ae490d5f18",
+      "packaged_sha256": "d342350579e4cdd649afac7ada35a012ff2df9c3cbda8c7282b8b6ae490d5f18",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-134.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-134.json",
+      "source_sha256": "775fbe5ecd9ce1e63876c33ef0428b8d930cad812ab8c7c027fa3657e4207d62",
+      "packaged_sha256": "775fbe5ecd9ce1e63876c33ef0428b8d930cad812ab8c7c027fa3657e4207d62",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-135.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-135.json",
+      "source_sha256": "84b16cf525251e77c1817ede230d896791fd455f60279d1f070799c571e0685b",
+      "packaged_sha256": "84b16cf525251e77c1817ede230d896791fd455f60279d1f070799c571e0685b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-136.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-136.json",
+      "source_sha256": "e2273fa4bdedc90b545750148d18b4a41adeb183695b0b40d7fcbae1bca55ea2",
+      "packaged_sha256": "e2273fa4bdedc90b545750148d18b4a41adeb183695b0b40d7fcbae1bca55ea2",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-137.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-137.json",
+      "source_sha256": "016b9e82c5045e5ea735bfa1b1b8183c2fe393c7cc08e2845b0ad5d4ec74b35b",
+      "packaged_sha256": "016b9e82c5045e5ea735bfa1b1b8183c2fe393c7cc08e2845b0ad5d4ec74b35b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-138.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-138.json",
+      "source_sha256": "11a4e12f5656ed81441fe947d3927db3e8a4b6497587bfe76eb2c7f28382c043",
+      "packaged_sha256": "11a4e12f5656ed81441fe947d3927db3e8a4b6497587bfe76eb2c7f28382c043",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-139.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-139.json",
+      "source_sha256": "170944c73289119aaa03b4aee5322a152ab2158130a4d8212a55e05216ab0327",
+      "packaged_sha256": "170944c73289119aaa03b4aee5322a152ab2158130a4d8212a55e05216ab0327",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-140.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-140.json",
+      "source_sha256": "502d7e44b24d194cb1f6f12789eb1262bb04f18377762f6a8b80e860d929ba96",
+      "packaged_sha256": "502d7e44b24d194cb1f6f12789eb1262bb04f18377762f6a8b80e860d929ba96",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-141.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-141.json",
+      "source_sha256": "4a6fca904528df541b94ce8526ac25af2c219e30bfa4dbbb5d648565ead8590d",
+      "packaged_sha256": "4a6fca904528df541b94ce8526ac25af2c219e30bfa4dbbb5d648565ead8590d",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-142.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-142.json",
+      "source_sha256": "0de948b268e6ccb4c78060c0e09396ff5ebafe2441a449a5b64aac27b65832ec",
+      "packaged_sha256": "0de948b268e6ccb4c78060c0e09396ff5ebafe2441a449a5b64aac27b65832ec",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-143.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-143.json",
+      "source_sha256": "9331aa19272766e5ad7aff79590e0d01cb9dd457e50e083c2fb69fe7ab50f517",
+      "packaged_sha256": "9331aa19272766e5ad7aff79590e0d01cb9dd457e50e083c2fb69fe7ab50f517",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-144.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-144.json",
+      "source_sha256": "452a1dee35a96fdd55f14ebf43394ab5b319fd480a06ca71a22cc08d38649dd7",
+      "packaged_sha256": "452a1dee35a96fdd55f14ebf43394ab5b319fd480a06ca71a22cc08d38649dd7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-145.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-145.json",
+      "source_sha256": "9ea7982d255b358856b35b55980188eeccfcb57832505d6930f030f23cf63a97",
+      "packaged_sha256": "9ea7982d255b358856b35b55980188eeccfcb57832505d6930f030f23cf63a97",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-146.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-146.json",
+      "source_sha256": "2ede843a371c60b6a8e3b02d0032a1002f6e6483edf949c4024d9217b382d8b8",
+      "packaged_sha256": "2ede843a371c60b6a8e3b02d0032a1002f6e6483edf949c4024d9217b382d8b8",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-147.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-147.json",
+      "source_sha256": "293e23652c26816f57d4a6072e1790dcd0d372e9abc4389ac92e637877f65df8",
+      "packaged_sha256": "293e23652c26816f57d4a6072e1790dcd0d372e9abc4389ac92e637877f65df8",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-148.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-148.json",
+      "source_sha256": "09bb795735aae1c2888406eacbe012019e1c5f212feaf5c4b7955b07c7ff0213",
+      "packaged_sha256": "09bb795735aae1c2888406eacbe012019e1c5f212feaf5c4b7955b07c7ff0213",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-149.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-149.json",
+      "source_sha256": "595bc0244176793c122972988fe36697941cd61a81be2d386945f75c82196bf7",
+      "packaged_sha256": "595bc0244176793c122972988fe36697941cd61a81be2d386945f75c82196bf7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-150.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-150.json",
+      "source_sha256": "38bf44afe618fb045cdde261b7a22d89e37935a453dd9d8e244b7c3007c01639",
+      "packaged_sha256": "38bf44afe618fb045cdde261b7a22d89e37935a453dd9d8e244b7c3007c01639",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-151.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-151.json",
+      "source_sha256": "6c88666fc74a33d2fa29c2560c3d09ff5d47a4be039afd7bee7028a50697227f",
+      "packaged_sha256": "6c88666fc74a33d2fa29c2560c3d09ff5d47a4be039afd7bee7028a50697227f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-152.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-152.json",
+      "source_sha256": "1734c2d52112da20ce4784b4d19c45a400005a4156482a71256d2981b83456a7",
+      "packaged_sha256": "1734c2d52112da20ce4784b4d19c45a400005a4156482a71256d2981b83456a7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-153.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-153.json",
+      "source_sha256": "d9a9b370c9154b654e493d9210c0040673fe3f5990506ea4db252f090b305ed7",
+      "packaged_sha256": "d9a9b370c9154b654e493d9210c0040673fe3f5990506ea4db252f090b305ed7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-154.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-154.json",
+      "source_sha256": "9118879b52867ea5c2180e2450f9f7ffe05dfe1c03a6e8e36260f3e41c7b9970",
+      "packaged_sha256": "9118879b52867ea5c2180e2450f9f7ffe05dfe1c03a6e8e36260f3e41c7b9970",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-155.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-155.json",
+      "source_sha256": "9a3ae9913b3f47d87b679cda1695549e9e22850a534bb9d0e6c7e8ee28514b44",
+      "packaged_sha256": "9a3ae9913b3f47d87b679cda1695549e9e22850a534bb9d0e6c7e8ee28514b44",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-156.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-156.json",
+      "source_sha256": "7f353be6fe080ff4889a392fd88576122b37d09de687bced9f09fb1bea508137",
+      "packaged_sha256": "7f353be6fe080ff4889a392fd88576122b37d09de687bced9f09fb1bea508137",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-157.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-157.json",
+      "source_sha256": "f2bb42dd1f6ec365ecb7c3f47ac9c05db0a85c32658f1c5f640f4bbc35f9e56c",
+      "packaged_sha256": "f2bb42dd1f6ec365ecb7c3f47ac9c05db0a85c32658f1c5f640f4bbc35f9e56c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-158.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-158.json",
+      "source_sha256": "183f4d818359ab5f213e63af7fdcb99c993a217c8d04ef17b6646759f8eb537f",
+      "packaged_sha256": "183f4d818359ab5f213e63af7fdcb99c993a217c8d04ef17b6646759f8eb537f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-159.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-159.json",
+      "source_sha256": "b89250e73376460dca00f33ce5eb4f371a2aef4bd5d8d6bd25449893aca48db5",
+      "packaged_sha256": "b89250e73376460dca00f33ce5eb4f371a2aef4bd5d8d6bd25449893aca48db5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-160.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-160.json",
+      "source_sha256": "dadcfeab15ffccad34ef998ba522fe0c6241e6f85628041b377b48345a336223",
+      "packaged_sha256": "dadcfeab15ffccad34ef998ba522fe0c6241e6f85628041b377b48345a336223",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-161.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-161.json",
+      "source_sha256": "7472b11079629c2e31623aa8ff5e3519062ded91534fc44387c42b874e73c340",
+      "packaged_sha256": "7472b11079629c2e31623aa8ff5e3519062ded91534fc44387c42b874e73c340",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-162.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-162.json",
+      "source_sha256": "ee49961acc8ef9878bd81931c9fc749d7645d472f53f62249aebed05b4d88ca6",
+      "packaged_sha256": "ee49961acc8ef9878bd81931c9fc749d7645d472f53f62249aebed05b4d88ca6",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-163.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-163.json",
+      "source_sha256": "c845267b832bc932116fe5a200fc5604e65092c0a85041cd727a624b4ab42beb",
+      "packaged_sha256": "c845267b832bc932116fe5a200fc5604e65092c0a85041cd727a624b4ab42beb",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-164.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-164.json",
+      "source_sha256": "18d57ed379164dc6a7fccd5f570f5dddf13ee7b388a78b14a9a4f8e3dd75ef8b",
+      "packaged_sha256": "18d57ed379164dc6a7fccd5f570f5dddf13ee7b388a78b14a9a4f8e3dd75ef8b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-165.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-165.json",
+      "source_sha256": "ec927a32fb85fe6534f9bf2695754659350f207716f64f9221100fd19ef5d9b7",
+      "packaged_sha256": "ec927a32fb85fe6534f9bf2695754659350f207716f64f9221100fd19ef5d9b7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-166.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-166.json",
+      "source_sha256": "0e5094b4dd698115f372512b55f9b672ab45b71c096dbaff398fccbb43f7cede",
+      "packaged_sha256": "0e5094b4dd698115f372512b55f9b672ab45b71c096dbaff398fccbb43f7cede",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-167.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-167.json",
+      "source_sha256": "4a1272a872c65af3c29d23fd83ca771183893c8ba4d1bd3d3a5e546d4dc06973",
+      "packaged_sha256": "4a1272a872c65af3c29d23fd83ca771183893c8ba4d1bd3d3a5e546d4dc06973",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-72.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-72.json",
+      "source_sha256": "7ff096e5ab24aa607b548a99e94f65ca24fec8e645b0b54512a7d6fcf4af27aa",
+      "packaged_sha256": "7ff096e5ab24aa607b548a99e94f65ca24fec8e645b0b54512a7d6fcf4af27aa",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-73.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-73.json",
+      "source_sha256": "f3b4c3ce46cf86e35c3d95859e230627f0fe707074d5ee59fe2616c5881193ed",
+      "packaged_sha256": "f3b4c3ce46cf86e35c3d95859e230627f0fe707074d5ee59fe2616c5881193ed",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-74.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-74.json",
+      "source_sha256": "c6ed0616eabec9bf1d473e46c60007bca423fd29ddc6531e2d3f2a4f94942376",
+      "packaged_sha256": "c6ed0616eabec9bf1d473e46c60007bca423fd29ddc6531e2d3f2a4f94942376",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-75.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-75.json",
+      "source_sha256": "8b4a24e85b8d97fcdc05c75e7241ab5a5fb09740b7497874ccd4a22620797aca",
+      "packaged_sha256": "8b4a24e85b8d97fcdc05c75e7241ab5a5fb09740b7497874ccd4a22620797aca",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-76.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-76.json",
+      "source_sha256": "57bae4cf997412ffd2b2c361639e39c5f2e2e03de5e947b5cc7e6773e24e830c",
+      "packaged_sha256": "57bae4cf997412ffd2b2c361639e39c5f2e2e03de5e947b5cc7e6773e24e830c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-77.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-77.json",
+      "source_sha256": "79af4c5d4b7646c316f234116be9f46e2bd02abb97a21bacdbd047697ea970e6",
+      "packaged_sha256": "79af4c5d4b7646c316f234116be9f46e2bd02abb97a21bacdbd047697ea970e6",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-78.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-78.json",
+      "source_sha256": "1ab9efe8e0c728e9d9cd30522fbd5ffeb33bcdfb5c142732ef2758a2789e64f7",
+      "packaged_sha256": "1ab9efe8e0c728e9d9cd30522fbd5ffeb33bcdfb5c142732ef2758a2789e64f7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-79.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-79.json",
+      "source_sha256": "e34ae7bbc84c941f8edb27a133b1649c650eaea8536b3b3f8d3ba62d4534580f",
+      "packaged_sha256": "e34ae7bbc84c941f8edb27a133b1649c650eaea8536b3b3f8d3ba62d4534580f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-80.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-80.json",
+      "source_sha256": "6ad6622e5c4c808c2a53c9bd0a59dccba0c99a3f6a45a17a325d00a49ff72fc4",
+      "packaged_sha256": "6ad6622e5c4c808c2a53c9bd0a59dccba0c99a3f6a45a17a325d00a49ff72fc4",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-81.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-81.json",
+      "source_sha256": "9e30fb3ff781a71c2c8f1d00dcb30af8eb5c6752738df7f033e5a7740c2409fd",
+      "packaged_sha256": "9e30fb3ff781a71c2c8f1d00dcb30af8eb5c6752738df7f033e5a7740c2409fd",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-82.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-82.json",
+      "source_sha256": "54ae94c12f84a8b55701a94f3307becd7ee227418372c581ef0e0c2038cc1670",
+      "packaged_sha256": "54ae94c12f84a8b55701a94f3307becd7ee227418372c581ef0e0c2038cc1670",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-83.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-83.json",
+      "source_sha256": "4705235a34615e8a2ff13cdef6c7a503706b2d8ffaf0b9576ce8cdcd7953139f",
+      "packaged_sha256": "4705235a34615e8a2ff13cdef6c7a503706b2d8ffaf0b9576ce8cdcd7953139f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-84.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-84.json",
+      "source_sha256": "076cf3cfe4343d7bb3768033730bb97c03980d827759b0ea34f28a04b7d6d95b",
+      "packaged_sha256": "076cf3cfe4343d7bb3768033730bb97c03980d827759b0ea34f28a04b7d6d95b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-85.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-85.json",
+      "source_sha256": "e33562fffb569411ad746887c9b42c6d304f9f7f586e8a21b0aa7f5f7fb9a3cf",
+      "packaged_sha256": "e33562fffb569411ad746887c9b42c6d304f9f7f586e8a21b0aa7f5f7fb9a3cf",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-86.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-86.json",
+      "source_sha256": "98fecf1431986d9d77d2763e5f3d0884f123059b94eaaf77db3633ee91f11541",
+      "packaged_sha256": "98fecf1431986d9d77d2763e5f3d0884f123059b94eaaf77db3633ee91f11541",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-87.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-87.json",
+      "source_sha256": "082f0139e18522c2e843d7ccb59530cff45831cefac4513553a19dcaff36187f",
+      "packaged_sha256": "082f0139e18522c2e843d7ccb59530cff45831cefac4513553a19dcaff36187f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-88.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-88.json",
+      "source_sha256": "252ab0ebee9e2861045c466ed1a2a0232528e3fbefd1691e5da10906e953e309",
+      "packaged_sha256": "252ab0ebee9e2861045c466ed1a2a0232528e3fbefd1691e5da10906e953e309",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-89.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-89.json",
+      "source_sha256": "da38c229bbff602774f6d932575324b0d703f92d66acf75d1bf32a416665edef",
+      "packaged_sha256": "da38c229bbff602774f6d932575324b0d703f92d66acf75d1bf32a416665edef",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-90.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-90.json",
+      "source_sha256": "27a79c7cbca2e9810765f79a43d1a8d42f11b824ddbfde6e8a843be9d25aae23",
+      "packaged_sha256": "27a79c7cbca2e9810765f79a43d1a8d42f11b824ddbfde6e8a843be9d25aae23",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-91.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-91.json",
+      "source_sha256": "a84839ab6bdd7bc5eb2bdc24d8cab7658e0071fedaa87549649202acd493791a",
+      "packaged_sha256": "a84839ab6bdd7bc5eb2bdc24d8cab7658e0071fedaa87549649202acd493791a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-92.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-92.json",
+      "source_sha256": "0eb83e1a0d33f30e584134227db312bb27950ce10a8d66bba84cafeee554fc91",
+      "packaged_sha256": "0eb83e1a0d33f30e584134227db312bb27950ce10a8d66bba84cafeee554fc91",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-93.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-93.json",
+      "source_sha256": "360d234b730a8cbd7721129b6c63abc3d889e01696092c398bacbd2ee06640f5",
+      "packaged_sha256": "360d234b730a8cbd7721129b6c63abc3d889e01696092c398bacbd2ee06640f5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-94.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-94.json",
+      "source_sha256": "b059b9c305377cdb0e28754a06e01316073e6e747d7dde3b74f2e93f12118b92",
+      "packaged_sha256": "b059b9c305377cdb0e28754a06e01316073e6e747d7dde3b74f2e93f12118b92",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-95.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-95.json",
+      "source_sha256": "7d2f02dff89858555674371b103bc56a5887776ee18a04b4a669e4ffa4540496",
+      "packaged_sha256": "7d2f02dff89858555674371b103bc56a5887776ee18a04b4a669e4ffa4540496",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-96.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-96.json",
+      "source_sha256": "46ab9d4a4960f4245480e8934ba92e72208b66f778f9e2a9b48fd6f39de6c677",
+      "packaged_sha256": "46ab9d4a4960f4245480e8934ba92e72208b66f778f9e2a9b48fd6f39de6c677",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-97.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-97.json",
+      "source_sha256": "22ba480d44c666459780ccf10e3951b45e0865431599c65a8d595ffebe195cc7",
+      "packaged_sha256": "22ba480d44c666459780ccf10e3951b45e0865431599c65a8d595ffebe195cc7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-98.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-98.json",
+      "source_sha256": "94181eeb245ef1230bfbdd512c546a749607c746b12da9f55bb037be17dd8455",
+      "packaged_sha256": "94181eeb245ef1230bfbdd512c546a749607c746b12da9f55bb037be17dd8455",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/positions/position-99.json",
+      "destination": "tii-results/tii-253/evidence/full-support/positions/position-99.json",
+      "source_sha256": "764a51a41cf5e2c33a4b5040087bfdf7f7ac720e123561989fea980496c71f5f",
+      "packaged_sha256": "764a51a41cf5e2c33a4b5040087bfdf7f7ac720e123561989fea980496c71f5f",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/recovery-report.json",
+      "destination": "tii-results/tii-253/evidence/full-support/recovery-report.json",
+      "source_sha256": "b7a1bde48e0a1c41021c09c16c959c5b5a4f401cce386488c632feb39d39fa53",
+      "packaged_sha256": "b7a1bde48e0a1c41021c09c16c959c5b5a4f401cce386488c632feb39d39fa53",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/full-support/support.json",
+      "destination": "tii-results/tii-253/evidence/full-support/support.json",
+      "source_sha256": "490cbdec663cb5ceffe8e356aec670b761ccce04acd66a941318e453d8699217",
+      "packaged_sha256": "490cbdec663cb5ceffe8e356aec670b761ccce04acd66a941318e453d8699217",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/geometry-verification.json",
+      "destination": "tii-results/tii-253/evidence/geometry-verification.json",
+      "source_sha256": "ae00024e01e4fa975e5297909000dca3952c7d6efcfa029aa47af224247f5f81",
+      "packaged_sha256": "ae00024e01e4fa975e5297909000dca3952c7d6efcfa029aa47af224247f5f81",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/local-branches.json",
+      "destination": "tii-results/tii-253/evidence/local-branches.json",
+      "source_sha256": "119bc027b866a281d64eec56219eab45385e97249b079802e23a8090fff6240a",
+      "packaged_sha256": "119bc027b866a281d64eec56219eab45385e97249b079802e23a8090fff6240a",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/minor-code.json",
+      "destination": "tii-results/tii-253/evidence/minor-code.json",
+      "source_sha256": "3fefc7275925651dcec56574b6b35a2455778b5d5c3ee24ea8fe023e454c00e5",
+      "packaged_sha256": "3fefc7275925651dcec56574b6b35a2455778b5d5c3ee24ea8fe023e454c00e5",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/minor-independent-verification.json",
+      "destination": "tii-results/tii-253/evidence/minor-independent-verification.json",
+      "source_sha256": "dad40d87c1f0a8e0927c71cf1c55488d9d642b983eba8c351ae0123eed3e6be7",
+      "packaged_sha256": "dad40d87c1f0a8e0927c71cf1c55488d9d642b983eba8c351ae0123eed3e6be7",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/minor-matrix.u8",
+      "destination": "tii-results/tii-253/evidence/minor-matrix.u8",
+      "source_sha256": "8dd531a358d3e7e489a79eab0e9d10296e60ccc9c1467c6a0f94d2b98cc49ab4",
+      "packaged_sha256": "8dd531a358d3e7e489a79eab0e9d10296e60ccc9c1467c6a0f94d2b98cc49ab4",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/native-validation.json",
+      "destination": "tii-results/tii-253/evidence/native-validation.json",
+      "source_sha256": "f02cd698b6143539eef867d275e76810c7f3ff99c03925a8efba5280da6e94b1",
+      "packaged_sha256": "f02cd698b6143539eef867d275e76810c7f3ff99c03925a8efba5280da6e94b1",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/results/retained-support.json",
+      "destination": "tii-results/tii-253/evidence/retained-support.json",
+      "source_sha256": "5f84ac535075878d0307179d593b68f24e98fa0c6ff81dd142ce371066841549",
+      "packaged_sha256": "5f84ac535075878d0307179d593b68f24e98fa0c6ff81dd142ce371066841549",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/tii-253/jet-criterion-20261001/results/criterion.json",
+      "destination": "tii-results/tii-253/evidence/criterion.json",
+      "source_sha256": "1b8a112f482b1400273d6c5c0ed5326e4021d3489448b60577b8e9c1b3e037f6",
+      "packaged_sha256": "1b8a112f482b1400273d6c5c0ed5326e4021d3489448b60577b8e9c1b3e037f6",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/runs/tii-173-pos0/native/kernel-colex.bin",
+      "destination": "tii-kernels/tii-173/kernel.thk1",
+      "source_sha256": "a1572050cf858742af5c496f0416b7bb56b8f44c52b817848904a30fa144d6e6",
+      "packaged_sha256": "a1572050cf858742af5c496f0416b7bb56b8f44c52b817848904a30fa144d6e6",
+      "change": "Byte-for-byte original THK1 sample, included alongside WHK1 for verification of saved Hasse constraints.",
+      "historical_source_hash_record": "tii-experimants/runs/tii-173-pos0/SUCCESS.json"
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/tii-173/bootstrap.json",
+      "destination": "tii-results/tii-173/evidence/minor-finishing/bootstrap.json",
+      "source_sha256": "7fad7e98f2920b798b6bdbd1a060cf8a7d24ca2f24f9e6ae7e07e4ebe9818050",
+      "packaged_sha256": "7fad7e98f2920b798b6bdbd1a060cf8a7d24ca2f24f9e6ae7e07e4ebe9818050",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/tii-173/bootstrap-public-data.json",
+      "destination": "tii-results/tii-173/evidence/minor-finishing/bootstrap-public-data.json",
+      "source_sha256": "a56a2d06e3cadbef3032fe38911cd3af4ee3823785a911e00059342760315135",
+      "packaged_sha256": "a56a2d06e3cadbef3032fe38911cd3af4ee3823785a911e00059342760315135",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/cross-check.json",
+      "destination": "tii-results/tii-173/evidence/minor-finishing/cross-check.json",
+      "source_sha256": "ff888ae3aa0a381137ff6fa17e0994ae58be42b3fe0372ee62c4b9d6a796894e",
+      "packaged_sha256": "ff888ae3aa0a381137ff6fa17e0994ae58be42b3fe0372ee62c4b9d6a796894e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "artifacts/weis-holdout/bootstrap.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/minor/bootstrap.py",
+      "source_sha256": "ce6412a6b082c0e45db30142882d7adf0dfa5aa3f487276c21d79950b0a467d9",
+      "packaged_sha256": "f90e90d60686d1ed9dcc51844c2c3241ad98885a3647e18f3784b2842784fe08",
+      "change": "Removed only the old sibling-directory search path; imports the bundled engine helpers. Mathematical algorithm unchanged."
+    },
+    {
+      "source": "github/tii-keyrec-implementation/tii-253/recovery/src/grs_helpers.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/minor/engine.py",
+      "source_sha256": "4724a88a015ed752fcf741be2740fce0556f232d5ebb30954d4628ee793dd61a",
+      "packaged_sha256": "9636f8670f0ca2d0c0fc8057306305499af537cf140584793015382a0135a93f",
+      "change": "Selected original engine/notebook functions are AST-identical; restored the original engine numerical-library thread environment settings."
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/cross_check.py",
+      "destination": "tii-keyrec-implementation/tii-173/recovery/minor/compare_finishings.py",
+      "source_sha256": "d3aabd72abb3d081e6dd8841ab18262e9c30fc22aecb2106921b813edf8c3c2f",
+      "packaged_sha256": "adfbfe9ef95b8907b38d280295bed82aadf57adb949f4d5f6bef14abae84b541",
+      "change": "Original field and Moebius comparison retained; explicit single-instance paths and a fresh report replace the fixed local layout. Adds length/match rejection."
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/tii-249/bootstrap.json",
+      "destination": "tii-results/tii-249/evidence/minor-finishing/bootstrap.json",
+      "source_sha256": "3e021b65c81e09b8ab75c3147d02b907681a91d30bbbe777b3a37a84fcdeaf8c",
+      "packaged_sha256": "3e021b65c81e09b8ab75c3147d02b907681a91d30bbbe777b3a37a84fcdeaf8c",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/tii-249/bootstrap-public-data.json",
+      "destination": "tii-results/tii-249/evidence/minor-finishing/bootstrap-public-data.json",
+      "source_sha256": "ee05411680d838d12620a620efb7edb62984c92a5a4dd661cb98a84cf7e9406b",
+      "packaged_sha256": "ee05411680d838d12620a620efb7edb62984c92a5a4dd661cb98a84cf7e9406b",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/cross-check.json",
+      "destination": "tii-results/tii-249/evidence/minor-finishing/cross-check.json",
+      "source_sha256": "ff888ae3aa0a381137ff6fa17e0994ae58be42b3fe0372ee62c4b9d6a796894e",
+      "packaged_sha256": "ff888ae3aa0a381137ff6fa17e0994ae58be42b3fe0372ee62c4b9d6a796894e",
+      "change": "byte-for-byte copy"
+    },
+    {
+      "source": "artifacts/weis-holdout/bootstrap.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/minor/bootstrap.py",
+      "source_sha256": "ce6412a6b082c0e45db30142882d7adf0dfa5aa3f487276c21d79950b0a467d9",
+      "packaged_sha256": "f90e90d60686d1ed9dcc51844c2c3241ad98885a3647e18f3784b2842784fe08",
+      "change": "Removed only the old sibling-directory search path; imports the bundled engine helpers. Mathematical algorithm unchanged."
+    },
+    {
+      "source": "github/tii-keyrec-implementation/tii-253/recovery/src/grs_helpers.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/minor/engine.py",
+      "source_sha256": "4724a88a015ed752fcf741be2740fce0556f232d5ebb30954d4628ee793dd61a",
+      "packaged_sha256": "9636f8670f0ca2d0c0fc8057306305499af537cf140584793015382a0135a93f",
+      "change": "Selected original engine/notebook functions are AST-identical; restored the original engine numerical-library thread environment settings."
+    },
+    {
+      "source": "tii-experimants/route2-bootstrap/cross_check.py",
+      "destination": "tii-keyrec-implementation/tii-249/recovery/minor/compare_finishings.py",
+      "source_sha256": "d3aabd72abb3d081e6dd8841ab18262e9c30fc22aecb2106921b813edf8c3c2f",
+      "packaged_sha256": "adfbfe9ef95b8907b38d280295bed82aadf57adb949f4d5f6bef14abae84b541",
+      "change": "Original field and Moebius comparison retained; explicit single-instance paths and a fresh report replace the fixed local layout. Adds length/match rejection."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/deep-jets-0.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/deep-jets-0.json",
+      "source_sha256": "5222480ff4001e9faf1a36f3cfb81c31d690b721f2efef500d850c5dfc18789c",
+      "packaged_sha256": "5222480ff4001e9faf1a36f3cfb81c31d690b721f2efef500d850c5dfc18789c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/direct-support.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/direct-support.json",
+      "source_sha256": "28fd4f963f6e16e437b003fecaad4c79f4752fa095ac62c4d3d83a96bf91d817",
+      "packaged_sha256": "28fd4f963f6e16e437b003fecaad4c79f4752fa095ac62c4d3d83a96bf91d817",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/affine-chart.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/affine-chart.json",
+      "source_sha256": "b46fe196dd693f6ad627bcec16f5bfc39f0742514d799e454338b6e320cb534a",
+      "packaged_sha256": "b46fe196dd693f6ad627bcec16f5bfc39f0742514d799e454338b6e320cb534a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/affine-retained-support.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/affine-retained-support.json",
+      "source_sha256": "4dcf46f865b0f376eb67302c9a6e200daacc7f36d4751f2f7cf881dcb6913d31",
+      "packaged_sha256": "4dcf46f865b0f376eb67302c9a6e200daacc7f36d4751f2f7cf881dcb6913d31",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/full-multipliers.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/full-multipliers.json",
+      "source_sha256": "721d44e0b132170a8d6adfc5c21837eabfe9a8d0b0523ee57a0cb124bc0dcc65",
+      "packaged_sha256": "721d44e0b132170a8d6adfc5c21837eabfe9a8d0b0523ee57a0cb124bc0dcc65",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-100.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-100.json",
+      "source_sha256": "9b1de4c30f5617aa78063917242ca05cad8eda376ebb7beec148a0ccb8c33191",
+      "packaged_sha256": "9b1de4c30f5617aa78063917242ca05cad8eda376ebb7beec148a0ccb8c33191",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-101.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-101.json",
+      "source_sha256": "89916d446a43cd5f1c603af968d922bab3592bfbc7e2c207938ebab6a419451a",
+      "packaged_sha256": "89916d446a43cd5f1c603af968d922bab3592bfbc7e2c207938ebab6a419451a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-102.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-102.json",
+      "source_sha256": "ffddc62caf43307f3f56c03d8efcb906d80001bfa7c6240d77cef170d1ac2f5d",
+      "packaged_sha256": "ffddc62caf43307f3f56c03d8efcb906d80001bfa7c6240d77cef170d1ac2f5d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-103.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-103.json",
+      "source_sha256": "4de8f524b1f6920140934b6c1e5019d69da604d6a90bf5bf0025c6a28a70688f",
+      "packaged_sha256": "4de8f524b1f6920140934b6c1e5019d69da604d6a90bf5bf0025c6a28a70688f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-104.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-104.json",
+      "source_sha256": "2867224a0ef7ae7d39d49504285b5bd2e990aa2381fb5dea10e1728da6b9710f",
+      "packaged_sha256": "2867224a0ef7ae7d39d49504285b5bd2e990aa2381fb5dea10e1728da6b9710f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-105.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-105.json",
+      "source_sha256": "2e5efc878e96468a4f4ab9e81bbd25b18a6a71427db3abf56f181170073cc0c6",
+      "packaged_sha256": "2e5efc878e96468a4f4ab9e81bbd25b18a6a71427db3abf56f181170073cc0c6",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-106.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-106.json",
+      "source_sha256": "ffcd3833d9c3b3854316133addc1392d2a59445d267ba715b74477e159dd3a68",
+      "packaged_sha256": "ffcd3833d9c3b3854316133addc1392d2a59445d267ba715b74477e159dd3a68",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-107.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-107.json",
+      "source_sha256": "ca391ce3a85b65729b03269a6e5bb8e635d442b83f621e47d9b65226b5586bff",
+      "packaged_sha256": "ca391ce3a85b65729b03269a6e5bb8e635d442b83f621e47d9b65226b5586bff",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-108.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-108.json",
+      "source_sha256": "538fae5ebf6f43c1946d94513219d7f2d5d44c443d2d737cb934f0ed7d560a8a",
+      "packaged_sha256": "538fae5ebf6f43c1946d94513219d7f2d5d44c443d2d737cb934f0ed7d560a8a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-109.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-109.json",
+      "source_sha256": "d20bd644711b26fda163c91c8ee4b2e1d928afa6b2a67ecc5578f06275a0ee3a",
+      "packaged_sha256": "d20bd644711b26fda163c91c8ee4b2e1d928afa6b2a67ecc5578f06275a0ee3a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-110.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-110.json",
+      "source_sha256": "3fa9bd17183bcf0ceac88e96784d3f87e7b98790a617b17fafd4830589e97bd7",
+      "packaged_sha256": "3fa9bd17183bcf0ceac88e96784d3f87e7b98790a617b17fafd4830589e97bd7",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-111.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-111.json",
+      "source_sha256": "7af758dabb1b44cd6ca43e70868ac7ff2bef34df754954ebe877947ebd94cfa1",
+      "packaged_sha256": "7af758dabb1b44cd6ca43e70868ac7ff2bef34df754954ebe877947ebd94cfa1",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-112.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-112.json",
+      "source_sha256": "188ffcdf26edfeda42117afe4a7059aa25e431e9f72cdd462083b436dad2c6a9",
+      "packaged_sha256": "188ffcdf26edfeda42117afe4a7059aa25e431e9f72cdd462083b436dad2c6a9",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-113.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-113.json",
+      "source_sha256": "7ea11b19f8eb4cb7d14f165e5aa920942e66a7848c34637b277887ec7e7e6083",
+      "packaged_sha256": "7ea11b19f8eb4cb7d14f165e5aa920942e66a7848c34637b277887ec7e7e6083",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-114.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-114.json",
+      "source_sha256": "1e2500f9c46b9b3e47d97ab22a26f9c83af17fbf041c155010cfdcd1c5adfe92",
+      "packaged_sha256": "1e2500f9c46b9b3e47d97ab22a26f9c83af17fbf041c155010cfdcd1c5adfe92",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-115.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-115.json",
+      "source_sha256": "ae8ca05d4d08fa82692f34881a090bbdcaa2fdeae18e20872326ceec20da2805",
+      "packaged_sha256": "ae8ca05d4d08fa82692f34881a090bbdcaa2fdeae18e20872326ceec20da2805",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-116.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-116.json",
+      "source_sha256": "67d91952aad4683782d61008acdbfc803372d1f9e5c46976c72bd45026822fc1",
+      "packaged_sha256": "67d91952aad4683782d61008acdbfc803372d1f9e5c46976c72bd45026822fc1",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-117.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-117.json",
+      "source_sha256": "4db02982eb4e66bceec240f1d056f816f53c079b574bf78ca5728147fd0c38ec",
+      "packaged_sha256": "4db02982eb4e66bceec240f1d056f816f53c079b574bf78ca5728147fd0c38ec",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-118.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-118.json",
+      "source_sha256": "5fde742956c3c7370ada52f5ce69eda97286ffbc39f751f2ccd924725c7a3fbe",
+      "packaged_sha256": "5fde742956c3c7370ada52f5ce69eda97286ffbc39f751f2ccd924725c7a3fbe",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-119.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-119.json",
+      "source_sha256": "0afb0f3d6b2d574d0a1464fb94ef30699fd87e66d1739731298b2bb57622325d",
+      "packaged_sha256": "0afb0f3d6b2d574d0a1464fb94ef30699fd87e66d1739731298b2bb57622325d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-120.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-120.json",
+      "source_sha256": "ea6e62af42ebe6ae0d8fd3dd2e9b546dde0b6053bb1edab3cdda2e552cf2d488",
+      "packaged_sha256": "ea6e62af42ebe6ae0d8fd3dd2e9b546dde0b6053bb1edab3cdda2e552cf2d488",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-121.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-121.json",
+      "source_sha256": "dd4464b1969b245232f9e1ea6ea11fca724ed8c26f196ef7bb9c6e5c0d191f4e",
+      "packaged_sha256": "dd4464b1969b245232f9e1ea6ea11fca724ed8c26f196ef7bb9c6e5c0d191f4e",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-122.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-122.json",
+      "source_sha256": "65fedf9f1fc408cf693b0d8031426f52e28b3ae2091c62208881ed14bc8fedb1",
+      "packaged_sha256": "65fedf9f1fc408cf693b0d8031426f52e28b3ae2091c62208881ed14bc8fedb1",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-123.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-123.json",
+      "source_sha256": "65cb1b8518d909d2810c46a9a6eb3cdad192584585742eb4c2a5934a09a21b36",
+      "packaged_sha256": "65cb1b8518d909d2810c46a9a6eb3cdad192584585742eb4c2a5934a09a21b36",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-124.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-124.json",
+      "source_sha256": "08ba394e450a7df312bef0a2f4acfecde2faab491ac9d234bf8450d2f2658aeb",
+      "packaged_sha256": "08ba394e450a7df312bef0a2f4acfecde2faab491ac9d234bf8450d2f2658aeb",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-125.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-125.json",
+      "source_sha256": "6f548c4fdb25893143f7054a749733dea8302ece1beb34ad77ce009a48fa8f7e",
+      "packaged_sha256": "6f548c4fdb25893143f7054a749733dea8302ece1beb34ad77ce009a48fa8f7e",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-126.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-126.json",
+      "source_sha256": "756ef50eb12e1f3392e60a90773b5f76fd4b75bf51a1873fb7734d3dc3f7f611",
+      "packaged_sha256": "756ef50eb12e1f3392e60a90773b5f76fd4b75bf51a1873fb7734d3dc3f7f611",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-127.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-127.json",
+      "source_sha256": "3d67a6b38c6b92a2447a0d6b699ba0059ff8fddbdba7de26e844ba7020f6bba7",
+      "packaged_sha256": "3d67a6b38c6b92a2447a0d6b699ba0059ff8fddbdba7de26e844ba7020f6bba7",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-128.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-128.json",
+      "source_sha256": "f325178ebd5951e2ea51908b9888582cfd0ebced8de7bb9c68c064629333e5a2",
+      "packaged_sha256": "f325178ebd5951e2ea51908b9888582cfd0ebced8de7bb9c68c064629333e5a2",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-129.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-129.json",
+      "source_sha256": "a5b53e8451d3a69fd7ab3c6f8f3f6ea5b56d3cb559c5e295e7e09a30ad3e735f",
+      "packaged_sha256": "a5b53e8451d3a69fd7ab3c6f8f3f6ea5b56d3cb559c5e295e7e09a30ad3e735f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-130.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-130.json",
+      "source_sha256": "90c0a80ee0db2fbc67516a4f3e24a951d477088c69b1309376c06d3680c06f6b",
+      "packaged_sha256": "90c0a80ee0db2fbc67516a4f3e24a951d477088c69b1309376c06d3680c06f6b",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-131.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-131.json",
+      "source_sha256": "f1fb23483911360ba824e897e0aa8a4d5c9c4d73cd2e6d32be25640f2f88b5db",
+      "packaged_sha256": "f1fb23483911360ba824e897e0aa8a4d5c9c4d73cd2e6d32be25640f2f88b5db",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-132.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-132.json",
+      "source_sha256": "99be96440ed2fc68685a0a821227791e8f8fe2e1cd0088245cc5db446c689c53",
+      "packaged_sha256": "99be96440ed2fc68685a0a821227791e8f8fe2e1cd0088245cc5db446c689c53",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-133.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-133.json",
+      "source_sha256": "9f3b1ac8223d4e5f8474404b14c9d2776a726930c6575033c0a4ec71c6b4c95b",
+      "packaged_sha256": "9f3b1ac8223d4e5f8474404b14c9d2776a726930c6575033c0a4ec71c6b4c95b",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-134.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-134.json",
+      "source_sha256": "4c767785c7388634d4f21dcc605e9254b69d46803d5e15de9287cf5a0c8f4cb7",
+      "packaged_sha256": "4c767785c7388634d4f21dcc605e9254b69d46803d5e15de9287cf5a0c8f4cb7",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-135.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-135.json",
+      "source_sha256": "bccacdcfa453975b9e764584b760855be977b18cb79b810f8c3915d34d336087",
+      "packaged_sha256": "bccacdcfa453975b9e764584b760855be977b18cb79b810f8c3915d34d336087",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-136.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-136.json",
+      "source_sha256": "fe0d2765a394f433989eb2873bf6eba1a699ea3996b8ab7c14527b8dce436d98",
+      "packaged_sha256": "fe0d2765a394f433989eb2873bf6eba1a699ea3996b8ab7c14527b8dce436d98",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-137.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-137.json",
+      "source_sha256": "161b761aeb4029b9acd6ecaf87719371d5d1a6565c1f0624a190b0f04d6a1600",
+      "packaged_sha256": "161b761aeb4029b9acd6ecaf87719371d5d1a6565c1f0624a190b0f04d6a1600",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-138.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-138.json",
+      "source_sha256": "d376de0790fa76c8268f33acbf6d3645b87637fa6d1f3ccf5236d6940174dc77",
+      "packaged_sha256": "d376de0790fa76c8268f33acbf6d3645b87637fa6d1f3ccf5236d6940174dc77",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-139.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-139.json",
+      "source_sha256": "a30c448e62196e9ddf57286731799d0ad60af803e1fffa37983754025fd0c4f6",
+      "packaged_sha256": "a30c448e62196e9ddf57286731799d0ad60af803e1fffa37983754025fd0c4f6",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-140.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-140.json",
+      "source_sha256": "2e76caf6a431f02266f9959a01c91fb7b51051717b0109f8450288014d04bd32",
+      "packaged_sha256": "2e76caf6a431f02266f9959a01c91fb7b51051717b0109f8450288014d04bd32",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-141.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-141.json",
+      "source_sha256": "209107eb66f35ab3915e574dd36ce3d1cdd7412e195d46f50af3560711cc6760",
+      "packaged_sha256": "209107eb66f35ab3915e574dd36ce3d1cdd7412e195d46f50af3560711cc6760",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-142.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-142.json",
+      "source_sha256": "d32ea29c8cf16ea184f39e5abdf06ae9b6e640cf270f2ce1b959ce7871abbd2c",
+      "packaged_sha256": "d32ea29c8cf16ea184f39e5abdf06ae9b6e640cf270f2ce1b959ce7871abbd2c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-143.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-143.json",
+      "source_sha256": "16ad8c9a7a1dc69baf3b3f20f18bc9f684fe0ce8f92da4e3efd517b2aa47d07c",
+      "packaged_sha256": "16ad8c9a7a1dc69baf3b3f20f18bc9f684fe0ce8f92da4e3efd517b2aa47d07c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-144.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-144.json",
+      "source_sha256": "7b90061d96c9b276687a30480e36a55259975084fb5a1dd18b2f6b0b7fad970c",
+      "packaged_sha256": "7b90061d96c9b276687a30480e36a55259975084fb5a1dd18b2f6b0b7fad970c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-145.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-145.json",
+      "source_sha256": "1d904c998296bfe49b4f3b1fbb082b987b33f33e03a8e29c4fe275817b77e828",
+      "packaged_sha256": "1d904c998296bfe49b4f3b1fbb082b987b33f33e03a8e29c4fe275817b77e828",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-146.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-146.json",
+      "source_sha256": "79ab3fd51cf796b1c7a431198446e4f868f8e7bc783bc74e89caf7b50218fdea",
+      "packaged_sha256": "79ab3fd51cf796b1c7a431198446e4f868f8e7bc783bc74e89caf7b50218fdea",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-147.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-147.json",
+      "source_sha256": "fc3b08136ee53baf7f528ade9859730148fe2f5282cb48e5f4a50468733e727d",
+      "packaged_sha256": "fc3b08136ee53baf7f528ade9859730148fe2f5282cb48e5f4a50468733e727d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-148.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-148.json",
+      "source_sha256": "7ad13ed1fa670e430b929628e8450be050757fb72e60aef21adb96acc16895cd",
+      "packaged_sha256": "7ad13ed1fa670e430b929628e8450be050757fb72e60aef21adb96acc16895cd",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-149.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-149.json",
+      "source_sha256": "21a5d92c2f66f1bcde65f4ee051872cb9483484b307794e13b1f84cf4f3e3632",
+      "packaged_sha256": "21a5d92c2f66f1bcde65f4ee051872cb9483484b307794e13b1f84cf4f3e3632",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-150.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-150.json",
+      "source_sha256": "b62658f8537edcc5737f7e7f0658740e674db4022c35b0914d6dc7ac6eabda6f",
+      "packaged_sha256": "b62658f8537edcc5737f7e7f0658740e674db4022c35b0914d6dc7ac6eabda6f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-151.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-151.json",
+      "source_sha256": "47828640620f13aa498f067c9c9edc87269d69bbf7a82212a88ec689b8c7bb89",
+      "packaged_sha256": "47828640620f13aa498f067c9c9edc87269d69bbf7a82212a88ec689b8c7bb89",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-152.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-152.json",
+      "source_sha256": "2f40a806b0051d974b165fb2cef343f38887fb3644b4988b25fdd7e6730b9a45",
+      "packaged_sha256": "2f40a806b0051d974b165fb2cef343f38887fb3644b4988b25fdd7e6730b9a45",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-153.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-153.json",
+      "source_sha256": "7b0790efe68d0d2c6a03e0361fec9204d727e3db16bb34d49c71554bfc961496",
+      "packaged_sha256": "7b0790efe68d0d2c6a03e0361fec9204d727e3db16bb34d49c71554bfc961496",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-154.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-154.json",
+      "source_sha256": "2e43ad1dbc5fcf4a8223c6a948f1699670fad29f4778a9c3d5e5043655e99768",
+      "packaged_sha256": "2e43ad1dbc5fcf4a8223c6a948f1699670fad29f4778a9c3d5e5043655e99768",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-155.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-155.json",
+      "source_sha256": "f75cd89e88ece870b3c072bd7c46a169537d1f94a26153299f07ae64122dd3c6",
+      "packaged_sha256": "f75cd89e88ece870b3c072bd7c46a169537d1f94a26153299f07ae64122dd3c6",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-156.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-156.json",
+      "source_sha256": "9f62fcc1718e1f17e114c5bdd71a51fc6dd9fd54623cc3b72e95135ff632995b",
+      "packaged_sha256": "9f62fcc1718e1f17e114c5bdd71a51fc6dd9fd54623cc3b72e95135ff632995b",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-157.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-157.json",
+      "source_sha256": "3e24638c128f44d6fd8290f71ee2ccb26e2ca5d94cdaf3c177e3552c46dd8b3d",
+      "packaged_sha256": "3e24638c128f44d6fd8290f71ee2ccb26e2ca5d94cdaf3c177e3552c46dd8b3d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-158.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-158.json",
+      "source_sha256": "3d8fa3a92f1e01371bcfafefc82359d84a6f5b77b7c7f2e9271e8e68d6ee11d2",
+      "packaged_sha256": "3d8fa3a92f1e01371bcfafefc82359d84a6f5b77b7c7f2e9271e8e68d6ee11d2",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-159.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-159.json",
+      "source_sha256": "a432e7a41c9a7d63b8a10d7db9d45c8d9504eb05e203e114296749839951f29e",
+      "packaged_sha256": "a432e7a41c9a7d63b8a10d7db9d45c8d9504eb05e203e114296749839951f29e",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-160.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-160.json",
+      "source_sha256": "2e3401c1757a7b03500119f47cc1de16635acd0e01dd3ee67d2f5533bc908d4c",
+      "packaged_sha256": "2e3401c1757a7b03500119f47cc1de16635acd0e01dd3ee67d2f5533bc908d4c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-161.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-161.json",
+      "source_sha256": "6e00c535e41720d4628dd6db189b391efb66a05d156311f409f141e6c57579d8",
+      "packaged_sha256": "6e00c535e41720d4628dd6db189b391efb66a05d156311f409f141e6c57579d8",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-162.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-162.json",
+      "source_sha256": "98f429721d242dd795b30359731a46f2655c58cbb481fc9f0a34181970ca03b5",
+      "packaged_sha256": "98f429721d242dd795b30359731a46f2655c58cbb481fc9f0a34181970ca03b5",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-163.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-163.json",
+      "source_sha256": "ca22b83822ef54138ebf7f282103492f86c8e0db491c55299348e3f0b3c06d94",
+      "packaged_sha256": "ca22b83822ef54138ebf7f282103492f86c8e0db491c55299348e3f0b3c06d94",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-164.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-164.json",
+      "source_sha256": "488e345d2536895c4b139fe0cfee4d178eb28302bccc703ea98f978eabd1878d",
+      "packaged_sha256": "488e345d2536895c4b139fe0cfee4d178eb28302bccc703ea98f978eabd1878d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-165.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-165.json",
+      "source_sha256": "e71d489ae05e1b2ec4034ef5ff27a7ce84d312232c54620b2431740ad40dfe45",
+      "packaged_sha256": "e71d489ae05e1b2ec4034ef5ff27a7ce84d312232c54620b2431740ad40dfe45",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-166.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-166.json",
+      "source_sha256": "63129111c78f28a41e62d2c07c623ae7daeaaece8e3f67a3e5f3e95f58fc08ef",
+      "packaged_sha256": "63129111c78f28a41e62d2c07c623ae7daeaaece8e3f67a3e5f3e95f58fc08ef",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-167.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-167.json",
+      "source_sha256": "e522741e4934dbfe82d51dc7744eda3f9514b8395e13429748158810a17a21f2",
+      "packaged_sha256": "e522741e4934dbfe82d51dc7744eda3f9514b8395e13429748158810a17a21f2",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-72.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-72.json",
+      "source_sha256": "ac8506d3fb504e33ba254a42c2619643cf87f00847c329feec9d74b60e0a3404",
+      "packaged_sha256": "ac8506d3fb504e33ba254a42c2619643cf87f00847c329feec9d74b60e0a3404",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-73.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-73.json",
+      "source_sha256": "5e2d17f657cb9dd401a36d4f8dc9a10aba38881c84dc5fbbdb923f82893d9d53",
+      "packaged_sha256": "5e2d17f657cb9dd401a36d4f8dc9a10aba38881c84dc5fbbdb923f82893d9d53",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-74.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-74.json",
+      "source_sha256": "34b7fc0c07f314a836d9e9d395604da3fa1c88ac361532f0fa1c10d14a1f56b4",
+      "packaged_sha256": "34b7fc0c07f314a836d9e9d395604da3fa1c88ac361532f0fa1c10d14a1f56b4",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-75.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-75.json",
+      "source_sha256": "a1c3ce92d1842c82d4ac8b61367bf292bf99277aa4a896e6ffc4b67d1d84753a",
+      "packaged_sha256": "a1c3ce92d1842c82d4ac8b61367bf292bf99277aa4a896e6ffc4b67d1d84753a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-76.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-76.json",
+      "source_sha256": "6b2ab994027ee1aa9fe8eb4de79a0f363a7222ed5d272b52217fced7e53ada48",
+      "packaged_sha256": "6b2ab994027ee1aa9fe8eb4de79a0f363a7222ed5d272b52217fced7e53ada48",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-77.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-77.json",
+      "source_sha256": "79bb27c8bff23bdc6d4ebb04326dee6f7e220d861d0d5fe074feac1b88b777ff",
+      "packaged_sha256": "79bb27c8bff23bdc6d4ebb04326dee6f7e220d861d0d5fe074feac1b88b777ff",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-78.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-78.json",
+      "source_sha256": "7cb14a1c34696d7bbacd595d466f98c8e11f085e026d6a0665a1fdcfecfb23ea",
+      "packaged_sha256": "7cb14a1c34696d7bbacd595d466f98c8e11f085e026d6a0665a1fdcfecfb23ea",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-79.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-79.json",
+      "source_sha256": "9d5a7fa2054b7f0db6c1fa63308eb3989a7766fc4a4470f22adffa6a0d1e7552",
+      "packaged_sha256": "9d5a7fa2054b7f0db6c1fa63308eb3989a7766fc4a4470f22adffa6a0d1e7552",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-80.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-80.json",
+      "source_sha256": "bcad7728848bfadd76b7930c5fb16c09fceb7322bb43b8965c8fdac841e0167f",
+      "packaged_sha256": "bcad7728848bfadd76b7930c5fb16c09fceb7322bb43b8965c8fdac841e0167f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-81.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-81.json",
+      "source_sha256": "cdd69a4e245ebd486b5b3a63791b55d6ac7aa31ce32eba9bbf6d44791ebb619d",
+      "packaged_sha256": "cdd69a4e245ebd486b5b3a63791b55d6ac7aa31ce32eba9bbf6d44791ebb619d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-82.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-82.json",
+      "source_sha256": "20dc46f2061cf2cf06f6e44dd7d94ae09a9e2f425e0a158f01992faef1d0a7a6",
+      "packaged_sha256": "20dc46f2061cf2cf06f6e44dd7d94ae09a9e2f425e0a158f01992faef1d0a7a6",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-83.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-83.json",
+      "source_sha256": "4d421f27f19d6ca27ff291f20e8b5f2fdba1f8e1e395dca32e673719aa33208a",
+      "packaged_sha256": "4d421f27f19d6ca27ff291f20e8b5f2fdba1f8e1e395dca32e673719aa33208a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-84.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-84.json",
+      "source_sha256": "1c90913621fdbfb4bcd192214d6e68d3fa3b8be5be3e092ab9403cdc8546fa24",
+      "packaged_sha256": "1c90913621fdbfb4bcd192214d6e68d3fa3b8be5be3e092ab9403cdc8546fa24",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-85.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-85.json",
+      "source_sha256": "ab66d5f835659d8ff2715aca4b71ec9e2f700061642c49852bb17b01f2a2daee",
+      "packaged_sha256": "ab66d5f835659d8ff2715aca4b71ec9e2f700061642c49852bb17b01f2a2daee",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-86.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-86.json",
+      "source_sha256": "4a7ccdf82986d2d0d688e1ee571448bcdc3ee1e4d12ac6639cb8557cbc80ec25",
+      "packaged_sha256": "4a7ccdf82986d2d0d688e1ee571448bcdc3ee1e4d12ac6639cb8557cbc80ec25",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-87.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-87.json",
+      "source_sha256": "fc734176db27c5252eb64c80c8aaf150ca8b748332aca7e32984adf78451bd0e",
+      "packaged_sha256": "fc734176db27c5252eb64c80c8aaf150ca8b748332aca7e32984adf78451bd0e",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-88.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-88.json",
+      "source_sha256": "22e9aad1b2b6aaa08125a869894f8fc905177c734943c6c0d4f4b8f34ed3db77",
+      "packaged_sha256": "22e9aad1b2b6aaa08125a869894f8fc905177c734943c6c0d4f4b8f34ed3db77",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-89.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-89.json",
+      "source_sha256": "4db0e38f31dd2bdbd761e816f12031b051e11b670cb5c4e9a4648da999aacbe5",
+      "packaged_sha256": "4db0e38f31dd2bdbd761e816f12031b051e11b670cb5c4e9a4648da999aacbe5",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-90.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-90.json",
+      "source_sha256": "b0d476122a8194f3700a7197e5d6688ce29d291a2782d422946894f0f791d2e8",
+      "packaged_sha256": "b0d476122a8194f3700a7197e5d6688ce29d291a2782d422946894f0f791d2e8",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-91.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-91.json",
+      "source_sha256": "2df41a15054c54f0698fee225191153b4dfffe8290ec01c5e596a6bbe29fbc35",
+      "packaged_sha256": "2df41a15054c54f0698fee225191153b4dfffe8290ec01c5e596a6bbe29fbc35",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-92.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-92.json",
+      "source_sha256": "19a5c088c15a846c8682a021d44a61f85d49541d45a5c0894db867acbd7d8f1c",
+      "packaged_sha256": "19a5c088c15a846c8682a021d44a61f85d49541d45a5c0894db867acbd7d8f1c",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-93.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-93.json",
+      "source_sha256": "cf515a91e773bc07c71641ef0d4b75997a56749c87835fed7bb1047e652ede4d",
+      "packaged_sha256": "cf515a91e773bc07c71641ef0d4b75997a56749c87835fed7bb1047e652ede4d",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-94.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-94.json",
+      "source_sha256": "3989028292cc99863524c10256350e90dda9a8abc5d2a3306bfb99f8834430c9",
+      "packaged_sha256": "3989028292cc99863524c10256350e90dda9a8abc5d2a3306bfb99f8834430c9",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-95.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-95.json",
+      "source_sha256": "3776b1e73ae390ef396d5276dd09c1c4d4d117aecfa8087d354d6910ee9baa3f",
+      "packaged_sha256": "3776b1e73ae390ef396d5276dd09c1c4d4d117aecfa8087d354d6910ee9baa3f",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-96.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-96.json",
+      "source_sha256": "1df2443503fb0eef7af50c3310b47bee28255e516a493237a1350999ed8cc7e4",
+      "packaged_sha256": "1df2443503fb0eef7af50c3310b47bee28255e516a493237a1350999ed8cc7e4",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-97.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-97.json",
+      "source_sha256": "2226d5c3a5c932d75f46327542257d150ddd587d93910c0f97624efe0a82c642",
+      "packaged_sha256": "2226d5c3a5c932d75f46327542257d150ddd587d93910c0f97624efe0a82c642",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-98.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-98.json",
+      "source_sha256": "0205e26b1723a22e0ed3876d6acb02d1f750394090d4ed0fc0f2164cfbb11595",
+      "packaged_sha256": "0205e26b1723a22e0ed3876d6acb02d1f750394090d4ed0fc0f2164cfbb11595",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/positions/position-99.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/positions/position-99.json",
+      "source_sha256": "8b784c9300a316bd41aeb29387d7e8bef910710141586fe7e523ee669c30e1cb",
+      "packaged_sha256": "8b784c9300a316bd41aeb29387d7e8bef910710141586fe7e523ee669c30e1cb",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/recovery-report.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/full-key/recovery-report.json",
+      "source_sha256": "d4a5e21a55b397756e8fedc9c261da2dad2be5d268b2c749399bf27fa28660cf",
+      "packaged_sha256": "d4a5e21a55b397756e8fedc9c261da2dad2be5d268b2c749399bf27fa28660cf",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/hasse-1.u64le",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/hasse-1.u64le",
+      "source_sha256": "2678484b44b30c165bb3f7ddb1b75f0445ab56906a55617e8e7ed5d28da36aeb",
+      "packaged_sha256": "2678484b44b30c165bb3f7ddb1b75f0445ab56906a55617e8e7ed5d28da36aeb",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/hasse-2.u64le",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/hasse-2.u64le",
+      "source_sha256": "05e3694261a9fd546d7f65a9888a6406d5f5db84cd35c5f7d42e2c22911a2339",
+      "packaged_sha256": "05e3694261a9fd546d7f65a9888a6406d5f5db84cd35c5f7d42e2c22911a2339",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/local-branches.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/local-branches.json",
+      "source_sha256": "119bc027b866a281d64eec56219eab45385e97249b079802e23a8090fff6240a",
+      "packaged_sha256": "119bc027b866a281d64eec56219eab45385e97249b079802e23a8090fff6240a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/input-manifest.json",
+      "destination": "tii-results/tii-253/evidence/direct-finishing/input-manifest.json",
+      "source_sha256": "d631d8663f7365a072c7351b3599d8b4e82196b690be522b744cfe8646d15aef",
+      "packaged_sha256": "d631d8663f7365a072c7351b3599d8b4e82196b690be522b744cfe8646d15aef",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/equivalent-key.json",
+      "destination": "tii-results/tii-253/direct-recovered-sk.json",
+      "source_sha256": "45f26576cf3a34946cc234ae0f25e8e62d736f64c5a7a7c4f61426900d454f98",
+      "packaged_sha256": "45f26576cf3a34946cc234ae0f25e8e62d736f64c5a7a7c4f61426900d454f98",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/results/full-key/independent-verification.json",
+      "destination": "tii-results/tii-253/direct-verification.json",
+      "source_sha256": "301f5ed30c2571ea37105786e06e0ed6f7fec0b22e8118e0fc6b0b9cc61c3ef6",
+      "packaged_sha256": "301f5ed30c2571ea37105786e06e0ed6f7fec0b22e8118e0fc6b0b9cc61c3ef6",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/direct_jet_recovery.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/direct_jet_recovery.py",
+      "source_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "packaged_sha256": "fa06a210b237829a8d66cef7ff0681ee0352eb2d60eb440dd20755f48b57aa3b",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/extend_jet.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/extend_jet.py",
+      "source_sha256": "f711295227cbc4ff0dda0812cbc2a58767f94b80b1e2c0a4c20e673d35d79a02",
+      "packaged_sha256": "f711295227cbc4ff0dda0812cbc2a58767f94b80b1e2c0a4c20e673d35d79a02",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/extract_support.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/extract_support.py",
+      "source_sha256": "28cde07a39e6c6c7f7a45c7d1e3d3e0d48fcca9a41847c7b224db920ad54de73",
+      "packaged_sha256": "28cde07a39e6c6c7f7a45c7d1e3d3e0d48fcca9a41847c7b224db920ad54de73",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/gf2_io.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/gf2_io.py",
+      "source_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "packaged_sha256": "4455f51b4f93d6316881fd889b3a5683b219459f22f887d3796e1a5c2cc790f2",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/independent_verify.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/independent_verify.py",
+      "source_sha256": "a29cd1cd3d6ab4e6eb76ee730d6a4e5e384f0324443cac99ccba43a600cda75a",
+      "packaged_sha256": "a29cd1cd3d6ab4e6eb76ee730d6a4e5e384f0324443cac99ccba43a600cda75a",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/packed_gf2.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/packed_gf2.py",
+      "source_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "packaged_sha256": "e55fea00225e60f21a0d8e0ba0a9ea5eca9aeab3bc18039be544e9c2c81b99cf",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/public_local.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/public_local.py",
+      "source_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "packaged_sha256": "f6ae637f9dfdbbdc8e57e9b578e8647df37a7749267eef202b7b12fc51da7668",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/recover_full.py",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/recover_full.py",
+      "source_sha256": "4f76ebe05b7de7c3ba1c48c4537c72a409d9732b32f486b5c6c61d3b5c0e24c7",
+      "packaged_sha256": "4f76ebe05b7de7c3ba1c48c4537c72a409d9732b32f486b5c6c61d3b5c0e24c7",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    },
+    {
+      "source": "tii-experimants/tii-253/recovery/direct-20261002/src/series.cpp",
+      "destination": "tii-keyrec-implementation/tii-253/recovery/direct/series.cpp",
+      "source_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "packaged_sha256": "a14d92aea4d15ccc38ef20b6b849c24356486c7985a4f7b166c6b5257e3645b3",
+      "change": "Byte-for-byte copy from the completed TII-253 direct-finishing run of 2026-10-02."
+    }
+  ],
+  "historical_source_records": [
+    {
+      "file": "tii-experimants/recovery/SUCCESS.json",
+      "sha256": "1f384a3ac9477e806521e0d20b3f3df41d2956962ba9ec35e8bf57c370684556",
+      "matched_packaged_source_files": 11
+    },
+    {
+      "file": "tii-experimants/tii-249/recovery/jet-support/integrity-manifest.json",
+      "sha256": "334555f4e59ba20c8bf8df2932033ed9518994419a4880817cda03893583cffd",
+      "matched_packaged_source_files": 13
+    },
+    {
+      "file": "tii-experimants/tii-249/recovery/ikz-full/integrity-manifest.json",
+      "sha256": "4c111cd8473b9592bf86af3d0b166ecc6d66c59de73cc33db2ce764dffa65a5f",
+      "matched_packaged_source_files": 2
+    },
+    {
+      "file": "tii-experimants/tii-253/recovery/jet-bootstrap-20261001/integrity-manifest.json",
+      "sha256": "3952a54ddea01713a2acf03d463902da3d2a2bfa7d6356af4c1333ffbfa6f65a",
+      "matched_packaged_source_files": 15
+    },
+    {
+      "file": "tii-experimants/tii-253/jet-criterion-20261001/integrity-manifest.json",
+      "sha256": "016a935d01fa1e7f61e9f81fe1afe17d00675bae94661dd31c424111744a6db6",
+      "matched_packaged_source_files": 6
+    }
+  ],
+  "minor_finishing_helper_origins": {
+    "engine_source": "artifacts/minor/sweeps/engine.py",
+    "engine_sha256": "4a6d4a1f5be2355bcbe6ea0ebe528cbc01bc0058f448deaaef54af90962186ce",
+    "notebook_source": "artifacts/minor/grs-nonsubfield.ipynb",
+    "notebook_sha256": "87a1aad58963d68a6229416377f74fa09ff1faf6f2469e3a9c3044f5748efa62",
+    "all_selected_function_definitions_ast_identical": true,
+    "recovery_rerun": false
+  }
+}

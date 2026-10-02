@@ -1,0 +1,18 @@
+{
+  "tii-173": {
+    "retained_positions": 91,
+    "route2_support_distinct": true,
+    "frobenius_powers_matching": [
+      0
+    ],
+    "moebius_equivalent": true
+  },
+  "tii-249": {
+    "retained_positions": 178,
+    "route2_support_distinct": true,
+    "frobenius_powers_matching": [
+      0
+    ],
+    "moebius_equivalent": true
+  }
+}

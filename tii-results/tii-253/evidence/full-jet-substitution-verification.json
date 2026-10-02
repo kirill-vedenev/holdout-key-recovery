@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "full_convolution_recomputed": true,
+  "incremental_patch_updates_used": false,
+  "polynomial_count": 280,
+  "jet_depth": 82,
+  "coefficient_vectors_checked": 83,
+  "extension_field_equalities_checked": 23240,
+  "all_residuals_zero": true,
+  "all_even_square_relations_verified": true,
+  "seconds": 8.18510662484914
+}

@@ -1,0 +1,143 @@
+{
+ "keys": 1080,
+ "checks": {
+  "curve_failed": 0,
+  "jet_not_at_public_column": 0,
+  "verified_but_audit_failed": 0
+ },
+ "sets": [
+  {
+   "label": "binary-goppa-q2-m8-n100",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "binary-goppa-q2-m10-n400",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "binary-goppa-mceliece348864-weis",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "binary-goppa-mceliece6688128-weis",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "wild-goppa-q3-m5-n200",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "wild-goppa-q3-m7-n800",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "wild-goppa-q4-m4-n200",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "wild-goppa-q4-m5-n600",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "wild-goppa-q5-m3-n100",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "wild-goppa-q5-m4-n500",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "alternant-q2-m8-n200",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "alternant-q2-m8-n200-cubic",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "alternant-q2-m11-n1000",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "alternant-q3-m5-n200",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "alternant-q3-m7-n800",
+   "keys": 20,
+   "recovered": 20,
+   "R_found": 20,
+   "S_found": 20
+  },
+  {
+   "label": "alternant-q4-m4-n200",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "alternant-q5-m3-n100",
+   "keys": 100,
+   "recovered": 100,
+   "R_found": 100,
+   "S_found": 100
+  },
+  {
+   "label": "control-binary-goppa-adjacent",
+   "keys": 20,
+   "recovered": 0,
+   "R_found": 20,
+   "S_found": 0
+  }
+ ],
+ "failures": {
+  "control-binary-goppa-adjacent: no S": 20
+ },
+ "crosscheck": {
+  "keys": 36,
+  "all_ok": true
+ }
+}

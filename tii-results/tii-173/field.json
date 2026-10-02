@@ -1,0 +1,25 @@
+{
+  "characteristic": 2,
+  "extension_degree": 7,
+  "modulus_coefficients_low_to_high": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "modulus_integer": 131,
+  "modulus_polynomial": "z^7 + z + 1",
+  "field_element_encoding": "Integer a encodes sum_i ((a >> i) & 1) z^i modulo the modulus.",
+  "goppa_polynomial": "recovered-sk.json:g, coefficients low degree first in this field",
+  "support_order": "original public matrix column order, zero based",
+  "parameters": {
+    "m": 7,
+    "n": 96,
+    "t": 8,
+    "k": 40
+  }
+}
